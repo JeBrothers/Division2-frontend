@@ -19,14 +19,11 @@ export default function Layout({ canGoBack }: LayoutProps) {
     setOpen(!isOpen);
   };
   return (
-    <div>
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="bg-division-color">
+      <div className="h-6 bg-black" />
+      <div className=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center">
-          <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="h-8 mr-3"
-            alt="Flowbite Logo"
-          />
+          <img className="w-30 mr-5 h-10 p-2 " src="/division2 logo.png" />
         </a>
         <button
           data-collapse-toggle="navbar-dropdown"
@@ -58,7 +55,7 @@ export default function Layout({ canGoBack }: LayoutProps) {
                 className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
                 aria-current="page"
               >
-                Home
+                시뮬레이터
               </a>
             </li>
             <li>
@@ -67,7 +64,7 @@ export default function Layout({ canGoBack }: LayoutProps) {
                 data-dropdown-toggle="dropdownNavbar"
                 className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
               >
-                Dropdown
+                무기 정보
                 <svg
                   className="w-5 h-5 ml-1"
                   aria-hidden="true"
@@ -96,7 +93,7 @@ export default function Layout({ canGoBack }: LayoutProps) {
                       href="#"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
-                      Dashboard
+                      무기 정보
                     </a>
                   </li>
                   <li>
@@ -104,7 +101,7 @@ export default function Layout({ canGoBack }: LayoutProps) {
                       href="#"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
-                      Settings
+                      무기 부착물
                     </a>
                   </li>
                   <li>
@@ -112,7 +109,7 @@ export default function Layout({ canGoBack }: LayoutProps) {
                       href="#"
                       className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                     >
-                      Earnings
+                      무기 특수 효과
                     </a>
                   </li>
                 </ul>
@@ -121,9 +118,123 @@ export default function Layout({ canGoBack }: LayoutProps) {
                     href="#"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
                   >
-                    Sign out
+                    네임드/특급
                   </a>
                 </div>
+              </div>
+            </li>
+            <li>
+              <button
+                id="dropdownNavbarLink"
+                data-dropdown-toggle="dropdownNavbar2"
+                className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+              >
+                방어구 정보
+                <svg
+                  className="w-5 h-5 ml-1"
+                  aria-hidden="true"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </button>
+
+              <div
+                id="dropdownNavbar2"
+                className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+              >
+                <ul
+                  className="py-2 text-sm text-gray-700 dark:text-gray-400"
+                  aria-labelledby="dropdownLargeButton"
+                >
+                  <li>
+                    <a
+                      href="#"
+                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >
+                      브랜드 방어구
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >
+                      기어 세트 방어구
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >
+                      방어구 특수 효과
+                    </a>
+                  </li>
+                </ul>
+                <div className="py-1">
+                  <a
+                    href="#"
+                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
+                  >
+                    네임드/특급
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <button
+                id="dropdownNavbarLink"
+                data-dropdown-toggle="dropdownNavbar3"
+                className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+              >
+                스킬
+                <svg
+                  className="w-5 h-5 ml-1"
+                  aria-hidden="true"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </button>
+
+              <div
+                id="dropdownNavbar3"
+                className="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+              >
+                <ul
+                  className="py-2 text-sm text-gray-700 dark:text-gray-400"
+                  aria-labelledby="dropdownLargeButton"
+                >
+                  <li>
+                    <a
+                      href="#"
+                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >
+                      스킬 리스트
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                    >
+                      스킬 정보
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li>
@@ -131,82 +242,12 @@ export default function Layout({ canGoBack }: LayoutProps) {
                 href="#"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Contact
+                속성 정보
               </a>
             </li>
           </ul>
         </div>
       </div>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-        <div className="h-6 bg-black" />
-        <div className=" flex items-center  justify-center bg-division-color text-lg font-semibold ">
-          <ul className="grid grid-flow-col grid-cols-5 ">
-            <img className="w-30 mr-5 h-10 p-2 " src="/division2 logo.png" />
-
-            <li>
-              <div className=" items-center px-8   pt-1 text-center  hover:bg-division-dark hover:text-division-orange active:bg-division-dark active:text-division-orange">
-                <Link legacyBehavior href="/">
-                  <a className={router.pathname === "/" ? "active" : ""}>
-                    시뮬레이터
-                  </a>
-                </Link>
-              </div>
-            </li>
-
-            <li>
-              <ul className="">
-                <div className=" items-center px-8  pt-1 text-center hover:bg-division-dark  hover:text-division-orange active:bg-division-dark active:text-division-orange">
-                  <Link legacyBehavior href="/weapon">
-                    <a className={router.pathname === "weapon" ? "active" : ""}>
-                      무기 정보
-                    </a>
-                  </Link>
-                </div>
-                <li>
-                  <Link legacyBehavior href="">
-                    부품 정보
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="">
-                    특수 효과
-                  </Link>
-                </li>
-              </ul>
-            </li>
-
-            <div className=" items-center px-8 pt-1 text-center hover:bg-division-dark hover:text-division-orange active:bg-division-dark active:text-division-orange">
-              <Link legacyBehavior href="/amour">
-                <a className={router.pathname === "armour" ? "active" : ""}>
-                  방어구 정보
-                </a>
-              </Link>
-            </div>
-
-            <div className=" items-center px-8 pt-1 text-center hover:bg-division-dark hover:text-division-orange active:bg-division-dark active:text-division-orange">
-              <Link legacyBehavior href="/about">
-                <a className={router.pathname === "" ? "active" : ""}>기타</a>
-              </Link>
-            </div>
-          </ul>
-        </div>
-      </nav>
-    </div>
+    </nav>
   );
 }
