@@ -5,10 +5,11 @@ import { Component, useState } from "react";
 import "flowbite";
 
 interface LayoutProps {
-  canGoBack?: boolean;
+  title?: string;
+  children: React.ReactNode;
 }
 
-export default function Layout({ canGoBack }: LayoutProps) {
+export default function Layout({}: LayoutProps) {
   const router = useRouter();
   const onClick = () => {
     router.back();
@@ -48,11 +49,11 @@ export default function Layout({ canGoBack }: LayoutProps) {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col text-base font-semibold p-4 md:p-0 mt-4 border border-gray-100  bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-division-color dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-white  rounded md:bg-transparent md:text-division-orange md:p-0 md:dark:text-division-orange "
                 aria-current="page"
               >
                 시뮬레이터
@@ -89,12 +90,11 @@ export default function Layout({ canGoBack }: LayoutProps) {
                   aria-labelledby="dropdownLargeButton"
                 >
                   <li>
-                    <a
-                      href="#"
-                      className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                    >
-                      무기 정보
-                    </a>
+                    <Link href="/weapon/weaponinfo">
+                      <a className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                        무기 정보
+                      </a>
+                    </Link>
                   </li>
                   <li>
                     <a
