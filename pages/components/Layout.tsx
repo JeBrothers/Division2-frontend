@@ -5,11 +5,10 @@ import { Component, useState } from "react";
 import "flowbite";
 
 interface LayoutProps {
-  title?: string;
   children: React.ReactNode;
 }
 
-export default function Layout({}: LayoutProps) {
+export default function Layout({ children }: LayoutProps) {
   const router = useRouter();
   const onClick = () => {
     router.back();
@@ -22,6 +21,7 @@ export default function Layout({}: LayoutProps) {
   return (
     <nav className="bg-division-color">
       <div className="h-6 bg-black" />
+      {children}
       <div className=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center">
           <img className="w-30 mr-5 h-10 p-2 " src="/division2 logo.png" />
