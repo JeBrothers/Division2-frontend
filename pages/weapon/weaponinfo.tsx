@@ -5,46 +5,23 @@ const WeaponInfo: NextPage = () => {
   return (
     <>
       <Layout children />
-
-      <div className="border-b border-gray-200 dark:border-gray-700">
-        <ul className="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400">
-          <li className="mr-2">
-            <a
-              href="#"
-              className="inline-flex p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group"
-            >
-              <svg
-                aria-hidden="true"
-                className="w-5 h-5 mr-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              Profile
-            </a>
-          </li>
+      <div className=" dark:border-gray-700 ">
+        <ul className="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400  justify-center">
           <li className="mr-2">
             <a
               href="#"
               className="inline-flex p-4 text-blue-600 border-b-2 border-blue-600 rounded-t-lg active dark:text-blue-500 dark:border-blue-500 group"
               aria-current="page"
             >
-              <svg
-                aria-hidden="true"
-                className="w-5 h-5 mr-2 text-blue-600 dark:text-blue-500"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
-              </svg>
-              Dashboard
+              돌격소총
+            </a>
+          </li>
+          <li className="mr-2">
+            <a
+              href="#"
+              className="inline-flex  p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group"
+            >
+              소총
             </a>
           </li>
           <li className="mr-2">
@@ -52,16 +29,7 @@ const WeaponInfo: NextPage = () => {
               href="#"
               className="inline-flex p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group"
             >
-              <svg
-                aria-hidden="true"
-                className="w-5 h-5 mr-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z"></path>
-              </svg>
-              Settings
+              지정사수소총
             </a>
           </li>
           <li className="mr-2">
@@ -69,82 +37,129 @@ const WeaponInfo: NextPage = () => {
               href="#"
               className="inline-flex p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group"
             >
-              <svg
-                aria-hidden="true"
-                className="w-5 h-5 mr-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
-                <path
-                  fill-rule="evenodd"
-                  d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              Contacts
+              기관단총
             </a>
           </li>
-          <li>
-            <a className="inline-block p-4 text-gray-400 rounded-t-lg cursor-not-allowed dark:text-gray-500">
-              Disabled
+          <li className="mr-2">
+            <a
+              href="#"
+              className="inline-flex p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group"
+            >
+              샷건
+            </a>
+          </li>
+          <li className="mr-2">
+            <a
+              href="#"
+              className="inline-flex p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group"
+            >
+              권총
             </a>
           </li>
         </ul>
       </div>
 
-      <div className="relative overflow-x-auto">
-        <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-          <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+      <div className="flex relative overflow-x-auto justify-center">
+        <table className="w-max-md w-2/3 text-sm  text-gray-500 dark:text-gray-400 border-t border-gray-200 text-center ">
+          <thead className="text-xs text-white uppercase bg-division-dark dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" className="px-6 py-3">
-                Product name
+              <th scope="col" className="px-6 py-6">
+                총기 종류
               </th>
-              <th scope="col" className="px-6 py-3">
-                Color
+              <th scope="col" className="px-6 py-6">
+                총기명
               </th>
-              <th scope="col" className="px-6 py-3">
-                Category
+              <th scope="col" className="px-6 py-6">
+                RPM
               </th>
-              <th scope="col" className="px-6 py-3">
-                Price
+              <th scope="col" className="px-6 py-6">
+                기본 탄창
+              </th>
+              <th scope="col" className="px-6 py-6">
+                최대 탄창
+              </th>
+              <th scope="col" className="px-6 py-6">
+                재장전 시간(빈 탄창)
+              </th>
+              <th scope="col" className="px-6 py-6">
+                DPS
+              </th>
+              <th colSpan={4} scope="col" className=" justify-center ">
+                부착물 슬롯
+                <th className="w-1/4 px-12 py-4 bg-division-color text-division-dark whitespace-nowrap">
+                  조준기
+                </th>
+                <th
+                  scope="col"
+                  className="  w-1/4 px-12 bg-division-color text-division-dark whitespace-nowrap"
+                >
+                  총구
+                </th>
+                <th
+                  scope="col"
+                  className=" w-1/4 px-12  bg-division-color text-division-dark whitespace-nowrap"
+                >
+                  총열
+                </th>
+                <th
+                  scope="col"
+                  className=" w-1/4 px-12 bg-division-color text-division-dark whitespace-nowrap"
+                >
+                  탄창
+                </th>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
               <th
+                rowSpan={2}
                 scope="row"
                 className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
               >
-                Apple MacBook Pro 17"
+                ACR
               </th>
-              <td className="px-6 py-4">Silver</td>
-              <td className="px-6 py-4">Laptop</td>
-              <td className="px-6 py-4">$2999</td>
+              <td className="px-6 py-4">ACR</td>
+              <td className="px-6 py-4">650</td>
+              <td className="px-6 py-4">30</td>
+              <td className="px-6 py-4">50</td>
+              <td className="px-6 py-4">2.3</td>
+              <td className="px-6 py-4">575510</td>
+              <td className="px-6 py-4 text-center">O</td>
+              <td className="px-6 py-4 text-center">O</td>
+              <td className="px-6 py-4 text-center">O</td>
+              <td className="px-6 py-4 text-center">O</td>
             </tr>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-              <th
-                scope="row"
-                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-              >
-                Microsoft Surface Pro
-              </th>
-              <td className="px-6 py-4">White</td>
-              <td className="px-6 py-4">Laptop PC</td>
-              <td className="px-6 py-4">$1999</td>
+              <td className="px-6 py-4">ACR-E</td>
+              <td className="px-6 py-4">650</td>
+              <td className="px-6 py-4">30</td>
+              <td className="px-6 py-4">50</td>
+              <td className="px-6 py-4">2.3</td>
+              <td className="px-6 py-4">575510</td>
+              <td className="px-6 py-4 text-center">O</td>
+              <td className="px-6 py-4 text-center">O</td>
+              <td className="px-6 py-4 text-center">O</td>
+              <td className="px-6 py-4 text-center">O</td>
             </tr>
             <tr className="bg-white dark:bg-gray-800">
               <th
+                rowSpan={2}
                 scope="row"
                 className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
               >
-                Magic Mouse 2
+                AK-47
               </th>
-              <td className="px-6 py-4">Black</td>
-              <td className="px-6 py-4">Accessories</td>
-              <td className="px-6 py-4">$99</td>
+              <td className="px-6 py-4">AK-M</td>
+              <td className="px-6 py-4">600</td>
+              <td className="px-6 py-4">30</td>
+              <td className="px-6 py-4">50</td>
+              <td className="px-6 py-4">2.5</td>
+              <td className="px-6 py-4">620560</td>
+              <td className="px-6 py-4 text-center">O</td>
+              <td className="px-6 py-4 text-center">X</td>
+              <td className="px-6 py-4 text-center">O</td>
+              <td className="px-6 py-4 text-center">O</td>
             </tr>
           </tbody>
         </table>

@@ -23,7 +23,7 @@ export default function Layout({ children }: LayoutProps) {
       <div className="h-6 bg-black" />
       {children}
       <div className=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center">
+        <a href="/" className="flex items-center">
           <img className="w-30 mr-5 h-10 p-2 " src="/division2 logo.png" />
         </a>
         <button
