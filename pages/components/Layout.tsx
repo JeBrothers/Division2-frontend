@@ -16,7 +16,7 @@ export default function Layout({ children }: LayoutProps) {
   };
 
   useEffect(() => {
-    setOpen(true);
+    setNav(true);
   }, []);
   useEffect;
 
