@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { Component, useState } from "react";
+import { Component, useState, useEffect } from "react";
+
 import "flowbite";
 
 interface LayoutProps {
@@ -8,15 +9,16 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
-  const router = useRouter();
-  const onClick = () => {
-    router.back();
-  };
-  const [isOpen, setOpen] = useState(false);
+  // const router = useRouter();
+  // const onClick = () => {
+  //   router.back();
+  // };
+  // const [isOpen, setOpen] = useState(false);
 
-  const handleDropDown = () => {
-    setOpen(!isOpen);
-  };
+  // const handleDropDown = () => {
+  //   setOpen(!isOpen);
+  // };
+
   return (
     <nav className="bg-division-color">
       <div className="h-6 bg-black" />

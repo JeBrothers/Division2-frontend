@@ -100,11 +100,11 @@ const WeaponInfo: NextPage = () => {
           </li>
           <li className="mr-2" role="presentation">
             <button
-              id="MMR"
-              data-tabs-target="#MMR"
+              id="mmr"
+              data-tabs-target="#mmr"
               type="button"
               role="tab"
-              aria-controls="MMR"
+              aria-controls="mmr"
               aria-selected="false"
               className={cls(
                 "inline-block p-4 border-b-2 rounded-t-lg",
@@ -119,18 +119,19 @@ const WeaponInfo: NextPage = () => {
           </li>
           <li role="presentation">
             <button
-              id="Smg"
-              data-tabs-target="#contacts"
+              id="smg"
+              data-tabs-target="#smg"
               type="button"
               role="tab"
-              aria-controls="contacts"
+              aria-controls="smg"
               aria-selected="false"
               className={cls(
                 "inline-block p-4 border-b-2 rounded-t-lg",
-                method === "marksmanrifle"
+                method === "submachinegun"
                   ? "border-division-orange text-division-orange"
                   : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
               )}
+              onClick={onSmgClick}
             >
               기관단총
             </button>
@@ -193,27 +194,27 @@ const WeaponInfo: NextPage = () => {
                   </th>
                   <th colSpan={4} scope="col" className=" justify-center ">
                     부착물 슬롯
-                    <th className="w-1/4 px-12 py-4 bg-division-color text-division-dark whitespace-nowrap">
+                    <td className="w-1/4 px-12 py-4 bg-division-color text-division-dark whitespace-nowrap">
                       조준기
-                    </th>
-                    <th
+                    </td>
+                    <td
                       scope="col"
                       className="  w-1/4 px-12 bg-division-color text-division-dark whitespace-nowrap"
                     >
                       총구
-                    </th>
-                    <th
+                    </td>
+                    <td
                       scope="col"
                       className=" w-1/4 px-12  bg-division-color text-division-dark whitespace-nowrap"
                     >
                       총열
-                    </th>
-                    <th
+                    </td>
+                    <td
                       scope="col"
                       className=" w-1/4 px-12 bg-division-color text-division-dark whitespace-nowrap"
                     >
                       탄창
-                    </th>
+                    </td>
                   </th>
                 </tr>
               </thead>
