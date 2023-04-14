@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import "flowbite";
 
@@ -10,10 +10,15 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const [isOpen, setOpen] = useState(false);
-
+  const [nav, setNav] = useState(false);
   const handleDropDown = () => {
     setOpen(!isOpen);
   };
+
+  useEffect(() => {
+    setOpen(true);
+  }, []);
+  useEffect;
 
   return (
     <>
