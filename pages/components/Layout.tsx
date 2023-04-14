@@ -10,15 +10,10 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const [isOpen, setOpen] = useState(false);
-  const [nav, setNav] = useState(false);
+
   const handleDropDown = () => {
     setOpen(!isOpen);
   };
-
-  useEffect(() => {
-    setNav(true);
-  }, []);
-  useEffect;
 
   return (
     <>
@@ -58,13 +53,14 @@ export default function Layout({ children }: LayoutProps) {
             >
               <ul className="flex flex-col text-base font-semibold p-4 md:p-0 mt-4 border border-gray-100  bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-division-color dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
-                  <a
-                    href="#"
-                    className="block py-2 pl-3 pr-4 text-white  rounded md:bg-transparent md:text-division-orange md:p-0 md:dark:text-division-orange "
-                    aria-current="page"
-                  >
-                    시뮬레이터
-                  </a>
+                  <Link href="/">
+                    <a
+                      className="block py-2 pl-3 pr-4 text-white  rounded md:bg-transparent md:text-division-orange md:p-0 md:dark:text-division-orange "
+                      aria-current="page"
+                    >
+                      시뮬레이터
+                    </a>
+                  </Link>
                 </li>
                 <li>
                   <button
