@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 const WeaponInfo: NextPage = () => {
   return (
     <>
-      <Layout children />
+      <Layout />
 
       <div className=" dark:border-gray-700 ">
         <ul className="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400  justify-center">
