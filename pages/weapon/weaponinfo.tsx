@@ -81,12 +81,12 @@ const WeaponInfo: NextPage = () => {
           </li>
           <li className="mr-2" role="presentation">
             <button
-              id="profile-tab"
-              data-tabs-target="#profile"
+              id="Rifle"
+              data-tabs-target="#rifle"
               type="button"
               role="tab"
-              aria-controls="profile"
-              aria-selected="true"
+              aria-controls="Rifle"
+              aria-selected="false"
               className={cls(
                 "inline-block p-4 border-b-2 rounded-t-lg",
                 method === "rifle"
@@ -100,12 +100,12 @@ const WeaponInfo: NextPage = () => {
           </li>
           <li className="mr-2" role="presentation">
             <button
-              id="profile-tab"
-              data-tabs-target="#profile"
+              id="MMR"
+              data-tabs-target="#MMR"
               type="button"
               role="tab"
-              aria-controls="profile"
-              aria-selected="true"
+              aria-controls="MMR"
+              aria-selected="false"
               className={cls(
                 "inline-block p-4 border-b-2 rounded-t-lg",
                 method === "marksmanrifle"
@@ -119,13 +119,18 @@ const WeaponInfo: NextPage = () => {
           </li>
           <li role="presentation">
             <button
-              className="inline-block p-4 border-b-2 border-transparent rounded-t-lg active:border-division-orange hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
-              id="contacts-tab"
+              id="Smg"
               data-tabs-target="#contacts"
               type="button"
               role="tab"
               aria-controls="contacts"
               aria-selected="false"
+              className={cls(
+                "inline-block p-4 border-b-2 rounded-t-lg",
+                method === "marksmanrifle"
+                  ? "border-division-orange text-division-orange"
+                  : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
+              )}
             >
               기관단총
             </button>
