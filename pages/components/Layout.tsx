@@ -100,12 +100,11 @@ export default function Layout({ children }: LayoutProps) {
                         </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
-                          className="block px-4 py-2 hover:bg-division-dark hover:text-white dark:hover:bg-gray-600 dark:hover:text-white"
-                        >
-                          무기 부착물
-                        </a>
+                        <Link href="/weapon/weaponaccessory">
+                          <a className="block px-4 py-2 hover:bg-division-dark hover:text-white dark:hover:bg-gray-600 dark:hover:text-white">
+                            무기 부착물
+                          </a>
+                        </Link>
                       </li>
                       <li>
                         <a
