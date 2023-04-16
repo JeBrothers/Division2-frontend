@@ -2,8 +2,7 @@ import type { NextPage } from "next";
 
 import { useState } from "react";
 import Dropdown from "./components/dropdown";
-import Layout from "./components/layout";
-
+import Layout from "./components/Layout";
 
 
 const Home: NextPage = () => {

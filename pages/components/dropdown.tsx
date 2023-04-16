@@ -30,7 +30,6 @@ function Dropdown(props: DropdownProps) {
 
   return (
     <PrintMenu strArray={type} />
-
   )
 }
 export default Dropdown;

@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 import { cls } from "../../libs/utils";
 import { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
