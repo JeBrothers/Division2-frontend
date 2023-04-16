@@ -1,34 +1,19 @@
 import Link from "next/link";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 import "flowbite";
 
 interface LayoutProps {
   children: React.ReactNode;
-  contains?: any;
 }
 
 export default function Layout({ children }: LayoutProps) {
-  const [isOpen, setIsOpen] = useState(false);
-  const ref = useRef(null);
+  const [isOpen, setOpen] = useState(false);
 
-  useEffect(() => {
-    const onClick = (e) => {
-      if (ref.current !== null && !ref.current.contains(e.target)) {
-        // 드롭다운 메뉴 이외의 공간 클릭
-        setIsOpen(!isOpen);
-      }
-    };
-
-    if (isOpen) {
-      window.addEventListener("click", onClick);
-    }
-
-    return () => {
-      window.removeEventListener("click", onClick);
-    };
-  }, [isOpen]);
+  const handleDropDown = () => {
+    setOpen(!isOpen);
+  };
 
   return (
     <>

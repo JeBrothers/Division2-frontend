@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import { cls } from "../../libs/utils";
 import { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
@@ -215,37 +215,17 @@ const WeaponAccessory: NextPage = () => {
                           scope="row"
                           className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white border-x border-gray-200 "
                         >
-                          AK-47
+                          CQBSS Scope (8x)
                         </th>
                         <td className="px-6 py-4 border-x border-gray-200 ">
-                          AK-M
+                          +30% 헤드샷 피해
+                        </td>
+                        <td className="px-6 py-4 border-x border-gray-200 "></td>
+                        <td className="px-6 py-4 border-x border-gray-200 ">
+                          보조미션 "DC-62 연구소 격리"
                         </td>
                         <td className="px-6 py-4 border-x border-gray-200 ">
-                          600
-                        </td>
-                        <td className="px-6 py-4 border-x border-gray-200 ">
-                          30
-                        </td>
-                        <td className="px-6 py-4 border-x border-gray-200 ">
-                          50
-                        </td>
-                        <td className="px-6 py-4 border-x border-gray-200 ">
-                          2.5
-                        </td>
-                        <td className="px-6 py-4 border-x border-gray-200 ">
-                          620560
-                        </td>
-                        <td className="px-6 py-4 border-x border-gray-200  text-center">
-                          O
-                        </td>
-                        <td className="px-6 py-4 border-x border-gray-200  text-center">
-                          X
-                        </td>
-                        <td className="px-6 py-4 border-x border-gray-200  text-center">
-                          O
-                        </td>
-                        <td className="px-6 py-4 border-x border-gray-200  text-center">
-                          O
+                          강제 스코프
                         </td>
                       </tr>
                     </tbody>
