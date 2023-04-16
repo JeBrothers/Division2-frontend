@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <ul onClick={() => { setView(!view) }}>
         반가워요, nickname 님!{" "}
         {view ? '⌃' : '⌄'}
-        {view && <Dropdown />}
+        {view && <Dropdown type={"Weapon"} />}
       </ul>
     </Layout>
   );
