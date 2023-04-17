@@ -5,8 +5,18 @@ import Dropdown from "./components/dropdown";
 import Layout from "./components/Layout";
 import Link from "next/link";
 
+interface IView {
+  weapon: boolean,
+  gear: boolean,
+  skill: boolean,
+}
+
 const Home: NextPage = () => {
-  const [view, setView] = useState(false);
+  const [view, setView] = useState({
+    weapon: false,
+    gear: false,
+    skill: false
+  });
 
   return (
     <div>
@@ -25,7 +35,10 @@ const Home: NextPage = () => {
             <ul
               className="flex flex-col text-base font-semibold p-4 md:p-0 mt-4 border border-gray-100  bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-division-color dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
               onClick={() => {
-                setView(!view);
+                setView({
+                  ...view,
+                  weapon: !view.weapon
+                });
               }}
             >
               <li>
@@ -46,7 +59,7 @@ const Home: NextPage = () => {
                   className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-division-orange md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                 >
                   무기정보{" "}
-                  {view ? (
+                  {view.weapon ? (
                     <svg
                       className="w-5 h-5 ml-1 rotate-180"
                       aria-hidden="true"
@@ -75,7 +88,7 @@ const Home: NextPage = () => {
                       ></path>
                     </svg>
                   )}
-                  {view && <Dropdown type={"Weapon"} />}
+                  {view.weapon && <Dropdown type={"Weapon"} />}
                 </button>
               </li>
 
