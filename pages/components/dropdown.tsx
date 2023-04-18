@@ -30,6 +30,8 @@ function Dropdown(props: DropdownProps) {
     }
   }, []); // 최초 렌더링시 무조건 1번 실행
 
-  return <PrintMenu strArray={type} />;
+  return (
+    props.type && <PrintMenu strArray={type} />
+  )
 }
 export default Dropdown;
