@@ -11,7 +11,10 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const ref = useRef(null);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <>
@@ -28,7 +31,7 @@ export default function Layout({ children }: LayoutProps) {
               className="hidden w-full md:block md:w-auto"
               id="navbar-dropdown"
             >
-              <ul className="flex flex-col text-base font-semibold p-4 md:p-0 mt-4 border border-gray-100  bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-division-color dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <ul className="flex  text-base font-semibold p-4 md:p-0 mt-4 border border-gray-100  bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-division-color dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
                   <Link href="/">
                     <a
