@@ -18,7 +18,7 @@ interface WeaponInfo {
 
 const WeaponInfo: NextPage = () => {
   const [weaponInfo, setWeapoininfo] = useState(false);
-  const { register, handleSubmit, reset } = useForm<WeaponInfo>();
+  const { reset } = useForm<WeaponInfo>();
   const [method, setMethod] = useState<
     | "assultrifle"
     | "rifle"
