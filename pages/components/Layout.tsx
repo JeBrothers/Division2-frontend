@@ -230,10 +230,10 @@ export default function Layout({ children }: LayoutProps) {
               </ul>
             </div>
           </div>
-          <div className="h-6 bg-black fixed bottom-0 w-full" />
         </nav>
         {children}
       </div>
+      <div className="h-6 bg-black fixed bottom-0 w-full" />
     </>
   );
 }
