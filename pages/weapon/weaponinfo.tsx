@@ -110,6 +110,19 @@ const WeaponInfo: NextPage = () => {
                 <button
                   className={cls(
                     "inline-block p-4 border-b-2 rounded-t-lg",
+                    method === "lightmachinegun"
+                      ? "border-division-orange text-division-orange"
+                      : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
+                  )}
+                  onClick={onLmgClick}
+                >
+                  경기관총
+                </button>
+              </Tab>
+              <Tab className="mr-2" role="presentation">
+                <button
+                  className={cls(
+                    "inline-block p-4 border-b-2 rounded-t-lg",
                     method === "submachinegun"
                       ? "border-division-orange text-division-orange"
                       : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
@@ -553,6 +566,136 @@ const WeaponInfo: NextPage = () => {
                       </td>
                       <td className="px-6 py-4 border-x border-gray-200  text-center">
                         O
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </TabPanel>
+
+            {/* 경기관총 */}
+            <TabPanel>
+              <div className="flex relative overflow-x-auto justify-center">
+                <table className="w-max-md w-2/3 text-sm  text-gray-500 dark:text-gray-400 border-t  border-gray-200 text-center ">
+                  <thead className="text-xs text-white uppercase  bg-division-dark dark:bg-gray-700 dark:text-gray-400">
+                    <tr>
+                      <th scope="col" className="px-6  py-6">
+                        총기 종류
+                      </th>
+                      <th scope="col" className="px-6 py-6">
+                        총기명
+                      </th>
+                      <th scope="col" className="px-6 py-6">
+                        RPM
+                      </th>
+                      <th scope="col" className="px-6 py-6">
+                        기본 탄창
+                      </th>
+                      <th scope="col" className="px-6 py-6">
+                        최대 탄창
+                      </th>
+                      <th scope="col" className="px-6 py-6">
+                        재장전 시간(빈 탄창)
+                      </th>
+                      <th scope="col" className="px-6 py-6 ">
+                        DPS
+                      </th>
+
+                      <td className="px-6 py-6 bg-division-color text-division-dark whitespace-nowrap">
+                        조준기
+                      </td>
+                      <td
+                        scope="col"
+                        className="  px-6 py-6 bg-division-color text-division-dark whitespace-nowrap"
+                      >
+                        총구
+                      </td>
+                      <td
+                        scope="col"
+                        className=" px-6 py-6  bg-division-color text-division-dark whitespace-nowrap"
+                      >
+                        총열
+                      </td>
+                      <td
+                        scope="col"
+                        className=" px-6 py-6 bg-division-color text-division-dark whitespace-nowrap"
+                      >
+                        탄창
+                      </td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 ">
+                      <th
+                        rowSpan={1}
+                        scope="row"
+                        className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white border-x border-gray-200"
+                      >
+                        Vector SBR .45 ACP
+                      </th>
+                      <td className="px-6 py-4 border-x border-gray-200">
+                        칠흑의 겨울
+                      </td>
+                      <td className="px-6 py-4 border-x border-gray-200">
+                        1200
+                      </td>
+                      <td className="px-6 py-4 border-x border-gray-200">25</td>
+                      <td className="px-6 py-4 border-x border-gray-200">45</td>
+                      <td className="px-6 py-4 border-x border-gray-200">
+                        1.9
+                      </td>
+                      <td className="px-6 py-4 border-x border-gray-200">
+                        808600
+                      </td>
+                      <td className="px-6 py-4 text-center border-x border-gray-200">
+                        O
+                      </td>
+                      <td className="px-6 py-4 text-center border-x border-gray-200">
+                        O
+                      </td>
+                      <td className="px-6 py-4 text-center border-x border-gray-200">
+                        O
+                      </td>
+                      <td className="px-6 py-4 text-center border-x border-gray-200">
+                        O
+                      </td>
+                    </tr>
+
+                    <tr className="bg-white dark:bg-gray-800 border-b">
+                      <th
+                        rowSpan={1}
+                        scope="row"
+                        className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white border-x border-gray-200 "
+                      >
+                        P90
+                      </th>
+                      <td className="px-6 py-4 border-x border-gray-200 ">
+                        촉새
+                      </td>
+                      <td className="px-6 py-4 border-x border-gray-200 ">
+                        700
+                      </td>
+                      <td className="px-6 py-4 border-x border-gray-200 ">
+                        50
+                      </td>
+                      <td className="px-6 py-4 border-x border-gray-200 "></td>
+                      <td className="px-6 py-4 border-x border-gray-200 ">
+                        1.5
+                      </td>
+                      <td className="px-6 py-4 border-x border-gray-200 ">
+                        5499112
+                      </td>
+                      <td className="px-6 py-4 border-x border-gray-200  text-center">
+                        X
+                      </td>
+                      <td className="px-6 py-4 border-x border-gray-200  text-center">
+                        X
+                      </td>
+                      <td className="px-6 py-4 border-x border-gray-200  text-center">
+                        X
+                      </td>
+                      <td className="px-6 py-4 border-x border-gray-200  text-center">
+                        X
                       </td>
                     </tr>
                   </tbody>
