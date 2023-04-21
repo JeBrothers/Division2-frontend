@@ -339,14 +339,14 @@ const WeaponAccessory: NextPage = () => {
                         scope="row"
                         className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white border-x border-gray-200 "
                       >
-                        Reflex 사이트
+                        반소 조준기
                       </th>
                       <td className="px-6 py-4 border-x border-gray-200 ">
                         +5% 무기 조작력
                       </td>
                       <td className="px-6 py-4 border-x border-gray-200 "></td>
                       <td className="px-6 py-4 border-x border-gray-200 ">
-                        극장 프로젝트: '워터 파이프라인 구성' 보상
+                        극장 프로젝트: '워터 파이프라인 구성'
                       </td>
                       <td className="px-6 py-4 border-x border-gray-200 "></td>
                     </tr>
@@ -366,9 +366,7 @@ const WeaponAccessory: NextPage = () => {
                         +5% 치명타 확률
                       </td>
                       <td className="px-6 py-4 border-x border-gray-200"></td>
-                      <td className="px-6 py-4 border-x border-gray-200">
-                        극장 프로젝트 : "워터 파이프라인 구성"
-                      </td>
+                      <td className="px-6 py-4 border-x border-gray-200"></td>
                       <td className="px-6 py-4 border-x border-gray-200"></td>
                     </tr>
 
@@ -384,11 +382,13 @@ const WeaponAccessory: NextPage = () => {
                         저반사 조준기
                       </td>
                       <td className="px-6 py-4 border-x border-gray-200">
-                        +5% 치명타 확률
+                        +5% 헤드샷 데미지
                       </td>
-                      <td className="px-6 py-4 border-x border-gray-200"></td>
                       <td className="px-6 py-4 border-x border-gray-200">
-                        극장 프로젝트 : "워터 파이프라인 구성"
+                        -20% 적정 사거리
+                      </td>
+                      <td className="px-6 py-4 border-x border-gray-200">
+                        포기바텀 보조미션: "컬럼비아 플라자 방송국"
                       </td>
                       <td className="px-6 py-4 border-x border-gray-200"></td>
                     </tr>
