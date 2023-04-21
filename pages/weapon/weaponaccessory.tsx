@@ -145,6 +145,7 @@ const WeaponAccessory: NextPage = () => {
                       </td>
                       <td className="px-6 py-4 border-x border-gray-200"></td>
                       <td className="px-6 py-4 border-x border-gray-200"></td>
+                      <td className="px-6 py-4 border-x border-gray-200"></td>
                     </tr>
 
                     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 ">
@@ -196,6 +197,7 @@ const WeaponAccessory: NextPage = () => {
                         주디시어리 광장 보조미션: 경찰서 본부 (스토리에서 오데사
                         소여와 대화)
                       </td>
+                      <td className="px-6 py-4 border-x border-gray-200"></td>
                     </tr>
                     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 ">
                       <td className="px-6 py-4 border-x border-gray-200">
@@ -289,6 +291,7 @@ const WeaponAccessory: NextPage = () => {
                       <td className="px-6 py-4 border-x border-gray-200">
                         스토리 임무 완료 후 백악관 레벨 업
                       </td>
+                      <td className="px-6 py-4 border-x border-gray-200"></td>
                     </tr>
                     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 ">
                       <td className="px-6 py-4 border-x border-gray-200">
@@ -366,6 +369,7 @@ const WeaponAccessory: NextPage = () => {
                       <td className="px-6 py-4 border-x border-gray-200">
                         극장 프로젝트 : "워터 파이프라인 구성"
                       </td>
+                      <td className="px-6 py-4 border-x border-gray-200"></td>
                     </tr>
 
                     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 ">
@@ -386,6 +390,7 @@ const WeaponAccessory: NextPage = () => {
                       <td className="px-6 py-4 border-x border-gray-200">
                         극장 프로젝트 : "워터 파이프라인 구성"
                       </td>
+                      <td className="px-6 py-4 border-x border-gray-200"></td>
                     </tr>
                   </tbody>
                 </table>
@@ -395,8 +400,8 @@ const WeaponAccessory: NextPage = () => {
             {/*탄창*/}
             <TabPanel>
               <div className="flex relative overflow-x-auto justify-center mb-20 ">
-                <table className="w-max-lg  text-sm  text-gray-500 dark:text-gray-400 border-t  border-gray-200 text-center ">
-                  <thead className="text-xs text-white uppercase  bg-division-dark dark:bg-gray-700 dark:text-gray-400 ">
+                <table className="w-max-lg  text-sm  text-gray-500 dark:text-gray-400 border-t  border-gray-200 text-center  ">
+                  <thead className="text-xs text-white uppercase  bg-division-dark dark:bg-gray-700 dark:text-gray-400">
                     <tr>
                       <th scope="col" className=" px-32 py-6 table-fixed  ">
                         종류
@@ -418,6 +423,7 @@ const WeaponAccessory: NextPage = () => {
                       </th>
                     </tr>
                   </thead>
+
                   <tbody>
                     <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 ">
                       <th
