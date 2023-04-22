@@ -41,6 +41,21 @@ const WeaponAccessory: NextPage = () => {
     setaccinfo(true);
   }, []);
 
+  const [imageSrc, setImageSrc] = useState(
+    "/images/Contents/Icons/circle-check-regular.png"
+  ); // 초기 상태는 선택이 되지 않은 상태를 나타내기 위함
+  const [isClicked, setIsClicked] = useState(false); // 클릭 여부를 state로 관리
+
+  const handleClick = () => {
+    if (isClicked) {
+      setImageSrc("/images/Contents/Icons/circle-check-regular.png");
+      setIsClicked(false); // 초기 상태 false 일 땐 초기 상태 이미지 src
+    } else {
+      setImageSrc("/images/Contents/Icons/circle-check-solid.png");
+      setIsClicked(true); // true일 땐 변경될 이미지 src
+    }
+  };
+
   return (
     <>
       {accInfo && (
@@ -50,9 +65,9 @@ const WeaponAccessory: NextPage = () => {
               <Tab className="mr-2" role="presentation">
                 <button
                   className={cls(
-                    "inline-block p-4 border-b-2 rounded-t-lg",
+                    " p-4 border-b-2 rounded-t-lg  ",
                     method === "optic"
-                      ? "border-division-orange text-division-orange"
+                      ? "border-division-orange text-division-orange fill-transparent "
                       : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                   )}
                   onClick={onOpticClick}
@@ -1641,7 +1656,7 @@ const WeaponAccessory: NextPage = () => {
                         권총 전등
                       </td>
                       <td className="px-6 py-4 border-x border-gray-200">
-                        어두운 곳을 비출 수 있습니다.
+                        어두운 곳을 <br></br>비출 수 있습니다.
                       </td>
                       <td className="px-6 py-4 border-x border-gray-200"></td>
                       <td className="px-6 py-4 border-x border-gray-200">
