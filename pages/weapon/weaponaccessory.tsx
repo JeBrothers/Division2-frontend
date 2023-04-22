@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "flowbite";
 import { useForm } from "react-hook-form";
+import Image from "next/image";
+import TypeIcon from "../components/TypeIcon";
 
 interface WeaponAccessory {
   optic?: string;
@@ -16,25 +18,25 @@ interface WeaponAccessory {
 const WeaponAccessory: NextPage = () => {
   const [accInfo, setaccinfo] = useState(false);
   const { reset } = useForm<WeaponAccessory>();
-  const [method, setMethod] = useState<
+  const [type, setType] = useState<
     "optic" | "magazine" | "muzzle" | "underbarrel"
   >("optic");
 
   const onOpticClick = () => {
     reset();
-    setMethod("optic");
+    setType("optic");
   };
   const onMagazineClick = () => {
     reset();
-    setMethod("magazine");
+    setType("magazine");
   };
   const onMuzzleClick = () => {
     reset();
-    setMethod("muzzle");
+    setType("muzzle");
   };
   const onUnderbarrelClick = () => {
     reset();
-    setMethod("underbarrel");
+    setType("underbarrel");
   };
 
   useEffect(() => {
@@ -66,12 +68,18 @@ const WeaponAccessory: NextPage = () => {
                 <button
                   className={cls(
                     " p-4 border-b-2 rounded-t-lg  ",
-                    method === "optic"
+                    type === "optic"
                       ? "border-division-orange text-division-orange fill-transparent "
                       : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                   )}
                   onClick={onOpticClick}
                 >
+                  {/* <Image
+                    src={"/icon-grip-black.png"}
+                    width={16}
+                    height={16}
+                  /> */}
+                  <TypeIcon active={type} type="optic"></TypeIcon>
                   조준기
                 </button>
               </Tab>
@@ -79,12 +87,13 @@ const WeaponAccessory: NextPage = () => {
                 <button
                   className={cls(
                     "inline-block p-4 border-b-2 rounded-t-lg",
-                    method === "magazine"
+                    type === "magazine"
                       ? "border-division-orange text-division-orange"
                       : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                   )}
                   onClick={onMagazineClick}
                 >
+                  <TypeIcon active={type} type="magazine"></TypeIcon>
                   탄창
                 </button>
               </Tab>
@@ -92,12 +101,13 @@ const WeaponAccessory: NextPage = () => {
                 <button
                   className={cls(
                     "inline-block p-4 border-b-2 rounded-t-lg",
-                    method === "muzzle"
+                    type === "muzzle"
                       ? "border-division-orange text-division-orange"
                       : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                   )}
                   onClick={onMuzzleClick}
                 >
+                  <TypeIcon active={type} type="muzzle"></TypeIcon>
                   총구
                 </button>
               </Tab>
@@ -105,12 +115,14 @@ const WeaponAccessory: NextPage = () => {
                 <button
                   className={cls(
                     "inline-block p-4 border-b-2 rounded-t-lg",
-                    method === "underbarrel"
+                    "space-x-1",
+                    type === "underbarrel"
                       ? "border-division-orange text-division-orange"
                       : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                   )}
                   onClick={onUnderbarrelClick}
                 >
+                  <TypeIcon active={type} type="underbarrel"></TypeIcon>
                   총열 하단부
                 </button>
               </Tab>
