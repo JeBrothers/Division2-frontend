@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import Layout from "../components/Layout";
+import Layout from "../components/oldLayout";
 import { cls } from "../../libs/utils";
 import { useForm } from "react-hook-form";
 import { useEffect, useState } from "react";

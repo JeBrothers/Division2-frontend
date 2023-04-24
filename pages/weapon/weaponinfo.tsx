@@ -1,10 +1,11 @@
 import type { NextPage } from "next";
-import Layout from "../components/Layout";
+
 import { cls } from "../../libs/utils";
 import { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "flowbite";
+
 import { useForm } from "react-hook-form";
+import WeaponTypeIcon from "../components/WeaponTypeIcon";
 
 interface WeaponInfo {
   assultrifle?: string;
@@ -19,7 +20,7 @@ interface WeaponInfo {
 const WeaponInfo: NextPage = () => {
   const [weaponInfo, setWeapoininfo] = useState(false);
   const { reset } = useForm<WeaponInfo>();
-  const [method, setMethod] = useState<
+  const [type, setType] = useState<
     | "assultrifle"
     | "rifle"
     | "marksmanrifle"
@@ -31,31 +32,31 @@ const WeaponInfo: NextPage = () => {
 
   const onArClick = () => {
     reset();
-    setMethod("assultrifle");
+    setType("assultrifle");
   };
   const onRifleClick = () => {
     reset();
-    setMethod("rifle");
+    setType("rifle");
   };
   const onMarksManRifleClick = () => {
     reset();
-    setMethod("marksmanrifle");
+    setType("marksmanrifle");
   };
   const onSmgClick = () => {
     reset();
-    setMethod("submachinegun");
+    setType("submachinegun");
   };
   const onShotgunClick = () => {
     reset();
-    setMethod("shotgun");
+    setType("shotgun");
   };
   const onLmgClick = () => {
     reset();
-    setMethod("lightmachinegun");
+    setType("lightmachinegun");
   };
   const onPistolClick = () => {
     reset();
-    setMethod("pistol");
+    setType("pistol");
   };
   useEffect(() => {
     setWeapoininfo(true);
@@ -70,92 +71,111 @@ const WeaponInfo: NextPage = () => {
               <Tab className="mr-2" role="presentation">
                 <button
                   className={cls(
-                    "inline-block p-4 border-b-2 rounded-t-lg",
-                    method === "assultrifle"
+                    "flex items-center justify-center p-4 border-b-2 rounded-t-lg",
+                    type === "assultrifle"
                       ? "border-division-orange text-division-orange"
                       : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                   )}
                   onClick={onArClick}
                 >
-                  돌격소총
+                  <WeaponTypeIcon
+                    active={type}
+                    type="assultrifle"
+                  ></WeaponTypeIcon>
+                  <span className="ml-2 text-base ">돌격소총</span>
                 </button>
               </Tab>
               <Tab className="mr-2" role="presentation">
                 <button
                   className={cls(
-                    "inline-block p-4 border-b-2 rounded-t-lg",
-                    method === "rifle"
+                    "flex items-center justify-center p-4 border-b-2 rounded-t-lg",
+                    type === "rifle"
                       ? "border-division-orange text-division-orange"
                       : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                   )}
                   onClick={onRifleClick}
                 >
-                  소총
+                  <WeaponTypeIcon active={type} type="rifle"></WeaponTypeIcon>
+                  <span className="ml-2 text-base ">소총</span>
                 </button>
               </Tab>
               <Tab className="mr-2" role="presentation">
                 <button
                   className={cls(
-                    "inline-block p-4 border-b-2 rounded-t-lg",
-                    method === "marksmanrifle"
+                    "flex items-center justify-center p-4 border-b-2 rounded-t-lg",
+                    type === "marksmanrifle"
                       ? "border-division-orange text-division-orange"
                       : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                   )}
                   onClick={onMarksManRifleClick}
                 >
-                  지정사수소총
+                  <WeaponTypeIcon
+                    active={type}
+                    type="marksmanrifle"
+                  ></WeaponTypeIcon>
+                  <span className="ml-2 text-base ">지정사수소총</span>
                 </button>
               </Tab>
               <Tab className="mr-2" role="presentation">
                 <button
                   className={cls(
-                    "inline-block p-4 border-b-2 rounded-t-lg",
-                    method === "lightmachinegun"
+                    "flex items-center justify-center p-4 border-b-2 rounded-t-lg",
+                    type === "lightmachinegun"
                       ? "border-division-orange text-division-orange"
                       : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                   )}
                   onClick={onLmgClick}
                 >
-                  경기관총
+                  <WeaponTypeIcon
+                    active={type}
+                    type="lightmachinegun"
+                  ></WeaponTypeIcon>
+                  <span className="ml-2 text-base ">경기관총</span>
                 </button>
               </Tab>
               <Tab className="mr-2" role="presentation">
                 <button
                   className={cls(
-                    "inline-block p-4 border-b-2 rounded-t-lg",
-                    method === "submachinegun"
+                    "flex items-center justify-center p-4 border-b-2 rounded-t-lg",
+                    type === "submachinegun"
                       ? "border-division-orange text-division-orange"
                       : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                   )}
                   onClick={onSmgClick}
                 >
-                  기관단총
+                  <WeaponTypeIcon
+                    active={type}
+                    type="submachinegun"
+                  ></WeaponTypeIcon>
+                  <span className="ml-2 text-base ">기관단총</span>
                 </button>
               </Tab>
               <Tab className="mr-2" role="presentation">
                 <button
                   className={cls(
-                    "inline-block p-4 border-b-2 rounded-t-lg",
-                    method === "shotgun"
+                    "flex items-center justify-center p-4 border-b-2 rounded-t-lg",
+                    type === "shotgun"
                       ? "border-division-orange text-division-orange"
                       : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                   )}
                   onClick={onShotgunClick}
                 >
-                  샷건
+                  <WeaponTypeIcon active={type} type="shotgun"></WeaponTypeIcon>
+                  <span className="ml-2 text-base ">샷건</span>
                 </button>
               </Tab>
               <Tab className="mr-2" role="presentation">
                 <button
                   className={cls(
-                    "inline-block p-4 border-b-2 rounded-t-lg",
-                    method === "pistol"
+                    "flex items-center justify-center p-4 border-b-2 rounded-t-lg",
+                    type === "pistol"
                       ? "border-division-orange text-division-orange"
                       : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                   )}
                   onClick={onPistolClick}
                 >
-                  권총
+                  <WeaponTypeIcon active={type} type="pistol"></WeaponTypeIcon>
+                  <span className="ml-2 text-base ">권총</span>
                 </button>
               </Tab>
             </TabList>
@@ -173,19 +193,19 @@ const WeaponInfo: NextPage = () => {
                         총기명
                       </th>
                       <th scope="col" className="px-6 py-6">
+                        DMG
+                      </th>
+                      <th scope="col" className="px-6 py-6">
                         RPM
-                      </th>
-                      <th scope="col" className="px-6 py-6">
-                        기본 탄창
-                      </th>
-                      <th scope="col" className="px-6 py-6">
-                        최대 탄창
-                      </th>
-                      <th scope="col" className="px-6 py-6">
-                        재장전 시간(빈 탄창)
                       </th>
                       <th scope="col" className="px-6 py-6 ">
                         DPS
+                      </th>
+                      <th scope="col" className="px-6 py-6">
+                        탄창
+                      </th>
+                      <th scope="col" className="px-6 py-6">
+                        재장전 시간(빈 탄창)
                       </th>
 
                       <td className="px-6 py-6 bg-division-color text-division-dark whitespace-nowrap">
