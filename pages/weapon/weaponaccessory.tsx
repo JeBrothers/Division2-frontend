@@ -43,21 +43,6 @@ const WeaponAccessory: NextPage = () => {
     setaccinfo(true);
   }, []);
 
-  const [imageSrc, setImageSrc] = useState(
-    "/images/Contents/Icons/circle-check-regular.png"
-  ); // 초기 상태는 선택이 되지 않은 상태를 나타내기 위함
-  const [isClicked, setIsClicked] = useState(false); // 클릭 여부를 state로 관리
-
-  const handleClick = () => {
-    if (isClicked) {
-      setImageSrc("/images/Contents/Icons/circle-check-regular.png");
-      setIsClicked(false); // 초기 상태 false 일 땐 초기 상태 이미지 src
-    } else {
-      setImageSrc("/images/Contents/Icons/circle-check-solid.png");
-      setIsClicked(true); // true일 땐 변경될 이미지 src
-    }
-  };
-
   return (
     <>
       {accInfo && (

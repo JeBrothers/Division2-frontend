@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.14",
     "@prisma/client": "^3.8.1",
     "@sendgrid/mail": "^7.6.0",
     "fetch-suspense": "^1.2.2",
