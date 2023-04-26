@@ -87,15 +87,17 @@ export default function Layout() {
                     </Menu.Item>
                     <Menu.Item>
                       {({ active }) => (
-                        <button
-                          className={`${
-                            active
-                              ? "bg-division-dark text-white"
-                              : "text-gray-900"
-                          } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                        >
-                          무기 특수 효과
-                        </button>
+                        <a href="/weapon/weapontalent">
+                          <Menu.Button
+                            className={`${
+                              active
+                                ? "bg-division-dark text-white"
+                                : "text-gray-900"
+                            } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                          >
+                            무기 특수 효과
+                          </Menu.Button>
+                        </a>
                       )}
                     </Menu.Item>
                   </div>
@@ -103,7 +105,7 @@ export default function Layout() {
                   <div className="px-1 py-2 space-y-1 w-auto ">
                     <Menu.Item>
                       {({ active }) => (
-                        <button
+                        <Menu.Button
                           className={`${
                             active
                               ? "bg-division-dark text-division-orange"
@@ -111,7 +113,7 @@ export default function Layout() {
                           } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                         >
                           네임드 / 특급 아이템
-                        </button>
+                        </Menu.Button>
                       )}
                     </Menu.Item>
                   </div>
