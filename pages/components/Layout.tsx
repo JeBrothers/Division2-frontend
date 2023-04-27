@@ -105,15 +105,17 @@ export default function Layout() {
                   <div className="px-1 py-2 space-y-1 w-auto ">
                     <Menu.Item>
                       {({ active }) => (
-                        <Menu.Button
-                          className={`${
-                            active
-                              ? "bg-division-dark text-division-orange"
-                              : "text-division-orange"
-                          } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                        >
-                          네임드 / 특급 아이템
-                        </Menu.Button>
+                        <a href="/weapon/wnamedexotic">
+                          <Menu.Button
+                            className={`${
+                              active
+                                ? "bg-division-dark text-division-orange"
+                                : "text-division-orange"
+                            } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                          >
+                            네임드 / 특급 아이템
+                          </Menu.Button>
+                        </a>
                       )}
                     </Menu.Item>
                   </div>
