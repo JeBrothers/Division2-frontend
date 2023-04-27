@@ -2,6 +2,10 @@ import { Menu, Transition } from "@headlessui/react";
 import Link from "next/link";
 import { Fragment } from "react";
 
+interface Layout {
+  active?: string;
+}
+
 export default function Layout() {
   return (
     <nav className="bg-division-color">
@@ -55,9 +59,9 @@ export default function Layout() {
               >
                 <Menu.Items className="z-10 flex flex-col absolute -translate-x-12 mt-2 w-48  items-left origin-top-center divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                   <div className="px-1 py-2 space-y-1 w-auto ">
-                    <Menu.Item>
-                      {({ active }) => (
-                        <a href="/weapon/weaponinfo">
+                    <Link href="/weapon/weaponinfo">
+                      <Menu.Item>
+                        {({ active }) => (
                           <Menu.Button
                             className={`${
                               active
@@ -67,12 +71,13 @@ export default function Layout() {
                           >
                             <span>무기 정보</span>
                           </Menu.Button>
-                        </a>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
-                      {({ active }) => (
-                        <a href="/weapon/weaponaccessory">
+                        )}
+                      </Menu.Item>
+                    </Link>
+
+                    <Link href="/weapon/weaponaccessory">
+                      <Menu.Item>
+                        {({ active }) => (
                           <Menu.Button
                             className={`${
                               active
@@ -82,12 +87,13 @@ export default function Layout() {
                           >
                             <span>무기 부착물</span>
                           </Menu.Button>
-                        </a>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
-                      {({ active }) => (
-                        <a href="/weapon/weapontalent">
+                        )}
+                      </Menu.Item>
+                    </Link>
+
+                    <Link href="/weapon/weapontalent">
+                      <Menu.Item>
+                        {({ active }) => (
                           <Menu.Button
                             className={`${
                               active
@@ -97,15 +103,15 @@ export default function Layout() {
                           >
                             무기 특수 효과
                           </Menu.Button>
-                        </a>
-                      )}
-                    </Menu.Item>
+                        )}
+                      </Menu.Item>
+                    </Link>
                   </div>
 
                   <div className="px-1 py-2 space-y-1 w-auto ">
-                    <Menu.Item>
-                      {({ active }) => (
-                        <a href="/weapon/wnamedexotic">
+                    <Link href="/weapon/wnamedexotic">
+                      <Menu.Item>
+                        {({ active }) => (
                           <Menu.Button
                             className={`${
                               active
@@ -115,9 +121,9 @@ export default function Layout() {
                           >
                             네임드 / 특급 아이템
                           </Menu.Button>
-                        </a>
-                      )}
-                    </Menu.Item>
+                        )}
+                      </Menu.Item>
+                    </Link>
                   </div>
                 </Menu.Items>
               </Transition>
