@@ -183,29 +183,30 @@ const wNamedExotic: NextPage = () => {
 
             {/* 돌격소총 */}
             <TabPanel>
-              <div className="flex relative overflow-x-auto justify-center">
-                <table className="w-max-md w-2/3 text-sm  text-gray-500  border-x border-gray-200 text-center ">
+              <div className="flex relative  justify-center">
+                <table className="w-max-lg text-sm  text-gray-500  border-x border-gray-200 text-center ">
                   <thead className="text-xs text-white uppercase  bg-division-dark ">
                     <tr>
-                      <th scope="col" className=" px-2 py-2">
+                      <th scope="col" className="px-6 py-2">
                         총기 종류
                       </th>
-                      <th scope="col" className="px-4 py-2">
+                      <th scope="col" className="px-8 py-2">
                         총기명
                       </th>
-                      <th scope="col" className="px-6 py-2">
+                      <th scope="col" className="px-6 py-4">
+                        DLC
+                      </th>
+                      <th scope="col" className="px-6 py-4">
                         {/* 아이콘 */}
                       </th>
-                      <th scope="col" className="px-6 py-2">
-                        {/* dlc 여부 */}
-                      </th>
-                      <th scope="col" className="px-6 py-2 ">
+
+                      <th scope="col" className="px-2 py-2 ">
                         특수 효과
                       </th>
-                      <th scope="col" className="px-6 py-2">
+                      <th scope="col" className="px-2 py-2">
                         획득처
                       </th>
-                      <th scope="col" className="px-6 py-2">
+                      <th scope="col" className="px-8 py-2">
                         문구
                       </th>
                     </tr>
@@ -220,13 +221,27 @@ const wNamedExotic: NextPage = () => {
                         AK-47
                       </th>
                       <td className=" border-x ">광증</td>
-                      <td className=" w-2 h-2">
-                        <img src="/weapontalent/overflowing.png" />
+                      <td className=" w-1 h-1 p-2 border-x ">
+                        <img src="/dlc.png" />
                       </td>
-                      <td className=" w-2 h-2 border-x "></td>
-                      <td className=" border-x "></td>
-                      <td className=" border-x "></td>
-                      <td className=" border-x "></td>
+                      <td className=" p-2 w-1 h-1">
+                        <img src="/weapontalentblack/overflowing.png" />
+                      </td>
+
+                      <td className=" border-x p-4 leading-6 ">
+                        <span className="text-division-orange">
+                          완벽한 과잉공급
+                        </span>
+                        <br></br>빈 탄창을{" "}
+                        <span className="text-division-orange">2번</span>
+                        재장전할 때마다 탄창 휴대량이 100% 증가합니다.
+                      </td>
+                      <td className=" px-6 border-x ">일반 필드</td>
+                      <td className=" px-6 border-x leading-6">
+                        "드래고프, 어디 한 번만 더 나를 미치광이 요정 소녀라고
+                        부르기만 해봐... 한 번만 더... 그렇게 불러봐"
+                        <br></br>- 비비안 콘리
+                      </td>
                     </tr>
                   </tbody>
                 </table>
