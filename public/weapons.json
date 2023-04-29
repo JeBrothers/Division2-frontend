@@ -1,0 +1,1130 @@
+{
+  "ASSAULT RIFLES": [
+    {
+      "variant": "ACR",
+      "engName": "ACR",
+      "name": "ACR",
+      "rpm": 650,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 53124,
+      "dps": 575510,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "ACR",
+      "engName": "ACR-E",
+      "name": "ACR-E",
+      "rpm": 650,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 53124,
+      "dps": 575510,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "AK-47",
+      "engName": "AK-M",
+      "name": "AK-M",
+      "rpm": 600,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.5,
+      "damage": 62056,
+      "dps": 620560,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "AK-47",
+      "engName": "Military AK-M",
+      "name": "군용 AK-M",
+      "rpm": 600,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.5,
+      "damage": 60645,
+      "dps": 606450,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "AK-47",
+      "engName": "Black Market AK-M",
+      "name": "블랙마켓 AK-M",
+      "rpm": 600,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.5,
+      "damage": 60645,
+      "dps": 606450,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "AK-47",
+      "engName": "Black Market AK-M Replica",
+      "name": "블랙마켓 AK-M 복제품",
+      "rpm": 600,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.5,
+      "damage": 62056,
+      "dps": 620560,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "AK-47",
+      "engName": "Manic",
+      "name": "광증",
+      "rpm": 600,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.5,
+      "damage": 62056,
+      "dps": 620560,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": true,
+      "exotic": false,
+      "named": true,
+      "flavourText": "드래고프, 어디 한 번만 더 나를 미치광이 요정 소녀라고 부르기만 해봐... 한 번만 더... 그렇게 불러봐- 비비안 콘리"
+    },
+
+    {
+      "variant": "AUG",
+      "engName": "AUG A3-CQC",
+      "name": "AUG A3-CQC",
+      "rpm": 680,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.1,
+      "damage": 51243,
+      "dps": 580754,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+
+    {
+      "variant": "AUG",
+      "engName": "Invisible Hand",
+      "name": "보이지 않는 손",
+      "rpm": 762,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.1,
+      "damage": 51243,
+      "dps": 650444,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": true,
+      "named": true,
+      "flavourText": "네놈 눈깔에는 내가 무슨 자선 사업가로 보이냐? 시장 원리대로 해. 내 상품이 탐나면 거래를 하자고.- 캐시 멘도자, 암상인"
+    },
+    {
+      "variant": "AUG",
+      "engName": "The BigHorn",
+      "name": "빅혼",
+      "rpm": 800,
+      "baseMagSize": 40,
+      "reload": 1.9,
+      "damage": 51243,
+      "dps": 683240,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "false",
+        "magazine": "false",
+        "optics": "false"
+      },
+      "dlc": true,
+      "exotic": true,
+      "flavourText": "조준하고 숨을 들이쉬어. 평정심을 다스리는거다. 집중하고. 숨을 내쉬어. 그리고 당겨."
+    },
+
+    {
+      "variant": "Carbine 7",
+      "engName": "Carbine 7",
+      "name": "Carbine 7",
+      "rpm": 790,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.4,
+      "damage": 47012,
+      "dps": 618991,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "F2000",
+      "engName": "F2000",
+      "name": "F2000",
+      "rpm": 850,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.1,
+      "damage": 45132,
+      "dps": 639370,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "false",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "F2000",
+      "engName": "F2000 Replica",
+      "name": "F2000 복제품",
+      "rpm": 850,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.1,
+      "damage": 45132,
+      "dps": 639370,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "false",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "F2000",
+      "engName": "Shield Splinterer",
+      "name": "방패분쇄기",
+      "rpm": 850,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.1,
+      "damage": 45132,
+      "dps": 639370,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "false",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "named": true,
+      "flavourText": "새겨진 글: 정면 돌파가 답이다."
+    },
+    {
+      "variant": "FAL",
+      "engName": "FAL",
+      "name": "FAL",
+      "rpm": 650,
+      "baseMagSize": 20,
+      "moddedMagSize": 40,
+      "reload": 2.3,
+      "damage": 56885,
+      "dps": 616254,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "FAL",
+      "engName": "FAL SA-58",
+      "name": "FAL SA-58",
+      "rpm": 650,
+      "baseMagSize": 20,
+      "moddedMagSize": 40,
+      "reload": 2.3,
+      "damage": 56885,
+      "dps": 616254,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "FAL",
+      "engName": "FAL SA-58 Para",
+      "name": "FAL SA-58 Para",
+      "rpm": 650,
+      "baseMagSize": 20,
+      "moddedMagSize": 40,
+      "reload": 2.3,
+      "damage": 56885,
+      "dps": 616254,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "FAL",
+      "engName": "FAL SA-58 Para Replica",
+      "name": "FAL SA-58 Para 복제품",
+      "rpm": 650,
+      "baseMagSize": 20,
+      "moddedMagSize": 40,
+      "reload": 2.3,
+      "damage": 56885,
+      "dps": 616254,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "Famas",
+      "engName": "FAMAS 2010",
+      "name": "FAMAS 2010",
+      "rpm": 900,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.2,
+      "damage": 44191,
+      "dps": 662865,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "Famas",
+      "engName": "FAMAS 2010 Replica",
+      "name": "FAMAS 2010 복제품",
+      "rpm": 900,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.2,
+      "damage": 44191,
+      "dps": 662865,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "Famas",
+      "engName": "Burn Out",
+      "name": "탈진",
+      "rpm": 900,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.2,
+      "damage": 44191,
+      "dps": 662865,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": true,
+      "flavourText": "다른 근무에 또 들어가라고? 잘 들어. 엿이나 드세요. 더러워서 안 하고 말지.- 크라친스키, `사고` 이전"
+    },
+
+    {
+      "variant": "G36",
+      "engName": "Military G36",
+      "name": "군용 G36",
+      "rpm": 750,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 48892,
+      "dps": 611150,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+
+    {
+      "variant": "G36",
+      "engName": "G36 C",
+      "name": "G36 C",
+      "rpm": 750,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 48892,
+      "dps": 611150,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+
+    {
+      "variant": "G36",
+      "engName": "G36 C",
+      "name": "G36 C",
+      "rpm": 750,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 48892,
+      "dps": 611150,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "G36",
+      "engName": "G36 Enhanced",
+      "name": "강화형 G36",
+      "rpm": 750,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 48892,
+      "dps": 611150,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+
+    {
+      "variant": "G36",
+      "engName": "G36 Enhanced Replica",
+      "name": "강화형 G36 복제품",
+      "rpm": 750,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 48892,
+      "dps": 611150,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+
+    {
+      "variant": "Honey Badger",
+      "engName": "Honey Badger",
+      "name": "Honey Badger",
+      "rpm": 790,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.4,
+      "damage": 47952,
+      "dps": 631368,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+
+    {
+      "variant": "Honey Badger",
+      "engName": "Savage Wolverine",
+      "name": "흉포한 이리",
+      "rpm": 790,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.4,
+      "damage": 47952,
+      "dps": 631368,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": true,
+      "flavourText": "난폭한 동물을 궁지로 몰아넣는 건 성질 돋우기 딱 좋은 짓이야. 충고 하나 해줄까? 그러지 마. - 매닝 국립 동물원 사육사"
+    },
+
+    {
+      "variant": "M4",
+      "engName": "Police M4",
+      "name": "경찰용 M4",
+      "rpm": 850,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.4,
+      "damage": 44191,
+      "dps": 626039,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+
+    {
+      "variant": "M4",
+      "engName": "Police M4 Replica",
+      "name": "경찰용 M4 복제품",
+      "rpm": 850,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.4,
+      "damage": 44191,
+      "dps": 626039,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+
+    {
+      "variant": "M4",
+      "engName": "Pyromaniac",
+      "name": "방화광",
+      "rpm": 850,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.4,
+      "damage": 44191,
+      "dps": 626039,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": true,
+      "flavourText": "때로는 세상이 더 빨리 불타버렸으면 싶을 때도 있기 마련입니다."
+    },
+
+    {
+      "variant": "MK16",
+      "engName": "Mk16",
+      "name": "Mk16",
+      "rpm": 625,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 55004,
+      "dps": 572958,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "MK16",
+      "engName": "SOCOM Mk16",
+      "name": "SOCOM Mk16",
+      "rpm": 625,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 55004,
+      "dps": 572958,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "MK16",
+      "engName": "Tactical Mk16",
+      "name": "전술용 Mk16",
+      "rpm": 625,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 55004,
+      "dps": 572958,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "MK16",
+      "engName": "Tactical Mk16 Replica",
+      "name": "Tactical Mk16 복제품",
+      "rpm": 625,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 55004,
+      "dps": 572958,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+
+    {
+      "variant": "P416",
+      "engName": "Military P416",
+      "name": "군용 P416",
+      "rpm": 750,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 47952,
+      "dps": 599400,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+
+    {
+      "variant": "P416",
+      "engName": "Custom P416 G3",
+      "name": "",
+      "rpm": 750,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 47952,
+      "dps": 599400,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "P416",
+      "engName": "Glory Daze",
+      "name": "영광의 섬광",
+      "rpm": 750,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.3,
+      "damage": 47952,
+      "dps": 599400,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": true,
+      "flavourText": "세상에 영원한 건 없다. - 균형을 가져오는 자"
+    },
+
+    {
+      "variant": "P416",
+      "engName": "Eagle Bearer",
+      "name": "독수리를 거느린 자",
+      "rpm": 750,
+      "baseMagSize": 30,
+      "moddedMagSize": 60,
+      "reload": 2.3,
+      "damage": 51713,
+      "dps": 646413,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "false",
+        "magazine": "false",
+        "optics": "false"
+      },
+      "dlc": false,
+      "exotic": true,
+      "named": false,
+      "flavourText": "국가적인 재난에 맞서 불철주야 보호와 헌신에 힘쓴 오데사 소여에게 이 선물을 바칩니다. 훗날 앞길에 난관이 닥치더라도 극복할 수 있기를 기원합니다. - 극장 정착지 주민 일동"
+    },
+
+  {
+      "variant": "PDR",
+      "engName": "PDR",
+      "name": "PDR",
+      "rpm": 700,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.2,
+      "damage": 51713,
+      "dps": 603318,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false,
+
+    },
+
+  {
+      "variant": "PDR",
+      "engName": "Test Subject",
+      "name": "실험체",
+      "rpm": 700,
+      "baseMagSize": 30,
+      "moddedMagSize": 50,
+      "reload": 2.2,
+      "damage": 51713,
+      "dps": 603318,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": true,
+ "flavourText":
+    },
+
+
+
+    {
+      "variant": "Vector SBR .45 ACP(Kriss Vector .45 ACP)",
+      "engName": "Chameleon",
+      "name": "카멜레온",
+      "rpm": 900,
+      "baseMagSize": 50,
+      "reload": 2.4,
+      "damage": 39960,
+      "dps": 599400,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "false",
+        "magazine": "false",
+        "optics": "false"
+      },
+      "dlc": false,
+      "exotic": true,
+      "named": false,
+      "flavourText": "카멜레온은 DARPA 연구진이 개발한 빛 굴절 기술이 적용된 작품입니다."
+    }
+  ],
+
+  "LIGHT MACHINE GUNS": [
+    {
+      "variant": "NEGEV",
+      "engName": "IWI Negev",
+      "name": "IWI Negev",
+      "rpm": 850,
+      "baseMagSize": 100,
+      "moddedMagSize": 150,
+      "reload": 5.8,
+      "damage": 37610,
+      "dps": 532808,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+
+    {
+      "variant": "MG5",
+      "engName": "Sleipner",
+      "name": "슬레이프니르",
+      "rpm": 800,
+      "baseMagSize": 50,
+      "moddedMagSize": 100,
+      "reload": 5.6,
+      "damage": 44661,
+      "dps": 595480,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": true,
+      "flavourText": "신과 인간을 통틀어 으뜸이니, 그 기수를 망자의 세계로 인도하노라."
+    }
+  ],
+
+  "SUBMACHINE GUNS": [
+    {
+      "variant": "Vector SBR .45 ACP(Kriss Vector .45 ACP)",
+      "engName": "Dark Winter",
+      "name": "칠흑의 겨울",
+      "rpm": 1200,
+      "baseMagSize": 25,
+      "moddedMagSize": 45,
+      "reload": 1.9,
+      "damage": 40430,
+      "dps": 808600,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": true,
+      "flavourText": "시범을 보였어야 했는데... 우린 준비가 안 됐더라고."
+    },
+    {
+      "variant": "P90",
+      "engName": "The Chatterbox",
+      "name": "촉새",
+      "rpm": 700,
+      "baseMagSize": 50,
+      "reload": 1.5,
+      "damage": 42781,
+      "dps": 499112,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "false",
+        "magazine": "false",
+        "optics": "false"
+      },
+      "dlc": false,
+      "exotic": true,
+      "named": false,
+      "flavourText": "다들 나보고 닥치는 법이 없다고 하더라, 다 스파이스 때문인데 어쩌겠어. - 다임, 하이에나 위원 "
+    }
+  ],
+
+  "SHOTGUNS": [
+    {
+      "variant": "SPAS-12",
+      "engName": "SPAS-12",
+      "name": "SPAS-12",
+      "rpm": 70,
+      "baseMagSize": 8,
+      "reload": 5.45,
+      "damage": 646883,
+      "dps": 754697,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+    {
+      "variant": "Six12",
+      "engName": "Scorpio",
+      "name": "스콜피오",
+      "rpm": 130,
+      "baseMagSize": 7,
+      "reload": 1.5,
+      "damage": 451314,
+      "dps": 977847,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "false",
+        "magazine": "false",
+        "optics": "false"
+      },
+      "dlc": false,
+      "exotic": true,
+      "named": false,
+      "flavourText": "전갈, 정확히는 호텐토타에서 영감을 얻은 쇠약 맹독 탄환을 발사하는 무기입니다. 본래 DARPA와의 공동 연구로 개발되었으나, 1899년 체결된 헤이그 조약 위반으로 승인을 받는 데 실패하였습니다."
+    }
+  ],
+
+  "RIFLES": [
+    {
+      "variant": "M1A",
+      "engName": "Baker Dozen",
+      "name": "덧거리",
+      "rpm": 180,
+      "baseMagSize": 13,
+      "reload": 3.0,
+      "damage": 205442,
+      "dps": 616326,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": true,
+      "flavourText": "난 이 소총과 함께 전쟁터를 헤쳐나왔어. 너도 이 녀석과 함께 헤쳐나올 수 있길 빈다.- 롤랜드 T. 베이커 병장"
+    },
+
+    {
+      "variant": "1886",
+      "engName": "The Virginian",
+      "name": "버지니아인",
+      "rpm": 100,
+      "baseMagSize": 5,
+      "reload": 3.4,
+      "damage": 342247,
+      "dps": 507412,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "false",
+        "magazine": "true",
+        "optics": "false"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": true,
+      "flavourText": "내 땅에서 당장 꺼져. 그래, 너 말이야. 얼른 꺼지라고.- DC 지역 주민"
+    }
+  ],
+  "MARKSMAN RIFLES": [
+    {
+      "variant": "Custom AWM AICS 2.0 chasis AX50 stock Magpul AFG-12",
+      "engName": "Nemesis",
+      "name": "네메시스",
+      "rpm": 50,
+      "baseMagSize": 5,
+      "reload": 2.8,
+      "damage": 940240,
+      "dps": 785533,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "false",
+        "magazine": "false",
+        "optics": "false"
+      },
+      "dlc": false,
+      "exotic": true,
+      "named": false,
+      "flavourText": "난 감시자를 감시한다. - 패드라 '퍽' 라오, 블랙 터스크 저격수"
+    },
+
+    {
+      "variant": "SRS",
+      "engName": "SRS A1",
+      "name": "SRS A1",
+      "rpm": 60,
+      "baseMagSize": 7,
+      "reload": 3.0,
+      "damage": 338957,
+      "dps": 338957,
+      "ModSlot": {
+        "muzzle": "true",
+        "underbarrel": "true",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    }
+  ],
+  "PISTOLS": [
+    {
+      "variant": "Magnum",
+      "engName": "586 Magnum",
+      "name": "586 매그넘",
+      "rpm": 160,
+      "baseMagSize": 6,
+      "reload": 1.8,
+      "damage": 190399,
+      "dps": 507731,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "false",
+        "magazine": "true",
+        "optics": "true"
+      },
+      "dlc": false,
+      "exotic": false,
+      "named": false
+    },
+
+    {
+      "variant": "Magnum",
+      "engName": "Regulus",
+      "name": "레굴루스",
+      "rpm": 160,
+      "baseMagSize": 6,
+      "reload": 1.8,
+      "damage": 282072,
+      "dps": 752192,
+      "ModSlot": {
+        "muzzle": "false",
+        "underbarrel": "false",
+        "magazine": "false",
+        "optics": "false"
+      },
+      "dlc": false,
+      "exotic": true,
+      "named": false,
+      "flavourText": "옥좌에 앉은 왕에게 돌팔매를 던져라 그러나 종국에는 들쥐가 우리 뼈를 갉아 먹으리라.- 하비에르 카지카"
+    }
+  ]
+}

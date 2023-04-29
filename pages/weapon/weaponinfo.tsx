@@ -1,11 +1,13 @@
 import type { NextPage } from "next";
 
 import { cls } from "../../libs/utils";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-
 import { useForm } from "react-hook-form";
 import WeaponTypeIcon from "../components/WeaponTypeIcon";
+import Weaponjson from "../../public/weapons.json";
+
+
 
 interface WeaponInfo {
   assultrifle?: string;
@@ -62,6 +64,61 @@ const WeaponInfo: NextPage = () => {
     setWeapoininfo(true);
   }, []);
 
+  const columns = useMemo(
+    () => [
+      {
+        accessor: "variant",
+        Header: "총기종류",
+      },
+      {
+        accessor: "name",
+        Header: "총기명",
+      },
+      {
+        accessor: "rpm",
+        Header: "RPM",
+      },
+      {
+        accessor: "baseMagSize",
+        Header: "탄창",
+      },
+      {
+        accessor: "reload",
+        Header: "장전시간",
+      },
+      {
+        accessor: "damage",
+        Header: "피해량",
+      },
+      {
+        accessor: "muzzle",
+        Header: "총구",
+      },
+      {
+        accessor: "underbarrel",
+        Header: "총열 하단부",
+      },
+      {
+        accessor: "magazine",
+        Header: "탄창",
+      },
+      {
+        accessor: "optic",
+        Header: "조준기",
+      },
+    ],
+    []
+  );
+
+  const data = useMemo (
+    ()=> Array()
+    .fill()
+    .map(()=({
+      variant: Weaponjson.variant(),
+      email: Weaponjson.
+    }))
+  )
+  
   return (
     <>
       {weaponInfo && (
