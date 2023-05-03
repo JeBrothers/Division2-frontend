@@ -865,7 +865,7 @@
     }
   ],
 
-  "LIGHT MACHINE GUNS": [
+  "LIGHT_MACHINE_GUNS": [
     {
       "variant": "NEGEV",
       "engName": "IWI Negev",
@@ -910,7 +910,7 @@
     }
   ],
 
-  "SUBMACHINE GUNS": [
+  "SUBMACHINE_GUNS": [
     {
       "variant": "Vector SBR .45 ACP(Kriss Vector .45 ACP)",
       "engName": "Dark Winter",
@@ -1039,7 +1039,7 @@
       "flavourText": "내 땅에서 당장 꺼져. 그래, 너 말이야. 얼른 꺼지라고.- DC 지역 주민"
     }
   ],
-  "MARKSMAN RIFLES": [
+  "MARKSMAN_RIFLES": [
     {
       "variant": "Custom AWM AICS 2.0 chasis AX50 stock Magpul AFG-12",
       "engName": "Nemesis",
