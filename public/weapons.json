@@ -1,5 +1,5 @@
 {
-  "ASSAULT RIFLES": [
+  "ASSAULT_RIFLES": [
     {
       "variant": "ACR",
       "engName": "ACR",
@@ -11,10 +11,10 @@
       "damage": 53124,
       "dps": 575510,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -31,10 +31,10 @@
       "damage": 53124,
       "dps": 575510,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -51,10 +51,10 @@
       "damage": 62056,
       "dps": 620560,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": false,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -71,10 +71,10 @@
       "damage": 60645,
       "dps": 606450,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -91,10 +91,10 @@
       "damage": 60645,
       "dps": 606450,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -111,10 +111,10 @@
       "damage": 62056,
       "dps": 620560,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -131,10 +131,10 @@
       "damage": 62056,
       "dps": 620560,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": true,
       "exotic": false,
@@ -153,10 +153,10 @@
       "damage": 51243,
       "dps": 580754,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -174,10 +174,10 @@
       "damage": 51243,
       "dps": 650444,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": true,
       "named": true,
@@ -193,10 +193,10 @@
       "damage": 51243,
       "dps": 683240,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "false",
-        "magazine": "false",
-        "optics": "false"
+        "muzzle": false,
+        "underbarrel": false,
+        "magazine": false,
+        "optics": false
       },
       "dlc": true,
       "exotic": true,
@@ -214,10 +214,10 @@
       "damage": 47012,
       "dps": 618991,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -234,10 +234,10 @@
       "damage": 45132,
       "dps": 639370,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "false",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": false,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -254,10 +254,10 @@
       "damage": 45132,
       "dps": 639370,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "false",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": false,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -274,10 +274,10 @@
       "damage": 45132,
       "dps": 639370,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "false",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": false,
+        "magazine": true,
+        "optics": true
       },
       "named": true,
       "flavourText": "새겨진 글: 정면 돌파가 답이다."
@@ -293,10 +293,10 @@
       "damage": 56885,
       "dps": 616254,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -313,10 +313,10 @@
       "damage": 56885,
       "dps": 616254,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -333,10 +333,10 @@
       "damage": 56885,
       "dps": 616254,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -353,10 +353,10 @@
       "damage": 56885,
       "dps": 616254,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -373,10 +373,10 @@
       "damage": 44191,
       "dps": 662865,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -393,10 +393,10 @@
       "damage": 44191,
       "dps": 662865,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -413,10 +413,10 @@
       "damage": 44191,
       "dps": 662865,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -435,10 +435,10 @@
       "damage": 48892,
       "dps": 611150,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -456,10 +456,10 @@
       "damage": 48892,
       "dps": 611150,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -477,10 +477,10 @@
       "damage": 48892,
       "dps": 611150,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -497,10 +497,10 @@
       "damage": 48892,
       "dps": 611150,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -518,10 +518,10 @@
       "damage": 48892,
       "dps": 611150,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -539,10 +539,10 @@
       "damage": 47952,
       "dps": 631368,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": false,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -560,10 +560,10 @@
       "damage": 47952,
       "dps": 631368,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": false,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -582,10 +582,10 @@
       "damage": 44191,
       "dps": 626039,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -603,10 +603,10 @@
       "damage": 44191,
       "dps": 626039,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -624,10 +624,10 @@
       "damage": 44191,
       "dps": 626039,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -646,10 +646,10 @@
       "damage": 55004,
       "dps": 572958,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -666,10 +666,10 @@
       "damage": 55004,
       "dps": 572958,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -686,10 +686,10 @@
       "damage": 55004,
       "dps": 572958,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -706,10 +706,10 @@
       "damage": 55004,
       "dps": 572958,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -727,10 +727,10 @@
       "damage": 47952,
       "dps": 599400,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -748,10 +748,10 @@
       "damage": 47952,
       "dps": 599400,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -768,10 +768,10 @@
       "damage": 47952,
       "dps": 599400,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -790,10 +790,10 @@
       "damage": 51713,
       "dps": 646413,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "false",
-        "magazine": "false",
-        "optics": "false"
+        "muzzle": false,
+        "underbarrel": false,
+        "magazine": false,
+        "optics": false
       },
       "dlc": false,
       "exotic": true,
@@ -801,7 +801,7 @@
       "flavourText": "국가적인 재난에 맞서 불철주야 보호와 헌신에 힘쓴 오데사 소여에게 이 선물을 바칩니다. 훗날 앞길에 난관이 닥치더라도 극복할 수 있기를 기원합니다. - 극장 정착지 주민 일동"
     },
 
-  {
+    {
       "variant": "PDR",
       "engName": "PDR",
       "name": "PDR",
@@ -812,18 +812,17 @@
       "damage": 51713,
       "dps": 603318,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": false,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
-      "named": false,
-
+      "named": false
     },
 
-  {
+    {
       "variant": "PDR",
       "engName": "Test Subject",
       "name": "실험체",
@@ -834,18 +833,15 @@
       "damage": 51713,
       "dps": 603318,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": false,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
-      "named": true,
- "flavourText":
+      "named": true
     },
-
-
 
     {
       "variant": "Vector SBR .45 ACP(Kriss Vector .45 ACP)",
@@ -857,10 +853,10 @@
       "damage": 39960,
       "dps": 599400,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "false",
-        "magazine": "false",
-        "optics": "false"
+        "muzzle": false,
+        "underbarrel": false,
+        "magazine": false,
+        "optics": false
       },
       "dlc": false,
       "exotic": true,
@@ -881,10 +877,10 @@
       "damage": 37610,
       "dps": 532808,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -902,10 +898,10 @@
       "damage": 44661,
       "dps": 595480,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -926,10 +922,10 @@
       "damage": 40430,
       "dps": 808600,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -946,10 +942,10 @@
       "damage": 42781,
       "dps": 499112,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "false",
-        "magazine": "false",
-        "optics": "false"
+        "muzzle": false,
+        "underbarrel": false,
+        "magazine": false,
+        "optics": false
       },
       "dlc": false,
       "exotic": true,
@@ -969,10 +965,10 @@
       "damage": 646883,
       "dps": 754697,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -988,10 +984,10 @@
       "damage": 451314,
       "dps": 977847,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "false",
-        "magazine": "false",
-        "optics": "false"
+        "muzzle": false,
+        "underbarrel": false,
+        "magazine": false,
+        "optics": false
       },
       "dlc": false,
       "exotic": true,
@@ -1011,10 +1007,10 @@
       "damage": 205442,
       "dps": 616326,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": false,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -1032,10 +1028,10 @@
       "damage": 342247,
       "dps": 507412,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "false",
-        "magazine": "true",
-        "optics": "false"
+        "muzzle": false,
+        "underbarrel": false,
+        "magazine": true,
+        "optics": false
       },
       "dlc": false,
       "exotic": false,
@@ -1054,10 +1050,10 @@
       "damage": 940240,
       "dps": 785533,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "false",
-        "magazine": "false",
-        "optics": "false"
+        "muzzle": false,
+        "underbarrel": false,
+        "magazine": false,
+        "optics": false
       },
       "dlc": false,
       "exotic": true,
@@ -1075,10 +1071,10 @@
       "damage": 338957,
       "dps": 338957,
       "ModSlot": {
-        "muzzle": "true",
-        "underbarrel": "true",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": true,
+        "underbarrel": true,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -1096,10 +1092,10 @@
       "damage": 190399,
       "dps": 507731,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "false",
-        "magazine": "true",
-        "optics": "true"
+        "muzzle": false,
+        "underbarrel": false,
+        "magazine": true,
+        "optics": true
       },
       "dlc": false,
       "exotic": false,
@@ -1116,10 +1112,10 @@
       "damage": 282072,
       "dps": 752192,
       "ModSlot": {
-        "muzzle": "false",
-        "underbarrel": "false",
-        "magazine": "false",
-        "optics": "false"
+        "muzzle": false,
+        "underbarrel": false,
+        "magazine": false,
+        "optics": false
       },
       "dlc": false,
       "exotic": true,
