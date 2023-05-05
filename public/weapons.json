@@ -468,26 +468,6 @@
 
     {
       "variant": "G36",
-      "engName": "G36 C",
-      "name": "G36 C",
-      "rpm": 750,
-      "baseMagSize": 30,
-      "moddedMagSize": 50,
-      "reload": 2.3,
-      "damage": 48892,
-      "dps": 611150,
-      "ModSlot": {
-        "muzzle": true,
-        "underbarrel": true,
-        "magazine": true,
-        "optics": true
-      },
-      "dlc": false,
-      "exotic": false,
-      "named": false
-    },
-    {
-      "variant": "G36",
       "engName": "G36 Enhanced",
       "name": "강화형 G36",
       "rpm": 750,
@@ -844,7 +824,7 @@
     },
 
     {
-      "variant": "Vector SBR .45 ACP(Kriss Vector .45 ACP)",
+      "variant": "Vector SBR .45 ACP ",
       "engName": "Chameleon",
       "name": "카멜레온",
       "rpm": 900,
