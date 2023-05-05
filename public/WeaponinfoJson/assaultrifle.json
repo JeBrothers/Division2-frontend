@@ -9,12 +9,11 @@
     "reload": 2.3,
     "damage": 53124,
     "dps": 575510,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -29,12 +28,11 @@
     "reload": 2.3,
     "damage": 53124,
     "dps": 575510,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -49,12 +47,11 @@
     "reload": 2.5,
     "damage": 62056,
     "dps": 620560,
-    "ModSlot": {
-      "muzzle": false,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -69,12 +66,11 @@
     "reload": 2.5,
     "damage": 60645,
     "dps": 606450,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -89,12 +85,11 @@
     "reload": 2.5,
     "damage": 60645,
     "dps": 606450,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -109,12 +104,11 @@
     "reload": 2.5,
     "damage": 62056,
     "dps": 620560,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -129,12 +123,11 @@
     "reload": 2.5,
     "damage": 62056,
     "dps": 620560,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": true,
     "exotic": false,
     "named": true,
@@ -151,12 +144,11 @@
     "reload": 2.1,
     "damage": 51243,
     "dps": 580754,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -172,12 +164,11 @@
     "reload": 2.1,
     "damage": 51243,
     "dps": 650444,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": true,
     "named": true,
     "flavourText": "네놈 눈깔에는 내가 무슨 자선 사업가로 보이냐? 시장 원리대로 해. 내 상품이 탐나면 거래를 하자고.- 캐시 멘도자, 암상인"
@@ -191,12 +182,11 @@
     "reload": 1.9,
     "damage": 51243,
     "dps": 683240,
-    "ModSlot": {
-      "muzzle": false,
-      "underbarrel": false,
-      "magazine": false,
-      "optics": false
-    },
+
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
     "dlc": true,
     "exotic": true,
     "flavourText": "조준하고 숨을 들이쉬어. 평정심을 다스리는거다. 집중하고. 숨을 내쉬어. 그리고 당겨."
@@ -212,12 +202,11 @@
     "reload": 2.4,
     "damage": 47012,
     "dps": 618991,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -232,12 +221,11 @@
     "reload": 2.1,
     "damage": 45132,
     "dps": 639370,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": false,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": false,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -252,12 +240,11 @@
     "reload": 2.1,
     "damage": 45132,
     "dps": 639370,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": false,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": false,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -272,12 +259,11 @@
     "reload": 2.1,
     "damage": 45132,
     "dps": 639370,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": false,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": false,
+    "magazine": true,
+    "optics": true,
     "named": true,
     "flavourText": "새겨진 글: 정면 돌파가 답이다."
   },
@@ -291,12 +277,11 @@
     "reload": 2.3,
     "damage": 56885,
     "dps": 616254,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -311,12 +296,11 @@
     "reload": 2.3,
     "damage": 56885,
     "dps": 616254,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -331,12 +315,11 @@
     "reload": 2.3,
     "damage": 56885,
     "dps": 616254,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -351,12 +334,11 @@
     "reload": 2.3,
     "damage": 56885,
     "dps": 616254,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -371,12 +353,11 @@
     "reload": 2.2,
     "damage": 44191,
     "dps": 662865,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -391,12 +372,11 @@
     "reload": 2.2,
     "damage": 44191,
     "dps": 662865,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -411,12 +391,11 @@
     "reload": 2.2,
     "damage": 44191,
     "dps": 662865,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": true,
@@ -433,12 +412,11 @@
     "reload": 2.3,
     "damage": 48892,
     "dps": 611150,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -454,12 +432,11 @@
     "reload": 2.3,
     "damage": 48892,
     "dps": 611150,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -475,12 +452,11 @@
     "reload": 2.3,
     "damage": 48892,
     "dps": 611150,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -496,12 +472,11 @@
     "reload": 2.3,
     "damage": 48892,
     "dps": 611150,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -517,12 +492,11 @@
     "reload": 2.4,
     "damage": 47952,
     "dps": 631368,
-    "ModSlot": {
-      "muzzle": false,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -538,12 +512,11 @@
     "reload": 2.4,
     "damage": 47952,
     "dps": 631368,
-    "ModSlot": {
-      "muzzle": false,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": true,
@@ -560,12 +533,11 @@
     "reload": 2.4,
     "damage": 44191,
     "dps": 626039,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -581,12 +553,11 @@
     "reload": 2.4,
     "damage": 44191,
     "dps": 626039,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -602,12 +573,11 @@
     "reload": 2.4,
     "damage": 44191,
     "dps": 626039,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": true,
@@ -624,12 +594,11 @@
     "reload": 2.3,
     "damage": 55004,
     "dps": 572958,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -644,12 +613,11 @@
     "reload": 2.3,
     "damage": 55004,
     "dps": 572958,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -664,12 +632,11 @@
     "reload": 2.3,
     "damage": 55004,
     "dps": 572958,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -684,12 +651,11 @@
     "reload": 2.3,
     "damage": 55004,
     "dps": 572958,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -705,12 +671,11 @@
     "reload": 2.3,
     "damage": 47952,
     "dps": 599400,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -726,12 +691,11 @@
     "reload": 2.3,
     "damage": 47952,
     "dps": 599400,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -746,12 +710,11 @@
     "reload": 2.3,
     "damage": 47952,
     "dps": 599400,
-    "ModSlot": {
-      "muzzle": true,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": true,
@@ -768,12 +731,11 @@
     "reload": 2.3,
     "damage": 51713,
     "dps": 646413,
-    "ModSlot": {
-      "muzzle": false,
-      "underbarrel": false,
-      "magazine": false,
-      "optics": false
-    },
+
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
     "dlc": false,
     "exotic": true,
     "named": false,
@@ -790,12 +752,11 @@
     "reload": 2.2,
     "damage": 51713,
     "dps": 603318,
-    "ModSlot": {
-      "muzzle": false,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": false
@@ -811,19 +772,18 @@
     "reload": 2.2,
     "damage": 51713,
     "dps": 603318,
-    "ModSlot": {
-      "muzzle": false,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": true
   },
 
   {
-    "variant": "Vector SBR .45 ACP \n (Kriss Vector .45 ACP)",
+    "variant": "Vector SBR .45 ACP \u000A (Kriss Vector .45 ACP)",
     "engName": "Chameleon",
     "name": "카멜레온",
     "rpm": 900,
@@ -831,12 +791,12 @@
     "reload": 2.4,
     "damage": 39960,
     "dps": 599400,
-    "ModSlot": {
-      "muzzle": false,
-      "underbarrel": false,
-      "magazine": false,
-      "optics": false
-    },
+
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
+
     "dlc": false,
     "exotic": true,
     "named": false,

@@ -1,5 +1,5 @@
 import React from "react";
-import WeaponJson from "../../public/weapons.json";
+
 import AssualtRifle from "../../public/WeaponinfoJson/assaultrifle.json";
 
 interface AR {
@@ -23,14 +23,26 @@ interface AR {
 }
 
 export default function WeaponJsonDataDisplay() {
-  const DisplayData: AR = AssualtRifle;
+  const DisplayData: AR[] = AssualtRifle;
 
-  const data = DisplayData.map((info) => {
+  let prevVariant: string | undefined = undefined;
+
+  const data = DisplayData.map((info, index) => {
+    const isSameVariant = info.variant === prevVariant;
+    prevVariant = info.variant;
+
     return (
       <tr className="bg-white border-b border-x ">
-        <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap  border-x border-gray-200">
-          {info.variant}
-        </td>
+        {!isSameVariant && (
+          <td
+            className="px-6 py-4 font-medium whitespace-pre-line text-gray-900  border-x border-gray-200"
+            rowSpan={DisplayData.slice(index).findIndex(
+              (x) => x.variant !== info.variant
+            )}
+          >
+            {info.variant}
+          </td>
+        )}
         <td className="px-6 py-4 border-x border-gray-200">{info.name}</td>
         <td className="px-6 py-4 border-x border-gray-200">
           {info.baseMagSize}
@@ -39,16 +51,16 @@ export default function WeaponJsonDataDisplay() {
         <td className="px-6 py-4 border-x border-gray-200">{info.damage}</td>
         <td className="px-6 py-4 border-x border-gray-200">{info.dps}</td>
         <td className="px-6 py-4 text-center border-x border-gray-200">
-          {info.optics}
+          {info.optics ? "O" : "X"}
         </td>
         <td className="px-6 py-4 text-center border-x border-gray-200">
-          {info.muzzle}
+          {info.muzzle ? "O" : "X"}
         </td>
         <td className="px-6 py-4 text-center border-x border-gray-200">
-          {info.magazine}
+          {info.magazine ? "O" : "X"}
         </td>
         <td className="px-6 py-4 text-center border-x border-gray-200">
-          {info.underbarrel}
+          {info.underbarrel ? "O" : "X"}
         </td>
       </tr>
     );
