@@ -684,7 +684,7 @@
   {
     "variant": "P416",
     "engName": "Custom P416 G3",
-    "name": "",
+    "name": "커스텀 P416",
     "rpm": 750,
     "baseMagSize": 30,
     "moddedMagSize": 50,
@@ -780,6 +780,146 @@
     "dlc": false,
     "exotic": false,
     "named": true
+  },
+
+  {
+    "variant": "PDR",
+    "engName": "Capacitor",
+    "name": "축전기",
+    "rpm": 700,
+    "baseMagSize": 30,
+    "moddedMagSize": 41,
+    "reload": 2.0,
+    "damage": 51713,
+    "dps": 603318,
+
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
+    "dlc": true,
+    "exotic": true,
+    "named": false
+  },
+
+  {
+    "variant": "SIG 556",
+    "engName": "Sig Sauer 556",
+    "name": "Sig 556",
+    "rpm": 720,
+    "baseMagSize": 30,
+    "moddedMagSize": 50,
+    "reload": 2.5,
+    "damage": 50773,
+    "dps": 609276,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": true,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SIG 556",
+    "engName": "Mechanical Animal",
+    "name": "기계동물",
+    "rpm": 720,
+    "baseMagSize": 30,
+    "moddedMagSize": 50,
+    "reload": 2.5,
+    "damage": 50773,
+    "dps": 609276,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": true,
+    "exotic": false,
+    "named": true
+  },
+
+  {
+    "variant": "TKB-408",
+    "engName": "TKB-408",
+    "name": "TKB-408",
+    "rpm": 650,
+    "baseMagSize": 30,
+    "moddedMagSize": 50,
+    "reload": 2.6,
+    "damage": 58765,
+    "dps": 636621,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": true,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "TKB-408",
+    "engName": "Kingbreaker",
+    "name": "왕 분쇄자",
+    "rpm": 650,
+    "baseMagSize": 30,
+    "moddedMagSize": 50,
+    "reload": 2.6,
+    "damage": 58765,
+    "dps": 636621,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": true,
+    "exotic": false,
+    "named": true
+  },
+
+  {
+    "variant": "CTAR-21",
+    "engName": "CTAR-21",
+    "name": "CTAR-21",
+    "rpm": 900,
+    "baseMagSize": 30,
+    "moddedMagSize": 50,
+    "reload": 2.1,
+    "damage": 41371,
+    "dps": 62565,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "CTAR-21",
+    "engName": "The Ralisplitter",
+    "name": "나무꾼",
+    "rpm": 900,
+    "baseMagSize": 30,
+    "moddedMagSize": 50,
+    "reload": 2.1,
+    "damage": 41371,
+    "dps": 62565,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
   },
 
   {

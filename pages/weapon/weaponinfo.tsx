@@ -5,8 +5,10 @@ import { useEffect, useMemo, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { useForm } from "react-hook-form";
 import WeaponTypeIcon from "../components/WeaponTypeIcon";
-import Weaponjson from "../../public/weapons.json";
-import WeaponJsonDataDisplay from "./weaponinfotable";
+
+import WeaponJsonDataDisplay from "./weapontable/artable";
+import ArTable from "./weapontable/artable";
+import RifleTable from "./weapontable/rifletable";
 
 interface WeaponInfo {
   assultrifle?: string;
@@ -183,135 +185,12 @@ const WeaponInfo: NextPage = () => {
 
             {/* 돌격소총 */}
             <TabPanel>
-              <WeaponJsonDataDisplay />
+              <ArTable />
             </TabPanel>
 
             {/* 소총 */}
             <TabPanel>
-              <div className="flex relative overflow-x-auto justify-center">
-                <table className="w-max-md w-2/3 text-sm  text-gray-500 dark:text-gray-400 border-t  border-gray-200 text-center ">
-                  <thead className="text-xs text-white uppercase  bg-division-dark dark:bg-gray-700 dark:text-gray-400">
-                    <tr>
-                      <th scope="col" className="px-6  py-6">
-                        총기 종류
-                      </th>
-                      <th scope="col" className="px-6 py-6">
-                        총기명
-                      </th>
-                      <th scope="col" className="px-6 py-6">
-                        RPM
-                      </th>
-                      <th scope="col" className="px-6 py-6">
-                        기본 탄창
-                      </th>
-                      <th scope="col" className="px-6 py-6">
-                        최대 탄창
-                      </th>
-                      <th scope="col" className="px-6 py-6">
-                        재장전 시간(빈 탄창)
-                      </th>
-                      <th scope="col" className="px-6 py-6 ">
-                        DPS
-                      </th>
-
-                      <td className="px-6 py-6 bg-division-color text-division-dark whitespace-nowrap">
-                        조준기
-                      </td>
-                      <td
-                        scope="col"
-                        className="  px-6 py-6 bg-division-color text-division-dark whitespace-nowrap"
-                      >
-                        총구
-                      </td>
-                      <td
-                        scope="col"
-                        className=" px-6 py-6  bg-division-color text-division-dark whitespace-nowrap"
-                      >
-                        총열
-                      </td>
-                      <td
-                        scope="col"
-                        className=" px-6 py-6 bg-division-color text-division-dark whitespace-nowrap"
-                      >
-                        탄창
-                      </td>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 ">
-                      <th
-                        rowSpan={1}
-                        scope="row"
-                        className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white border-x border-gray-200"
-                      >
-                        M1A
-                      </th>
-                      <td className="px-6 py-4 border-x border-gray-200">
-                        덧거리
-                      </td>
-                      <td className="px-6 py-4 border-x border-gray-200">
-                        180
-                      </td>
-                      <td className="px-6 py-4 border-x border-gray-200">13</td>
-                      <td className="px-6 py-4 border-x border-gray-200"></td>
-                      <td className="px-6 py-4 border-x border-gray-200">
-                        3.0
-                      </td>
-                      <td className="px-6 py-4 border-x border-gray-200">
-                        616326
-                      </td>
-                      <td className="px-6 py-4 text-center border-x border-gray-200">
-                        X
-                      </td>
-                      <td className="px-6 py-4 text-center border-x border-gray-200">
-                        O
-                      </td>
-                      <td className="px-6 py-4 text-center border-x border-gray-200">
-                        O
-                      </td>
-                      <td className="px-6 py-4 text-center border-x border-gray-200">
-                        O
-                      </td>
-                    </tr>
-
-                    <tr className="bg-white dark:bg-gray-800 border-b">
-                      <th
-                        rowSpan={2}
-                        scope="row"
-                        className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white border-x border-gray-200 "
-                      >
-                        1886
-                      </th>
-                      <td className="px-6 py-4 border-x border-gray-200 ">
-                        버지니아인
-                      </td>
-                      <td className="px-6 py-4 border-x border-gray-200 ">
-                        100
-                      </td>
-                      <td className="px-6 py-4 border-x border-gray-200 ">5</td>
-                      <td className="px-6 py-4 border-x border-gray-200 "></td>
-                      <td className="px-6 py-4 border-x border-gray-200 ">
-                        3.4
-                      </td>
-                      <td className="px-6 py-4 border-x border-gray-200 ">
-                        507412
-                      </td>
-                      <td className="px-6 py-4 border-x border-gray-200  text-center">
-                        X
-                      </td>
-                      <td className="px-6 py-4 border-x border-gray-200  text-center">
-                        X
-                      </td>
-                      <td className="px-6 py-4 border-x border-gray-200  text-center">
-                        O
-                      </td>
-                      <td className="px-6 py-4 border-x border-gray-200  text-center">
-                        X
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+              <RifleTable />
             </TabPanel>
 
             {/* 지정사수소총 */}

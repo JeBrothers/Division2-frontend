@@ -1,8 +1,8 @@
 import React from "react";
 
-import AssualtRifle from "../../public/WeaponinfoJson/assaultrifle.json";
+import Rifle from "../../../public/WeaponinfoJson/rifle.json";
 
-interface AR {
+interface Rifle {
   variant?: string;
   engName?: string;
   name?: string;
@@ -22,8 +22,8 @@ interface AR {
   flavourText?: string;
 }
 
-export default function WeaponJsonDataDisplay() {
-  const DisplayData: AR[] = AssualtRifle;
+export default function RifleTable() {
+  const DisplayData: Rifle[] = Rifle;
 
   let prevVariant: string | undefined = undefined;
 
@@ -31,11 +31,17 @@ export default function WeaponJsonDataDisplay() {
     const isSameVariant = info.variant === prevVariant;
     prevVariant = info.variant;
 
+    const nameColor = info.exotic
+      ? "text-division-orange"
+      : info.named
+      ? "text-yellow-300"
+      : "text-gray-900";
+
     return (
-      <tr className="bg-white border-b border-x ">
+      <tr className="bg-white border-b border-x mb-10 font-semibold">
         {!isSameVariant && (
           <td
-            className="px-6 py-4 font-medium whitespace-pre-line text-gray-900  border-x border-gray-200"
+            className="px-6 py-4  whitespace-pre-line text-gray-900  border-x border-gray-200"
             rowSpan={DisplayData.slice(index).findIndex(
               (x) => x.variant !== info.variant
             )}
@@ -43,7 +49,9 @@ export default function WeaponJsonDataDisplay() {
             {info.variant}
           </td>
         )}
-        <td className="px-6 py-4 border-x border-gray-200">{info.name}</td>
+        <td className={`px-6 py-4 border-x border-gray-200  ${nameColor}`}>
+          {info.name}
+        </td>
         <td className="px-6 py-4 border-x border-gray-200">
           {info.baseMagSize}
         </td>
@@ -68,9 +76,9 @@ export default function WeaponJsonDataDisplay() {
 
   return (
     <>
-      <div className="flex relative overflow-x-auto justify-center">
+      <div className="flex relative overflow-x-auto justify-center pb-8">
         <table className="w-max-md w-2/3 text-sm  text-gray-500 dark:text-gray-400 border-t  border-gray-200 text-center ">
-          <thead className="text-xs text-white uppercase  bg-division-dark dark:bg-gray-700 dark:text-gray-400">
+          <thead className="text-xs text-white uppercase  bg-division-dark font-semibold ">
             <tr>
               <th scope="col" className="px-6  py-6">
                 총기종류
@@ -92,7 +100,7 @@ export default function WeaponJsonDataDisplay() {
               </th>
               <th
                 scope="col"
-                className="px-6 py-6 bg-division-color text-division-dark whitespace-nowrap"
+                className="px-6 py-6  bg-division-color text-division-dark whitespace-nowrap"
               >
                 조준기
               </th>

@@ -1,0 +1,43 @@
+[
+  {
+    "variant": "M1A",
+    "engName": "Baker Dozen",
+    "name": "덧거리",
+    "rpm": 180,
+    "baseMagSize": 13,
+    "reload": 3.0,
+    "damage": 205442,
+    "dps": 616326,
+    "ModSlot": {
+      "muzzle": false,
+      "underbarrel": true,
+      "magazine": true,
+      "optics": true
+    },
+    "dlc": false,
+    "exotic": false,
+    "named": true,
+    "flavourText": "난 이 소총과 함께 전쟁터를 헤쳐나왔어. 너도 이 녀석과 함께 헤쳐나올 수 있길 빈다.- 롤랜드 T. 베이커 병장"
+  },
+
+  {
+    "variant": "1886",
+    "engName": "The Virginian",
+    "name": "버지니아인",
+    "rpm": 100,
+    "baseMagSize": 5,
+    "reload": 3.4,
+    "damage": 342247,
+    "dps": 507412,
+    "ModSlot": {
+      "muzzle": false,
+      "underbarrel": false,
+      "magazine": true,
+      "optics": false
+    },
+    "dlc": false,
+    "exotic": false,
+    "named": true,
+    "flavourText": "내 땅에서 당장 꺼져. 그래, 너 말이야. 얼른 꺼지라고.- DC 지역 주민"
+  }
+]
