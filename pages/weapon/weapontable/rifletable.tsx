@@ -25,26 +25,23 @@ interface Rifle {
 export default function RifleTable() {
   const DisplayData: Rifle[] = Rifle;
 
-  let prevVariant: string | undefined = undefined;
-
   const data = DisplayData.map((info, index) => {
-    const isSameVariant = info.variant === prevVariant;
-    prevVariant = info.variant;
-
+    const isSameVariant =
+      index > 0 && info.variant === DisplayData[index - 1].variant;
     const nameColor = info.exotic
       ? "text-division-orange"
       : info.named
-      ? "text-yellow-300"
+      ? "text-yellow-400"
       : "text-gray-900";
 
     return (
       <tr className="bg-white border-b border-x mb-10 font-semibold">
         {!isSameVariant && (
           <td
-            className="px-6 py-4  whitespace-pre-line text-gray-900  border-x border-gray-200"
-            rowSpan={DisplayData.slice(index).findIndex(
-              (x) => x.variant !== info.variant
-            )}
+            className="px-6 py-4 whitespace-pre-line text-gray-900 border-x border-gray-200"
+            rowSpan={
+              DisplayData.filter((x) => x.variant === info.variant).length
+            }
           >
             {info.variant}
           </td>

@@ -1,6 +1,6 @@
 import React from "react";
 
-import AssualtRifle from "../../../public/WeaponinfoJson/assaultrifle.json";
+import AR from "../../../public/WeaponinfoJson/assaultrifle.json";
 
 interface AR {
   variant?: string;
@@ -22,29 +22,26 @@ interface AR {
   flavourText?: string;
 }
 
-export default function ArTable() {
-  const DisplayData: AR[] = AssualtRifle;
-
-  let prevVariant: string | undefined = undefined;
+export default function RifleTable() {
+  const DisplayData: AR[] = AR;
 
   const data = DisplayData.map((info, index) => {
-    const isSameVariant = info.variant === prevVariant;
-    prevVariant = info.variant;
-
+    const isSameVariant =
+      index > 0 && info.variant === DisplayData[index - 1].variant;
     const nameColor = info.exotic
       ? "text-division-orange"
       : info.named
-      ? "text-yellow-300"
+      ? "text-yellow-400"
       : "text-gray-900";
 
     return (
-      <tr className="bg-white border-b border-x mb-10 font-semibold">
+      <tr className="bg-white border-b border-x mb-10 font-bold">
         {!isSameVariant && (
           <td
-            className="px-6 py-4  whitespace-pre-line text-gray-900  border-x border-gray-200"
-            rowSpan={DisplayData.slice(index).findIndex(
-              (x) => x.variant !== info.variant
-            )}
+            className="px-6 py-4 whitespace-pre-line text-gray-900 border-x border-gray-200"
+            rowSpan={
+              DisplayData.filter((x) => x.variant === info.variant).length
+            }
           >
             {info.variant}
           </td>

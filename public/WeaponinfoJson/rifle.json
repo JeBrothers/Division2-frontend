@@ -1,5 +1,138 @@
 [
   {
+    "variant": "ACR",
+    "engName": "ACR SS",
+    "name": "ACR SS",
+    "rpm": 420,
+    "baseMagSize": 30,
+    "reload": 2.3,
+    "damage": 92614,
+    "dps": 648298,
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "AKM",
+    "engName": "Ruthless",
+    "name": "냉혈한",
+    "rpm": 400,
+    "baseMagSize": 30,
+    "reload": 2.1,
+    "damage": 84622,
+    "dps": 564147,
+
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
+    "dlc": false,
+    "exotic": true,
+    "named": false,
+    "flavourText": "어떤 사람들은 나더러 공감 능력이 없다고 하더군. 아니야 틀렸어. 내게 없는건 자비거든 - 조디악, 하이에나 위원회 멤버"
+  },
+  {
+    "variant": "AKM",
+    "engName": "Merciless",
+    "name": "무자비",
+    "rpm": 400,
+    "baseMagSize": 30,
+    "reload": 2.1,
+    "damage": 84622,
+    "dps": 564147,
+
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
+    "dlc": false,
+    "exotic": true,
+    "named": false,
+    "flavourText": "권력을 지키려면 피도 눈물도 없어야 해. 완전히 말이야 - 메이헴. 하이에나 위원"
+  },
+
+  {
+    "variant": "AR15",
+    "engName": "UIC15 MOD2",
+    "name": "UIC15 MOD2",
+    "rpm": 240,
+    "baseMagSize": 30,
+    "reload": 1.9,
+    "damage": 105777,
+    "dps": 423108,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": true,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M16",
+    "engName": "M16A2",
+    "name": "M16A2",
+    "rpm": 400,
+    "baseMagSize": 30,
+    "reload": 2.4,
+    "damage": 75219,
+    "dps": 501460,
+
+    "muzzle": true,
+    "underbarrel": false,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M16",
+    "engName": "M16A2 Replica",
+    "name": "M16A2 복제품",
+    "rpm": 400,
+    "baseMagSize": 30,
+    "reload": 2.4,
+    "damage": 75219,
+    "dps": 501460,
+
+    "muzzle": true,
+    "underbarrel": false,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M1A",
+    "engName": "Classic M1A",
+    "name": "클래식 M1A",
+    "rpm": 180,
+    "baseMagSize": 10,
+    "reload": 3,
+    "damage": 205442,
+    "dps": 616326,
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
     "variant": "M1A",
     "engName": "Baker Dozen",
     "name": "덧거리",
@@ -8,16 +141,495 @@
     "reload": 3.0,
     "damage": 205442,
     "dps": 616326,
-    "ModSlot": {
-      "muzzle": false,
-      "underbarrel": true,
-      "magazine": true,
-      "optics": true
-    },
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
     "dlc": false,
     "exotic": false,
     "named": true,
     "flavourText": "난 이 소총과 함께 전쟁터를 헤쳐나왔어. 너도 이 녀석과 함께 헤쳐나올 수 있길 빈다.- 롤랜드 T. 베이커 병장"
+  },
+
+  {
+    "variant": "M1A",
+    "engName": "SOCOM M1A",
+    "name": "SOCOM M1A",
+    "rpm": 320,
+    "baseMagSize": 10,
+    "reload": 3,
+    "damage": 141036,
+    "dps": 752192,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M1A",
+    "engName": "Stage Left",
+    "name": "질서정연",
+    "rpm": 350,
+    "baseMagSize": 10,
+    "reload": 3,
+    "damage": 141036,
+    "dps": 822710,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": true,
+    "exotic": false,
+    "named": true,
+    "flavourText": "질서정연한 입장이 곧 멋진 입장인 법. - 13"
+  },
+
+  {
+    "variant": "M1A",
+    "engName": "M1A CQB",
+    "name": "M1A CQB",
+    "rpm": 320,
+    "baseMagSize": 10,
+    "reload": 3,
+    "damage": 156080,
+    "dps": 832427,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M1A",
+    "engName": "M1A CQB Replica",
+    "name": "M1A CQB 복제품",
+    "rpm": 320,
+    "baseMagSize": 10,
+    "reload": 3,
+    "damage": 156080,
+    "dps": 832427,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M1A",
+    "engName": "Doctor Home",
+    "name": "주치의",
+    "rpm": 320,
+    "baseMagSize": 15,
+    "reload": 3,
+    "damage": 156080,
+    "dps": 910467,
+
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
+    "dlc": true,
+    "exotic": true,
+    "named": false,
+    "flavourText": "집은 스스로 지킬 수 있을 때 집이라고 할 수 있다. - 13"
+  },
+
+  {
+    "variant": "M4",
+    "engName": "Lightweight M4",
+    "name": "경량형 M4",
+    "rpm": 360,
+    "baseMagSize": 30,
+    "reload": 2.4,
+    "damage": 103897,
+    "dps": 623382,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M4",
+    "engName": "LVOA-C",
+    "name": "LVOA-C",
+    "rpm": 380,
+    "baseMagSize": 30,
+    "reload": 2.4,
+    "damage": 100136,
+    "dps": 634195,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M4",
+    "engName": "LVOA-C Replica",
+    "name": "LVOA-C 복제품",
+    "rpm": 380,
+    "baseMagSize": 30,
+    "reload": 2.4,
+    "damage": 100136,
+    "dps": 634195,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M4",
+    "engName": "Surge",
+    "name": "쇄도",
+    "rpm": 380,
+    "baseMagSize": 30,
+    "reload": 2.4,
+    "damage": 100136,
+    "dps": 634195,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": true,
+    "flavourText": "기계는 학습합니다. 우린 그렇지 않죠. - 계획적 진부화에 대한 트랜스휴머니즘적 관점"
+  },
+
+  {
+    "variant": "MDR",
+    "engName": "MDR Battle Rifle",
+    "name": "도심 MDR",
+    "rpm": 360,
+    "baseMagSize": 20,
+    "reload": 1.9,
+    "damage": 97785,
+    "dps": 586710,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "MDR",
+    "engName": "MDR Battle Rifle Replica",
+    "name": "도심 MDR 복제품",
+    "rpm": 360,
+    "baseMagSize": 20,
+    "reload": 1.9,
+    "damage": 97785,
+    "dps": 586710,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SCAR",
+    "engName": "Military MK17",
+    "name": "군용 MK17",
+    "rpm": 275,
+    "baseMagSize": 20,
+    "reload": 2.2,
+    "damage": 116120,
+    "dps": 532217,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SCAR",
+    "engName": "Police MK17",
+    "name": "경찰용 MK17",
+    "rpm": 275,
+    "baseMagSize": 20,
+    "reload": 2.2,
+    "damage": 116120,
+    "dps": 532217,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SCAR",
+    "engName": "Police MK17 Replica",
+    "name": "경찰용 MK17 복제품",
+    "rpm": 275,
+    "baseMagSize": 20,
+    "reload": 2.2,
+    "damage": 116120,
+    "dps": 532217,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SCAR",
+    "engName": "Everlasting Gaze",
+    "name": "영원한 시선",
+    "rpm": 275,
+    "baseMagSize": 20,
+    "reload": 2.2,
+    "damage": 116120,
+    "dps": 532217,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": true,
+    "flavourText": "이봐, 목표에서 눈을 떼지 마. 가만히... 가만히... 지금이다! - NYCP 교관"
+  },
+
+  {
+    "variant": "SIG",
+    "engName": "SIG 716",
+    "name": "SIG 716",
+    "rpm": 320,
+    "baseMagSize": 20,
+    "reload": 2.4,
+    "damage": 97785,
+    "dps": 521520,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SIG",
+    "engName": "SIG 716 Replica",
+    "name": "SIG 716 복제품",
+    "rpm": 320,
+    "baseMagSize": 20,
+    "reload": 2.4,
+    "damage": 97785,
+    "dps": 521520,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SIG",
+    "engName": "SIG 716 CQB",
+    "name": "SIG 716 CQB",
+    "rpm": 320,
+    "baseMagSize": 20,
+    "reload": 2.4,
+    "damage": 99665,
+    "dps": 531247,
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SIG",
+    "engName": "The Ravenous",
+    "name": "탐식자",
+    "rpm": 240,
+    "baseMagSize": 60,
+    "reload": 2.2,
+    "damage": 122231,
+    "dps": 488924,
+
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
+    "dlc": false,
+    "exotic": true,
+    "named": false,
+    "flavourText": "오딘의 사냥개 게리와 프레키가 영원한 전쟁을 누비니, 망자의 시체를 탐하노라. 가라, 오딘의 전사들아. 사냥해라. 사냥개의 갈증을 채워주거라."
+  },
+
+  {
+    "variant": "SIG",
+    "engName": "Artist's Tool",
+    "name": "예술가의 도구",
+    "rpm": 320,
+    "baseMagSize": 20,
+    "reload": 2.4,
+    "damage": 99665,
+    "dps": 531247,
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": true,
+    "flavourText": "네놈들한테나 전쟁이겠지. 우리에겐 예술이야. - 하이에나"
+  },
+
+  {
+    "variant": "UMP",
+    "engName": "USC .45 ACP",
+    "name": "USC .45 ACP",
+    "rpm": 420,
+    "baseMagSize": 20,
+    "reload": 2.3,
+    "damage": 98255,
+    "dps": 687785,
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "UMP",
+    "engName": "USC .45 ACP Replica",
+    "name": "USC .45 ACP 복제품",
+    "rpm": 420,
+    "baseMagSize": 20,
+    "reload": 2.3,
+    "damage": 98255,
+    "dps": 687785,
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "MK47",
+    "engName": "Resolute Mk47",
+    "name": "Resolute Mk47",
+    "rpm": 300,
+    "baseMagSize": 30,
+    "reload": 2.3,
+    "damage": 104837,
+    "dps": 524185,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": true,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "MK47",
+    "engName": "Harmony",
+    "name": "화합",
+    "rpm": 300,
+    "baseMagSize": 30,
+    "reload": 2.3,
+    "damage": 104837,
+    "dps": 524185,
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": true,
+    "exotic": false,
+    "named": true,
+    "flavourText": "노래 부르는 건 무기에게 맡겨. 보조 보컬을 준비해야둬야 하는 건 두말할 필요도 없지만. - 브링크 요원"
+  },
+
+  {
+    "variant": "1886",
+    "engName": "1886",
+    "name": "1886",
+    "rpm": 100,
+    "baseMagSize": 5,
+    "reload": 3.4,
+    "damage": 342247,
+    "dps": 507412,
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": true,
+    "optics": false,
+    "dlc": false,
+    "exotic": false,
+    "named": false
   },
 
   {
@@ -29,15 +641,32 @@
     "reload": 3.4,
     "damage": 342247,
     "dps": 507412,
-    "ModSlot": {
-      "muzzle": false,
-      "underbarrel": false,
-      "magazine": true,
-      "optics": false
-    },
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": true,
+    "optics": false,
     "dlc": false,
     "exotic": false,
     "named": true,
     "flavourText": "내 땅에서 당장 꺼져. 그래, 너 말이야. 얼른 꺼지라고.- DC 지역 주민"
+  },
+
+  {
+    "variant": "1886",
+    "engName": "Diamondback",
+    "name": "다이아몬드백",
+    "rpm": 100,
+    "baseMagSize": 5,
+    "reload": 3.1,
+    "damage": 329084,
+    "dps": 548473,
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
+    "dlc": false,
+    "exotic": true,
+    "named": false,
+    "flavourText": "진짜 다이아몬드백이 아니더라도 상관없어. 내 마음대로 부를거야. 이름이 맘에 들거든. - 매닝 국립 동물원 파충류 사육사"
   }
 ]
