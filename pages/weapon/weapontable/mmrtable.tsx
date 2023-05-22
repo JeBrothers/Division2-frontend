@@ -1,8 +1,8 @@
 import React from "react";
 
-import AR from "../../../public/WeaponinfoJson/assaultrifle.json";
+import Mmr from "../../../public/WeaponinfoJson/marksmanrifle.json";
 
-interface AR {
+interface Mmr {
   variant?: string;
   engName?: string;
   name?: string;
@@ -22,8 +22,8 @@ interface AR {
   flavourText?: string;
 }
 
-export default function RifleTable() {
-  const DisplayData: AR[] = AR;
+export default function MmrTable() {
+  const DisplayData: Mmr[] = Mmr;
 
   const data = DisplayData.map((info, index) => {
     const isSameVariant =
@@ -35,7 +35,7 @@ export default function RifleTable() {
       : "text-gray-900";
 
     return (
-      <tr className="bg-white border-b border-x mb-10 font-bold">
+      <tr className="bg-white border-b border-x mb-10 font-semibold">
         {!isSameVariant && (
           <td
             className="w-56 px-6 py-4 whitespace-pre-line text-gray-900 border-x border-gray-200"

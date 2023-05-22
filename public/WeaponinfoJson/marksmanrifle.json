@@ -1,0 +1,677 @@
+[
+  {
+    "variant": "SCAR",
+    "engName": "SOCOM Mk20 SSR",
+    "name": "SOCOM Mk20 SSR",
+    "rpm": 275,
+    "baseMagSize": 20,
+    "reload": 2.2,
+    "damage": 143857,
+    "dps": 659345,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SCAR",
+    "engName": "SOCOM Mk20 SSR Replica",
+    "name": "SOCOM Mk20 SSR 복제품",
+    "rpm": 275,
+    "baseMagSize": 20,
+    "reload": 2.2,
+    "damage": 143857,
+    "dps": 659345,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SCAR",
+    "engName": "The Darkness",
+    "name": "어둠",
+    "rpm": 275,
+    "baseMagSize": 20,
+    "reload": 2.2,
+    "damage": 143857,
+    "dps": 659345,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": true,
+    "flavourText": "장막은 진실을 가리고, 기만은 거짓을 전하노라. 장막은 방관을 유도하고, 기만은 행동을 부르노라."
+  },
+
+  {
+    "variant": "G28",
+    "engName": "G28",
+    "name": "G28",
+    "rpm": 275,
+    "baseMagSize": 20,
+    "reload": 2.4,
+    "damage": 146677,
+    "dps": 672270,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": true,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "G28",
+    "engName": "Relic",
+    "name": "유물",
+    "rpm": 275,
+    "baseMagSize": 20,
+    "reload": 2.4,
+    "damage": 146677,
+    "dps": 672270,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": true,
+    "exotic": false,
+    "named": true,
+    "flavourText": "이 신성한 도구의 힘으로 우린 무엇이든 해낼 수 있노라. - 성직자"
+  },
+  {
+    "variant": "G28",
+    "engName": "Sacrum Imperium",
+    "name": "신성 제국",
+    "rpm": 275,
+    "baseMagSize": 20,
+    "reload": 2.4,
+    "damage": 146677,
+    "dps": 672270,
+
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
+    "dlc": true,
+    "exotic": true,
+    "named": true,
+    "flavourText": "신성한 빛이 함께하사, 신의 정의를 집행하는 데 보탬이 되기를. - 성직자"
+  },
+
+  {
+    "variant": "M700",
+    "engName": "M700",
+    "name": "M700",
+    "rpm": 54,
+    "baseMagSize": 7,
+    "reload": 7.2,
+    "damage": 399602,
+    "dps": 359642,
+
+    "muzzle": true,
+    "underbarrel": false,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M700",
+    "engName": "M700 Replica",
+    "name": "M700 복제품",
+    "rpm": 54,
+    "baseMagSize": 7,
+    "reload": 7.2,
+    "damage": 399602,
+    "dps": 359642,
+
+    "muzzle": true,
+    "underbarrel": false,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M700",
+    "engName": "M700 Carbon",
+    "name": "M700 Carbon",
+    "rpm": 54,
+    "baseMagSize": 7,
+    "reload": 7.2,
+    "damage": 376096,
+    "dps": 338486,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M700",
+    "engName": "M700 Carbon Replica",
+    "name": "M700 Carbon 복제품",
+    "rpm": 54,
+    "baseMagSize": 7,
+    "reload": 7.2,
+    "damage": 376096,
+    "dps": 338486,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M700",
+    "engName": "M700 Tactical",
+    "name": "M700 Tactical",
+    "rpm": 54,
+    "baseMagSize": 7,
+    "reload": 7.2,
+    "damage": 376096,
+    "dps": 338486,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M700",
+    "engName": "Ekim's Long Stick",
+    "name": "에킴의 장대",
+    "rpm": 54,
+    "baseMagSize": 7,
+    "reload": 7.2,
+    "damage": 376096,
+    "dps": 338486,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": true,
+    "flavourText": "설마 짜리몽땅한 막대로 말벌집을 건드릴 생각은 아니시겠죠? 설마?"
+  },
+
+  {
+    "variant": "SVD",
+    "engName": "Paratrooper SVD",
+    "name": "공수부대용 SVD",
+    "rpm": 260,
+    "baseMagSize": 10,
+    "reload": 2.6,
+    "damage": 159841,
+    "dps": 692644,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SVD",
+    "engName": "Surplus SVD",
+    "name": "구제 SVD",
+    "rpm": 260,
+    "baseMagSize": 10,
+    "reload": 2.6,
+    "damage": 159841,
+    "dps": 692644,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SVD",
+    "engName": "Commando",
+    "name": "코만도",
+    "rpm": 260,
+    "baseMagSize": 10,
+    "reload": 2.6,
+    "damage": 159841,
+    "dps": 692644,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": true,
+    "flavourText": "잘 들어. 네가 용감한 녀석인 건 알겠어. 근데 그렇다고 맨몸으로 싸움터에 뛰어들면 안 되지. - 캐시 멘도자, 암상인"
+  },
+
+  {
+    "variant": "SVD",
+    "engName": "Dread Edic",
+    "name": "공포의 칙령",
+    "rpm": 260,
+    "baseMagSize": 10,
+    "reload": 2.6,
+    "damage": 159841,
+    "dps": 692644,
+
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
+    "dlc": true,
+    "exotic": true,
+    "named": true,
+    "flavourText": "내게 날아오는 비난이 몇 자나 되는지 무슨 수로 알겠는가. 하지만 끝나는 시점만큼은 알 수 있다."
+  },
+
+  {
+    "variant": "SRS",
+    "engName": "Covert SRS",
+    "name": "Covert SRS",
+    "rpm": 60,
+    "baseMagSize": 7,
+    "reload": 3.0,
+    "damage": 338957,
+    "dps": 338957,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SRS",
+    "engName": "SRS A1",
+    "name": "SRS A1",
+    "rpm": 60,
+    "baseMagSize": 7,
+    "reload": 3.0,
+    "damage": 338957,
+    "dps": 338957,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SRS",
+    "engName": "SRS A1 Replica",
+    "name": "SRS A1 복제품",
+    "rpm": 60,
+    "baseMagSize": 7,
+    "reload": 3.0,
+    "damage": 338957,
+    "dps": 338957,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "SRS",
+    "engName": "Mantis",
+    "name": "사마귀",
+    "rpm": 60,
+    "baseMagSize": 7,
+    "reload": 2.9,
+    "damage": 338957,
+    "dps": 338957,
+
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
+    "dlc": true,
+    "exotic": true,
+    "named": false,
+    "flavourText": "단순히 녹아든다고 해서 위장이 끝나는 건 아니야. '공격 의태'라고 들어본 적 있나? 숨어서 완벽한 사살 기회를 노리는 건 개나 소나 다해. 근데 유혹할 수 있으면 기다릴 필요가 없지. - 시드 '맨이터' 매디슨"
+  },
+
+  {
+    "variant": "SRS",
+    "engName": "Pinprick",
+    "name": "미세침",
+    "rpm": 60,
+    "baseMagSize": 7,
+    "reload": 3.0,
+    "damage": 338957,
+    "dps": 338957,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": true,
+    "flavourText": "공격은 빠르고 강력해야 해. 그런 다음 깔끔하게 씻어내고 반복하는 거지. - 하이에나 지정사수"
+  },
+
+  {
+    "variant": "M44",
+    "engName": "Classic M44 Carbine",
+    "name": "클래식 M44",
+    "rpm": 55,
+    "baseMagSize": 5,
+    "reload": 4.2,
+    "damage": 423108,
+    "dps": 387849,
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M44",
+    "engName": "Classic M44 Carbine Replica",
+    "name": "클래식 M44 복제품",
+    "rpm": 55,
+    "baseMagSize": 5,
+    "reload": 4.2,
+    "damage": 423108,
+    "dps": 387849,
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M44",
+    "engName": "Hunting M44",
+    "name": "사냥용 M44",
+    "rpm": 55,
+    "baseMagSize": 5,
+    "reload": 4.2,
+    "damage": 416056,
+    "dps": 381385,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M44",
+    "engName": "Custom M44",
+    "name": "커스텀 M44",
+    "rpm": 55,
+    "baseMagSize": 5,
+    "reload": 3.2,
+    "damage": 376067,
+    "dps": 344728,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M44",
+    "engName": "Custom M44 Replica",
+    "name": "커스텀 M44 복제품",
+    "rpm": 55,
+    "baseMagSize": 5,
+    "reload": 3.2,
+    "damage": 376067,
+    "dps": 344728,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "M44",
+    "engName": "Oh Carol",
+    "name": "오, 캐롤",
+    "rpm": 55,
+    "baseMagSize": 5,
+    "reload": 4.2,
+    "damage": 423108,
+    "dps": 387849,
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": true,
+    "flavourText": "크리스마스는 방울을 울리기 가장 좋은 때립니다. 밤을 밝히고 산타가 가장 아끼는 슬레이어의 도움을 받아 산타의 자루를 열어보세요. - 캐롤 성가대"
+  },
+
+  {
+    "variant": "M44",
+    "engName": "The white Death",
+    "name": "하얀 사신",
+    "rpm": 55,
+    "baseMagSize": 5,
+    "reload": 4.2,
+    "damage": 423108,
+    "dps": 387849,
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": true,
+    "flavourText": "눈 내리던 때가 그리워. - S.H."
+  },
+
+  {
+    "variant": "DSR-1",
+    "engName": "SR-1",
+    "name": "SR-1",
+    "rpm": 60,
+    "baseMagSize": 5,
+    "reload": 3.2,
+    "damage": 357291,
+    "dps": 357291,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "DSR-1",
+    "engName": "SR-1 Replica",
+    "name": "SR-1 복제품",
+    "rpm": 60,
+    "baseMagSize": 5,
+    "reload": 3.2,
+    "damage": 357291,
+    "dps": 357291,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "DSR-1",
+    "engName": "Adrestia SR1",
+    "name": "아드레스티아 SR1",
+    "rpm": 60,
+    "baseMagSize": 5,
+    "reload": 3.2,
+    "damage": 357291,
+    "dps": 357291,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": true
+  },
+
+  {
+    "variant": "DSR-1",
+    "engName": "Designated Hitter",
+    "name": "지정타자",
+    "rpm": 60,
+    "baseMagSize": 5,
+    "reload": 3.2,
+    "damage": 357291,
+    "dps": 357291,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": true,
+    "flavourText": "지정 타자가 되어달란 말씀입니까, 대령님? 어디 설득해보시죠. 대령님 평판을 생각하면 합류하는 순간부터 제 신상이 위험해질 수도 있으니 말입니다. - 브릭스 대위가 리지웨이에게 한 말"
+  },
+
+  {
+    "variant": "Taictical .308",
+    "engName": "Taictical .308",
+    "name": "전술용 .308",
+    "rpm": 70,
+    "baseMagSize": 7,
+    "reload": 3.0,
+    "damage": 324383,
+    "dps": 378447,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": false
+  },
+
+  {
+    "variant": "Taictical .308",
+    "engName": "Scalpel",
+    "name": "수술칼",
+    "rpm": 70,
+    "baseMagSize": 7,
+    "reload": 3.0,
+    "damage": 324383,
+    "dps": 378447,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": true
+  },
+
+  {
+    "variant": "Custom AWM AICS 2.0 chasis AX50 stock Magpul AFG-12",
+    "engName": "Nemesis",
+    "name": "네메시스",
+    "rpm": 50,
+    "baseMagSize": 5,
+    "reload": 2.8,
+    "damage": 940240,
+    "dps": 785533,
+
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
+    "dlc": false,
+    "exotic": true,
+    "named": false,
+    "flavourText": "난 감시자를 감시한다. - 패드라 '퍽' 라오, 블랙 터스크 저격수"
+  }
+]

@@ -38,7 +38,7 @@ export default function RifleTable() {
       <tr className="bg-white border-b border-x mb-10 font-semibold">
         {!isSameVariant && (
           <td
-            className="px-6 py-4 whitespace-pre-line text-gray-900 border-x border-gray-200"
+            className="w-56 px-6 py-4 whitespace-pre-line text-gray-900 border-x border-gray-200"
             rowSpan={
               DisplayData.filter((x) => x.variant === info.variant).length
             }
@@ -46,15 +46,17 @@ export default function RifleTable() {
             {info.variant}
           </td>
         )}
-        <td className={`px-6 py-4 border-x border-gray-200  ${nameColor}`}>
+        <td className={`w-60 px-6 py-4 border-x border-gray-200  ${nameColor}`}>
           {info.name}
         </td>
-        <td className="px-6 py-4 border-x border-gray-200">
+        <td className="w-30 px-6 py-4 border-x border-gray-200">
           {info.baseMagSize}
         </td>
-        <td className="px-6 py-4 border-x border-gray-200">{info.rpm}</td>
-        <td className="px-6 py-4 border-x border-gray-200">{info.damage}</td>
-        <td className="px-6 py-4 border-x border-gray-200">{info.dps}</td>
+        <td className="w-24 px-6 py-4 border-x border-gray-200">{info.rpm}</td>
+        <td className="w-36 px-6 py-4 border-x border-gray-200">
+          {info.damage}
+        </td>
+        <td className="w-36 px-6 py-4 border-x border-gray-200">{info.dps}</td>
         <td className="px-6 py-4 text-center border-x border-gray-200">
           {info.optics ? "O" : "X"}
         </td>
@@ -117,7 +119,7 @@ export default function RifleTable() {
                 scope="col"
                 className="px-6 py-6 bg-division-color text-division-dark whitespace-nowrap"
               >
-                총열 하단부
+                총열<br></br>하단부
               </td>
             </tr>
           </thead>
