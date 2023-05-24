@@ -919,7 +919,8 @@
     "optics": true,
     "dlc": false,
     "exotic": false,
-    "named": false
+    "named": true,
+    "flavourText": "네 동료 시체에서 구한 거야. 나쁘게 생각하진 마, 알았지? - 캐시 멘도자, 암상인"
   },
 
   {

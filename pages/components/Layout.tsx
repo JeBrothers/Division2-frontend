@@ -1,8 +1,8 @@
 import { Menu, Transition } from "@headlessui/react";
-import Link from "next/link";
-import React, { Fragment, useEffect, useState } from "react";
-import WeaponMenu from "./Layout/WeaponMenu";
+
+import React, { Fragment, useState } from "react";
 import GearMenu from "./Layout/GearMenu";
+import WeaponMenu from "./Layout/WeaponMenu";
 
 interface Layout {
   active?: string;
@@ -16,8 +16,8 @@ export default function Layout() {
   };
 
   React.useEffect(() => {
-    console.log("isMenuOpen", isMenuOpen)
-  }, [])
+    console.log("isMenuOpen", isMenuOpen);
+  }, []);
 
   return (
     <div className="relative mb-28">
@@ -274,10 +274,11 @@ export default function Layout() {
                         <Menu.Item>
                           {({ active }) => (
                             <button
-                              className={`${active
-                                ? "bg-division-dark text-white"
-                                : "text-gray-900"
-                                } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                              className={`${
+                                active
+                                  ? "bg-division-dark text-white"
+                                  : "text-gray-900"
+                              } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                             >
                               <span>스킬 리스트</span>
                             </button>
@@ -286,10 +287,11 @@ export default function Layout() {
                         <Menu.Item>
                           {({ active }) => (
                             <button
-                              className={`${active
-                                ? "bg-division-dark text-white"
-                                : "text-gray-900"
-                                } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                              className={`${
+                                active
+                                  ? "bg-division-dark text-white"
+                                  : "text-gray-900"
+                              } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                             >
                               <span>스킬 정보</span>
                             </button>
