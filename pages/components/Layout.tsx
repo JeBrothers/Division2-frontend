@@ -7,6 +7,12 @@ interface Layout {
 }
 
 export default function Layout() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <div className="relative mb-28">
       <div className="fixed top-0 left-0 right-0 z-10 ">
@@ -35,7 +41,10 @@ export default function Layout() {
 
                 <Menu as="div" className="relative inline-block text-left">
                   <div>
-                    <Menu.Button className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-division-orange md:p-0 md:w-auto dark:text-white  dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
+                    <Menu.Button
+                      onClick={toggleMenu}
+                      className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-division-orange md:p-0 md:w-auto dark:text-white  dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                    >
                       무기 정보
                       <svg
                         className="w-5 h-5 ml-1"
@@ -67,7 +76,7 @@ export default function Layout() {
                         <Link href="/weapon/weaponinfo">
                           <Menu.Item>
                             {({ active }) => (
-                              <Menu.Button
+                              <button
                                 className={`${
                                   active
                                     ? "bg-division-dark text-white"
@@ -75,7 +84,7 @@ export default function Layout() {
                                 } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                               >
                                 <span>무기 정보</span>
-                              </Menu.Button>
+                              </button>
                             )}
                           </Menu.Item>
                         </Link>
@@ -83,7 +92,7 @@ export default function Layout() {
                         <Link href="/weapon/weaponaccessory">
                           <Menu.Item>
                             {({ active }) => (
-                              <Menu.Button
+                              <button
                                 className={`${
                                   active
                                     ? "bg-division-dark text-white"
@@ -91,7 +100,7 @@ export default function Layout() {
                                 } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                               >
                                 <span>무기 부착물</span>
-                              </Menu.Button>
+                              </button>
                             )}
                           </Menu.Item>
                         </Link>
@@ -99,7 +108,7 @@ export default function Layout() {
                         <Link href="/weapon/weapontalent">
                           <Menu.Item>
                             {({ active }) => (
-                              <Menu.Button
+                              <button
                                 className={`${
                                   active
                                     ? "bg-division-dark text-white"
@@ -107,7 +116,7 @@ export default function Layout() {
                                 } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                               >
                                 무기 특수 효과
-                              </Menu.Button>
+                              </button>
                             )}
                           </Menu.Item>
                         </Link>
@@ -117,7 +126,7 @@ export default function Layout() {
                         <Link href="/weapon/wnamedexotic">
                           <Menu.Item>
                             {({ active }) => (
-                              <Menu.Button
+                              <button
                                 className={`${
                                   active
                                     ? "bg-division-dark text-division-orange"
@@ -125,7 +134,7 @@ export default function Layout() {
                                 } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                               >
                                 네임드 / 특급 아이템
-                              </Menu.Button>
+                              </button>
                             )}
                           </Menu.Item>
                         </Link>
@@ -167,7 +176,7 @@ export default function Layout() {
                       <div className="px-1 py-2 space-y-1 w-auto ">
                         <Menu.Item>
                           {({ active }) => (
-                            <Menu.Button
+                            <button
                               className={`${
                                 active
                                   ? "bg-division-dark text-white"
@@ -175,12 +184,12 @@ export default function Layout() {
                               } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                             >
                               브랜드 방어구
-                            </Menu.Button>
+                            </button>
                           )}
                         </Menu.Item>
                         <Menu.Item>
                           {({ active }) => (
-                            <Menu.Button
+                            <button
                               className={`${
                                 active
                                   ? "bg-division-dark text-white"
@@ -188,12 +197,12 @@ export default function Layout() {
                               } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                             >
                               기어 세트 방어구
-                            </Menu.Button>
+                            </button>
                           )}
                         </Menu.Item>
                         <Menu.Item>
                           {({ active }) => (
-                            <Menu.Button
+                            <button
                               className={`${
                                 active
                                   ? "bg-division-dark text-white"
@@ -201,7 +210,7 @@ export default function Layout() {
                               } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                             >
                               방어구 특수 효과
-                            </Menu.Button>
+                            </button>
                           )}
                         </Menu.Item>
                       </div>
@@ -209,7 +218,7 @@ export default function Layout() {
                       <div className="px-1 py-2 space-y-1 w-auto ">
                         <Menu.Item>
                           {({ active }) => (
-                            <Menu.Button
+                            <button
                               className={`${
                                 active
                                   ? "bg-division-dark text-division-orange"
@@ -217,7 +226,7 @@ export default function Layout() {
                               } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                             >
                               네임드 / 특급 아이템
-                            </Menu.Button>
+                            </button>
                           )}
                         </Menu.Item>
                       </div>
