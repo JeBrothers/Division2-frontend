@@ -5,10 +5,10 @@ import { useForm } from "react-hook-form";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import { cls } from "../../libs/utils";
 import WeaponTypeIcon from "../components/WeaponTypeIcon";
-
-import ArTable from "./weapontable/artable";
-import MmrTable from "./weapontable/mmrtable";
-import RifleTable from "./weapontable/rifletable";
+import ArTable from "./weaponinfotable/ar";
+import MmrTable from "./weaponinfotable/mmr";
+import RifleTable from "./weaponinfotable/rifle";
+import WeaponInfoTab from "./weapoininfoTab";
 
 interface WeaponInfo {
   assultrifle?: string;
@@ -70,6 +70,7 @@ const WeaponInfo: NextPage = () => {
       {weaponInfo && (
         <div className="">
           <Tabs>
+            <WeaponInfoTab />
             <TabList className=" mb-4 border-b border-gray-200 flex flex-wrap text-sm font-medium text-center justify-center">
               <Tab className="mr-2" role="presentation">
                 <button
