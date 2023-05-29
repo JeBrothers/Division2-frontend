@@ -1,15 +1,14 @@
 import type { NextPage } from "next";
 
-import { cls } from "../../libs/utils";
-import { useEffect, useMemo, useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
+import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
+import { cls } from "../../libs/utils";
 import WeaponTypeIcon from "../components/WeaponTypeIcon";
 
-import WeaponJsonDataDisplay from "./weapontable/artable";
 import ArTable from "./weapontable/artable";
-import RifleTable from "./weapontable/rifletable";
 import MmrTable from "./weapontable/mmrtable";
+import RifleTable from "./weapontable/rifletable";
 
 interface WeaponInfo {
   assultrifle?: string;
