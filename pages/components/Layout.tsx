@@ -1,9 +1,9 @@
 import { Menu } from "@headlessui/react";
 
 import React, { useState } from "react";
-import GearMenu from "./Layout/GearMenu";
-import SkillMenu from "./Layout/SkillMenu";
-import WeaponMenu from "./Layout/WeaponMenu";
+import GearMenu from "./Menus/GearMenu";
+import SkillMenu from "./Menus/SkillMenu";
+import WeaponMenu from "./Menus/WeaponMenu";
 
 interface Layout {
   active?: string;
@@ -46,11 +46,11 @@ export default function Layout() {
                   </div>
                 </Menu>
 
-                <Menu as={WeaponMenu} toggleMenu={toggleMenu} />
+                <WeaponMenu toggleMenu={toggleMenu} />
 
-                <Menu as={GearMenu} toggleMenu={toggleMenu} />
+                <GearMenu toggleMenu={toggleMenu} />
 
-                <Menu as={SkillMenu} toggleMenu={toggleMenu} />
+                <SkillMenu toggleMenu={toggleMenu} />
 
                 <Menu as="div" className="relative inline-block text-left">
                   <div>
