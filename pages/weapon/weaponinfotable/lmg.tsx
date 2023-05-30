@@ -1,8 +1,8 @@
 import React from "react";
 
-import Mmr from "../../../public/WeaponinfoJson/marksmanrifle.json";
+import LMG from "../../../public/WeaponinfoJson/lightmachinegun.json";
 
-interface Mmr {
+interface LMG {
   variant?: string;
   engName?: string;
   name?: string;
@@ -22,8 +22,8 @@ interface Mmr {
   flavourText?: string;
 }
 
-export default function MmrTable() {
-  const DisplayData: Mmr[] = Mmr;
+export default function LmgTable() {
+  const DisplayData: LMG[] = LMG;
 
   const data = DisplayData.map((info, index) => {
     const isSameVariant =
@@ -35,7 +35,7 @@ export default function MmrTable() {
       : "text-gray-900";
 
     return (
-      <tr className="bg-white border-b border-x mb-10 font-semibold">
+      <tr className="bg-white border-b border-x mb-10 font-bold">
         {!isSameVariant && (
           <td
             className="w-56 px-6 py-4 whitespace-pre-line text-gray-900 border-x border-gray-200"
@@ -46,7 +46,9 @@ export default function MmrTable() {
             {info.variant}
           </td>
         )}
-        <td className={`w-60 px-6 py-4 border-x border-gray-200  ${nameColor}`}>
+        <td
+          className={`w-60 pl-4 py-4 border-x border-gray-200 text-left  ${nameColor}`}
+        >
           {info.name}
         </td>
         <td className="w-30 px-6 py-4 border-x border-gray-200">

@@ -22,7 +22,7 @@ interface AR {
   flavourText?: string;
 }
 
-export default function RifleTable() {
+export default function ArTable() {
   const DisplayData: AR[] = AR;
 
   const data = DisplayData.map((info, index) => {
@@ -47,7 +47,7 @@ export default function RifleTable() {
           </td>
         )}
         <td
-          className={`w-48 pl-4 py-4 border-x border-gray-200 text-left  ${nameColor}`}
+          className={`w-60 pl-4 py-4 border-x border-gray-200 text-left  ${nameColor}`}
         >
           {info.name}
         </td>

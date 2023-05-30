@@ -46,7 +46,9 @@ export default function RifleTable() {
             {info.variant}
           </td>
         )}
-        <td className={`w-60 px-6 py-4 border-x border-gray-200  ${nameColor}`}>
+        <td
+          className={`w-60 px-6 py-4 border-x border-gray-200 text-left ${nameColor}`}
+        >
           {info.name}
         </td>
         <td className="w-30 px-6 py-4 border-x border-gray-200">
