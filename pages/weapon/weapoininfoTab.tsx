@@ -9,6 +9,9 @@ import RifleTable from "./weaponinfotable/rifle";
 import ArTable from "./weaponinfotable/ar";
 import MmrTable from "./weaponinfotable/mmr";
 import LmgTable from "./weaponinfotable/lmg";
+import SmgTable from "./weaponinfotable/smg";
+import SgTable from "./weaponinfotable/sg";
+import PistolTable from "./weaponinfotable/pistol";
 
 interface WeaponInfoTab {
   assultrifle?: string;
@@ -192,13 +195,19 @@ const WeaponInfoTab: NextPage = () => {
             </TabPanel>
 
             {/* 기관단총 */}
-            <TabPanel></TabPanel>
+            <TabPanel>
+              <SmgTable />
+            </TabPanel>
 
             {/* 샷건 */}
-            <TabPanel></TabPanel>
+            <TabPanel>
+              <SgTable />
+            </TabPanel>
 
             {/* 권총 */}
-            <TabPanel></TabPanel>
+            <TabPanel>
+              <PistolTable />
+            </TabPanel>
           </Tabs>
         </div>
       )}
