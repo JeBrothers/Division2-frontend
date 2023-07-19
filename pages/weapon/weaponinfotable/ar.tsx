@@ -20,6 +20,8 @@ interface AR {
   exotic?: boolean;
   named?: boolean;
   flavourText?: string;
+  talenttitle?: string;
+  talentdesc?: string;
 }
 
 export default function ArTable() {

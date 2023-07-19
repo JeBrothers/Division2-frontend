@@ -28,7 +28,7 @@ export default function Layout(props: LayoutProps) {
 
             <div>
               <div className="flex text-base font-semibold p-4 md:p-0 mt-4 border border-gray-100 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-division-color dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                <Menus menu="Simulator" toggleMenu={toggleMenu} />
+                {/* <Menus menu="Simulator" toggleMenu={toggleMenu} /> */}
 
                 <Menus menu="WeaponMenu" toggleMenu={toggleMenu} />
 
@@ -37,6 +37,8 @@ export default function Layout(props: LayoutProps) {
                 <Menus menu="Skill" toggleMenu={toggleMenu} />
 
                 <Menus menu="Attribute" toggleMenu={toggleMenu} />
+
+                {/* <Menus menu="Boards" toggleMenu={toggleMenu} /> */}
               </div>
             </div>
           </div>

@@ -131,7 +131,10 @@
     "dlc": true,
     "exotic": false,
     "named": true,
-    "flavourText": "드래고프, 어디 한 번만 더 나를 미치광이 요정 소녀라고 부르기만 해봐... 한 번만 더... 그렇게 불러봐- 비비안 콘리"
+    "flavourText": "드래고프, 어디 한 번만 더 나를 미치광이 요정 소녀라고 부르기만 해봐... 한 번만 더... 그렇게 불러봐- 비비안 콘리",
+    "talenttitle": "완벽한 과잉공급",
+    "droplocation": "다크존",
+    "tanlentdesc": "빈 탄창을 2번 재장전할 때마다 탄창 휴대량이 100% 증가합니다."
   },
 
   {
@@ -171,6 +174,7 @@
     "optics": true,
     "dlc": true,
     "named": true,
+    "droplocation": "일반필드,다크존",
     "flavourText": "네놈 눈깔에는 내가 무슨 자선 사업가로 보이냐? 시장 원리대로 해. 내 상품이 탐나면 거래를 하자고.- 캐시 멘도자, 암상인"
   },
   {
@@ -189,6 +193,7 @@
     "optics": false,
     "dlc": true,
     "exotic": true,
+
     "flavourText": "조준하고 숨을 들이쉬어. 평정심을 다스리는거다. 집중하고. 숨을 내쉬어. 그리고 당겨."
   },
 
@@ -265,6 +270,7 @@
     "magazine": true,
     "optics": true,
     "named": true,
+    "droplocation": "상아색 상자, 캐시 멘도자",
     "flavourText": "새겨진 글: 정면 돌파가 답이다."
   },
   {
@@ -399,6 +405,7 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "일반필드",
     "flavourText": "다른 근무에 또 들어가라고? 잘 들어. 엿이나 드세요. 더러워서 안 하고 말지.- 크라친스키, `사고` 이전"
   },
 
@@ -520,6 +527,7 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "화염방사병 현장연구에서 설계도 입수",
     "flavourText": "난폭한 동물을 궁지로 몰아넣는 건 성질 돋우기 딱 좋은 짓이야. 충고 하나 해줄까? 그러지 마. - 매닝 국립 동물원 사육사"
   },
 
@@ -581,6 +589,7 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "일반필드",
     "flavourText": "때로는 세상이 더 빨리 불타버렸으면 싶을 때도 있기 마련입니다."
   },
 
@@ -718,6 +727,7 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "일반필드,다크존",
     "flavourText": "세상에 영원한 건 없다. - 균형을 가져오는 자"
   },
 
@@ -779,7 +789,8 @@
     "optics": true,
     "dlc": false,
     "exotic": false,
-    "named": true
+    "named": true,
+    "droplocation": "일반필드"
   },
 
   {
@@ -832,14 +843,15 @@
     "reload": 2.5,
     "damage": 50773,
     "dps": 609276,
-
     "muzzle": true,
     "underbarrel": true,
     "magazine": true,
     "optics": true,
     "dlc": true,
     "exotic": false,
-    "named": true
+    "named": true,
+    "droplocation": "일반필드",
+    "flavourText": "이것이 바로 완전무결한 병사입니다. 인간과 기계가 조화를 이뤘고, 완전 자동식이죠. - 투자 간담회 중 신원 미상의 블랙 터스크 임원이 남긴 말"
   },
 
   {
@@ -879,7 +891,9 @@
     "optics": true,
     "dlc": true,
     "exotic": false,
-    "named": true
+    "named": true,
+    "droplocation": "일반필드",
+    "flavourText": "폭군의 한계를 규정하는 건, 폭군에게 탄압받는 이들의 인내심이다. - 프레데릭 더글라스"
   },
 
   {
@@ -920,6 +934,7 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "다크존",
     "flavourText": "네 동료 시체에서 구한 거야. 나쁘게 생각하진 마, 알았지? - 캐시 멘도자, 암상인"
   },
 

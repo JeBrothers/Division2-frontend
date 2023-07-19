@@ -2,7 +2,13 @@ import React, { lazy } from "react";
 
 interface MenusProps {
   active?: string;
-  menu: "WeaponMenu" | "GearMenu" | "Skill" | "Attribute" | "Simulator";
+  menu:
+    | "WeaponMenu"
+    | "GearMenu"
+    | "Skill"
+    | "Attribute"
+    | "Simulator"
+    | "Boards";
   toggleMenu: () => void; // toggleMenu prop의 타입 지정
 }
 
@@ -11,7 +17,8 @@ const MenuComponents: Record<string, React.LazyExoticComponent<any>> = {
   GearMenu: lazy(() => import("./Menus/GearMenu")),
   Skill: lazy(() => import("./Menus/SkillMenu")),
   Attribute: lazy(() => import("./Menus/AttributeMenu")),
-  Simulator: lazy(() => import("./Menus/Simulator")),
+  // Simulator: lazy(() => import("./Menus/Simulator")),
+  // Boards: lazy(() => import("./Menus/Boards")),
 };
 
 // lazy 함수는 React의 코드 분할 (code splitting) 기능을 사용하여 동적으로 컴포넌트를 로드할 수 있게 해주는 함수

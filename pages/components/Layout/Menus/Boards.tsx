@@ -2,16 +2,16 @@ import { Menu, Transition } from "@headlessui/react";
 
 import React, { Fragment } from "react";
 
-interface AttributeMenuProps {
+interface BoardMenuProps {
   toggleMenu: any;
 }
 
-function AttributeMenu(props: AttributeMenuProps) {
+function BoardMenu(props: BoardMenuProps) {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
         <Menu.Button className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-division-orange md:p-0 md:w-auto dark:text-white  dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
-          방어구 정보
+          게시판
           <svg
             className="w-5 h-5 ml-1"
             aria-hidden="true"
@@ -46,7 +46,7 @@ function AttributeMenu(props: AttributeMenuProps) {
                     active ? "bg-division-dark text-white" : "text-gray-900"
                   } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                 >
-                  브랜드 방어구
+                  자유게시판
                 </button>
               )}
             </Menu.Item>
@@ -57,7 +57,7 @@ function AttributeMenu(props: AttributeMenuProps) {
                     active ? "bg-division-dark text-white" : "text-gray-900"
                   } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                 >
-                  기어 세트 방어구
+                  버그제보 게시판
                 </button>
               )}
             </Menu.Item>
@@ -68,23 +68,18 @@ function AttributeMenu(props: AttributeMenuProps) {
                     active ? "bg-division-dark text-white" : "text-gray-900"
                   } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                 >
-                  방어구 특수 효과
+                  건의 게시판
                 </button>
               )}
             </Menu.Item>
-          </div>
-
-          <div className="px-1 py-2 space-y-1 w-auto ">
             <Menu.Item>
               {({ active }) => (
                 <button
                   className={`${
-                    active
-                      ? "bg-division-dark text-division-orange"
-                      : "text-division-orange"
+                    active ? "bg-division-dark text-white" : "text-gray-900"
                   } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                 >
-                  네임드 / 특급 아이템
+                  스크린 샷
                 </button>
               )}
             </Menu.Item>
@@ -95,4 +90,4 @@ function AttributeMenu(props: AttributeMenuProps) {
   );
 }
 
-export default React.memo(AttributeMenu);
+export default React.memo(BoardMenu);
