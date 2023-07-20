@@ -131,10 +131,10 @@
     "dlc": true,
     "exotic": false,
     "named": true,
-    "flavourText": "드래고프, 어디 한 번만 더 나를 미치광이 요정 소녀라고 부르기만 해봐... 한 번만 더... 그렇게 불러봐- 비비안 콘리",
+    "flavourText": "드래고프, 어디 한 번만 더 나를 미치광이 요정 소녀라고 부르기만 해봐... \n 한 번만 더... 그렇게 불러봐 \n- 비비안 콘리",
+    "droplocation": "DZ",
     "talenttitle": "완벽한 과잉공급",
-    "droplocation": "다크존",
-    "tanlentdesc": "빈 탄창을 2번 재장전할 때마다 탄창 휴대량이 100% 증가합니다."
+    "talentdesc": "빈 탄창을 2번 재장전할 때마다 \n 탄창 휴대량이 100% 증가합니다."
   },
 
   {
@@ -174,8 +174,10 @@
     "optics": true,
     "dlc": true,
     "named": true,
-    "droplocation": "일반필드,다크존",
-    "flavourText": "네놈 눈깔에는 내가 무슨 자선 사업가로 보이냐? 시장 원리대로 해. 내 상품이 탐나면 거래를 하자고.- 캐시 멘도자, 암상인"
+    "droplocation": "LZ\nDZ",
+    "flavourText": "네놈 눈깔에는 내가 무슨 자선 사업가로 보이냐? 시장 원리대로 해. \n 내 상품이 탐나면 거래를 하자고. \n -캐시 멘도자, 암상인",
+    "talenttitle": "완벽한 빠르고 경쾌하게",
+    "talentdesc": "발사속도가 12% 증가합니다."
   },
   {
     "variant": "AUG",
@@ -270,8 +272,10 @@
     "magazine": true,
     "optics": true,
     "named": true,
-    "droplocation": "상아색 상자, 캐시 멘도자",
-    "flavourText": "새겨진 글: 정면 돌파가 답이다."
+    "droplocation": "상아색 상자 \n 캐시 멘도자",
+    "flavourText": "새겨진 글: 정면 돌파가 답이다.",
+    "talenttitle": "완벽한 낙천주의자",
+    "talentdesc": "탄창의 탄약이 10%씩 소모될 때마다 \n 무기 대미지가 4%씩 증가합니다."
   },
   {
     "variant": "FAL",
@@ -405,8 +409,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "droplocation": "일반필드",
-    "flavourText": "다른 근무에 또 들어가라고? 잘 들어. 엿이나 드세요. 더러워서 안 하고 말지.- 크라친스키, `사고` 이전"
+    "droplocation": "LZ ",
+    "flavourText": "다른 근무에 또 들어가라고? 잘 들어. 엿이나 드세요. 더러워서 안 하고 말지. \n - 크라친스키, `사고` 이전",
+    "talenttitle": "완벽한 텅 빈 탄창",
+    "talentdesc": "빈 탄창을 재장전하면 10초동안 \n 무기 조작력이 40% 증가합니다."
   },
 
   {
@@ -527,8 +533,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "droplocation": "화염방사병 현장연구에서 설계도 입수",
-    "flavourText": "난폭한 동물을 궁지로 몰아넣는 건 성질 돋우기 딱 좋은 짓이야. 충고 하나 해줄까? 그러지 마. - 매닝 국립 동물원 사육사"
+    "droplocation": "화염방사병\n현장연구",
+    "flavourText": "난폭한 동물을 궁지로 몰아넣는 건 성질 돋우기 딱 좋은 짓이야. \n 충고 하나 해줄까? 그러지 마. \n - 매닝 국립 동물원 사육사",
+    "talenttitle": "완벽한 근접전의 대가",
+    "talentdesc": "7m 내에 있는 대상을 처치하면, \n 10초 동안 무기대미지가 38% 증가합니다"
   },
 
   {
@@ -589,8 +597,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "droplocation": "일반필드",
-    "flavourText": "때로는 세상이 더 빨리 불타버렸으면 싶을 때도 있기 마련입니다."
+    "droplocation": "LZ\n(only) ",
+    "flavourText": "때로는 세상이 더 빨리 불타버렸으면 싶을 때도 있기 마련입니다.",
+    "talenttitle": "완벽한 점화",
+    "talentdesc": "화상 상태이상 효과가 적용된 적에 대한 \n 무기 대미지가 25% 증가합니다 \n 3명의 적을 처치하면 다음에 공격을 적중시키는 대상에게 \n 화상 상태이상 효과를 적용합니다."
   },
 
   {
@@ -727,8 +737,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "droplocation": "일반필드,다크존",
-    "flavourText": "세상에 영원한 건 없다. - 균형을 가져오는 자"
+    "droplocation": "LZ\nDZ",
+    "flavourText": "세상에 영원한 건 없다. \n- 균형을 가져오는 자",
+    "talenttitle": "완벽한 근시안",
+    "talentdesc": "적정 사거리가 35% 감소하는 대신 안정성이 100% 증가합니다."
   },
 
   {
@@ -790,7 +802,9 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "droplocation": "일반필드"
+    "droplocation": "LZ ",
+    "talenttitle": "완벽한 동기화",
+    "talentdesc": "적을 명중시키면 5초 동안 스킬 대미지가 20% 상승합니다. \n스킬을 사용하거나 적에게 스킬로 피해를 주면 5초 동안 \n무기 대미지가 20% 상승합니다. \n두 효과가 동시에 작동하면 버프가 두 배의 효과로 적용됩니다."
   },
 
   {
@@ -850,8 +864,10 @@
     "dlc": true,
     "exotic": false,
     "named": true,
-    "droplocation": "일반필드",
-    "flavourText": "이것이 바로 완전무결한 병사입니다. 인간과 기계가 조화를 이뤘고, 완전 자동식이죠. - 투자 간담회 중 신원 미상의 블랙 터스크 임원이 남긴 말"
+    "droplocation": "LZ ",
+    "flavourText": "이것이 바로 완전무결한 병사입니다. 인간과 기계가 조화를 이뤘고,\n 완전 자동식이죠. \n- 투자 간담회 중 신원 미상의 블랙 터스크 임원이 남긴 말",
+    "talenttitle": "완벽한 미래",
+    "talentdesc": "무기로 적을 처치하면 19초 동안 스킬 등급 +1 효과를 얻습니다. \n 최대 3번 중첩됩니다. 스킬 등급이 6인 상태에서 \n무기로 적을 처치하면 19초 동안 과충전 효과를 얻습니다. \n과충전 재사용 대기시간 90초."
   },
 
   {
@@ -892,8 +908,10 @@
     "dlc": true,
     "exotic": false,
     "named": true,
-    "droplocation": "일반필드",
-    "flavourText": "폭군의 한계를 규정하는 건, 폭군에게 탄압받는 이들의 인내심이다. - 프레데릭 더글라스"
+    "droplocation": "LZ ",
+    "flavourText": "폭군의 한계를 규정하는 건, 폭군에게 탄압받는 이들의 인내심이다. \n - 프레데릭 더글라스",
+    "talenttitle": "완벽한 심정지",
+    "talentdesc": "펄스 효과가 적용된 적에 대한 무기 대미지가 20% 증가합니다. \n 2명의 적을 처치하면 다음에 공격을 적중시키는 적에게 \n펄스 효과를 적용합니다."
   },
 
   {
@@ -934,8 +952,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "droplocation": "다크존",
-    "flavourText": "네 동료 시체에서 구한 거야. 나쁘게 생각하진 마, 알았지? - 캐시 멘도자, 암상인"
+    "droplocation": "DZ",
+    "flavourText": "네 동료 시체에서 구한 거야. 나쁘게 생각하진 마, 알았지? \n - 캐시 멘도자, 암상인",
+    "talenttitle": "완벽한 정밀사격",
+    "talentdesc": "명중률이 50% 증가합니다."
   },
 
   {
