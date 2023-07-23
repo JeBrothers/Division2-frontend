@@ -37,7 +37,7 @@ const WeaponTalent: NextPage = () => {
             <tbody className="font-semibold text-gray-900">
               <tr className="bg-zinc-700 border border-y  ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/breadbasket.png" />
+                  <img src="/asset/weapontalent/breadbasket.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>브레드 바스켓</span>
@@ -60,7 +60,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y   ">
                 <td className="px-6 py-2  w-24">
-                  <img src="/weapontalent/killer.png" />
+                  <img src="/asset/weapontalent/killer.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>킬러</span>
@@ -79,7 +79,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/preservation.png" />
+                  <img src="/asset/weapontalent/preservation.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>보존</span>
@@ -100,7 +100,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/optimist.png" />
+                  <img src="/asset/weapontalent/optimist.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>낙천주의자</span>
@@ -121,7 +121,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/strained.png" />
+                  <img src="/asset/weapontalent/strained.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>중압감</span>
@@ -141,7 +141,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/close&persnal.png" />
+                  <img src="/asset/weapontalent/close&persnal.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>근접전의 대가</span>
@@ -162,7 +162,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/fast hands.png" />
+                  <img src="/asset/weapontalent/fast hands.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>빠른 손</span>
@@ -181,7 +181,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/sadist.png" />
+                  <img src="/asset/weapontalent/sadist.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>새디스트</span>
@@ -205,7 +205,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/ranger.png" />
+                  <img src="/asset/weapontalent/ranger.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>레인저</span>
@@ -224,7 +224,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/steady handed.png" />
+                  <img src="/asset/weapontalent/steady handed.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>떨리지 않는 손</span>
@@ -246,7 +246,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/spike.png" />
+                  <img src="/asset/weapontalent/spike.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>가시</span>
@@ -265,7 +265,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/eyeless.png" />
+                  <img src="/asset/weapontalent/eyeless.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>맹인</span>
@@ -288,7 +288,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/ignited.png" />
+                  <img src="/asset/weapontalent/ignited.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>점화</span>
@@ -310,7 +310,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/perpetuation.png" />
+                  <img src="/asset/weapontalent/perpetuation.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>영속성</span>
@@ -329,7 +329,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/reformation.png" />
+                  <img src="/asset/weapontalent/reformation.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>혁신</span>
@@ -348,7 +348,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-8 py-4  ">
-                  <img src="/weapontalent/future perfect.png" />
+                  <img src="/asset/weapontalent/future perfect.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>완벽한 미래</span>
@@ -369,7 +369,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-8 py-4  ">
-                  <img src="/weapontalent/in sync.png" />
+                  <img src="/asset/weapontalent/in sync.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>동기화</span>
@@ -392,7 +392,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/flatline.png" />
+                  <img src="/asset/weapontalent/flatline.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>심정지</span>
@@ -413,7 +413,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/sledgehammer.png" />
+                  <img src="/asset/weapontalent/sledgehammer.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>슬레지해머</span>
@@ -458,7 +458,7 @@ const WeaponTalent: NextPage = () => {
             <tbody className="font-semibold text-gray-900">
               <tr className="bg-zinc-700 border border-y  ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/rifleman.png" />
+                  <img src="/asset/weapontalent/rifleman.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>소총수</span>
@@ -479,7 +479,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y   ">
                 <td className="px-6 py-2  w-24">
-                  <img src="/weapontalent/boomerang.png" />
+                  <img src="/asset/weapontalent/boomerang.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>부메랑</span>
@@ -499,7 +499,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/luckyshot.png" />
+                  <img src="/asset/weapontalent/luckyshot.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>뜻밖의 행운</span>
@@ -521,7 +521,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/determind.png" />
+                  <img src="/asset/weapontalent/determind.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>단호함</span>
@@ -562,7 +562,7 @@ const WeaponTalent: NextPage = () => {
             <tbody className="font-semibold text-gray-900">
               <tr className="bg-zinc-700 border border-y  ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/nearsighted.png" />
+                  <img src="/asset/weapontalent/nearsighted.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>근시안</span>
@@ -581,7 +581,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y   ">
                 <td className="px-6 py-2  w-24">
-                  <img src="/weapontalent/onempty.png" />
+                  <img src="/asset/weapontalent/onempty.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>텅 빈 탄창</span>
@@ -600,7 +600,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/overflowing.png" />
+                  <img src="/asset/weapontalent/overflowing.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>공급과잉</span>
@@ -619,7 +619,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/measured.png" />
+                  <img src="/asset/weapontalent/measured.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>신중함</span>
@@ -663,7 +663,7 @@ const WeaponTalent: NextPage = () => {
             <tbody className="font-semibold text-gray-900">
               <tr className="bg-zinc-700 border border-y  ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/naked.png" />
+                  <img src="/asset/weapontalent/naked.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>벌거숭이</span>
@@ -682,7 +682,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y   ">
                 <td className="px-6 py-2  w-24">
-                  <img src="/weapontalent/first blood.png" />
+                  <img src="/asset/weapontalent/first blood.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>선제공격</span>
@@ -704,7 +704,7 @@ const WeaponTalent: NextPage = () => {
               </tr>
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/luckyshot.png" />
+                  <img src="/asset/weapontalent/luckyshot.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>뜻밖의 행운</span>
@@ -726,7 +726,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/determind.png" />
+                  <img src="/asset/weapontalent/determind.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>단호함</span>
@@ -767,7 +767,7 @@ const WeaponTalent: NextPage = () => {
             <tbody className="font-semibold text-gray-900">
               <tr className="bg-zinc-700 border border-y  ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/outsider.png" />
+                  <img src="/asset/weapontalent/outsider.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>외부인</span>
@@ -788,7 +788,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y   ">
                 <td className="px-6 py-2  w-24">
-                  <img src="/weapontalent/unwaving.png" />
+                  <img src="/asset/weapontalent/unwaving.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>흔들림 방지</span>
@@ -811,7 +811,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/measured.png" />
+                  <img src="/asset/weapontalent/measured.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>신중함</span>
@@ -855,7 +855,7 @@ const WeaponTalent: NextPage = () => {
             <tbody className="font-semibold text-gray-900">
               <tr className="bg-zinc-700 border border-y  ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/unhinged.png" />
+                  <img src="/asset/weapontalent/unhinged.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>불안정</span>
@@ -875,7 +875,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y   ">
                 <td className="px-6 py-2  w-24">
-                  <img src="/weapontalent/frenzy.png" />
+                  <img src="/asset/weapontalent/frenzy.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>광란</span>
@@ -894,7 +894,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/overwhelm.png" />
+                  <img src="/asset/weapontalent/overwhelm.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>압도적인 화력</span>
@@ -916,7 +916,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/measured.png" />
+                  <img src="/asset/weapontalent/measured.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>신중함</span>
@@ -960,7 +960,7 @@ const WeaponTalent: NextPage = () => {
             <tbody className="font-semibold text-gray-900">
               <tr className="bg-zinc-700 border border-y  ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/pummel.png" />
+                  <img src="/asset/weapontalent/pummel.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>연속 타격</span>
@@ -982,7 +982,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y   ">
                 <td className="px-6 py-2  w-24">
-                  <img src="/weapontalent/pumped up.png" />
+                  <img src="/asset/weapontalent/pumped up.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>의기충천</span>
@@ -1001,7 +1001,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/overwhelm.png" />
+                  <img src="/asset/weapontalent/overwhelm.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>압도적인 화력</span>
@@ -1023,7 +1023,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/measured.png" />
+                  <img src="/asset/weapontalent/measured.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>신중함</span>
@@ -1067,7 +1067,7 @@ const WeaponTalent: NextPage = () => {
             <tbody className="font-semibold text-gray-900">
               <tr className="bg-zinc-700 border border-y  ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/salvage.png" />
+                  <img src="/asset/weapontalent/salvage.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>회수</span>
@@ -1086,7 +1086,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y   ">
                 <td className="px-6 py-2  w-24">
-                  <img src="/weapontalent/finisher.png" />
+                  <img src="/asset/weapontalent/finisher.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>확인사살</span>
@@ -1108,7 +1108,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/overwhelm.png" />
+                  <img src="/asset/weapontalent/overwhelm.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>압도적인 화력</span>
@@ -1130,7 +1130,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/measured.png" />
+                  <img src="/asset/weapontalent/measured.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>신중함</span>
@@ -1153,7 +1153,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/luckyshot.png" />
+                  <img src="/asset/weapontalent/luckyshot.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>뜻밖의 행운</span>
@@ -1175,7 +1175,7 @@ const WeaponTalent: NextPage = () => {
 
               <tr className="bg-zinc-700 border-y ">
                 <td className="px-6 py-2  ">
-                  <img src="/weapontalent/determind.png" />
+                  <img src="/asset/weapontalent/determind.png" />
                 </td>
                 <td className="px-6 py-2  text-white text-center">
                   <span>단호함</span>
