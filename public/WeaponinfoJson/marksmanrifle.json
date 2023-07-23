@@ -38,7 +38,7 @@
   },
 
   {
-    "variant": "SCAR",
+    "variant": "MK20 SSR",
     "engName": "The Darkness",
     "name": "어둠",
     "rpm": 275,
@@ -54,7 +54,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "장막은 진실을 가리고, 기만은 거짓을 전하노라. 장막은 방관을 유도하고, 기만은 행동을 부르노라."
+    "droplocation": "LZ,DZ \n 확장팩 \n 테오 처치 \n 설계도 입수",
+    "talenttitle": "완벽한 맹인",
+    "talentdesc": "실명 상태이상 효과가 적용된 적에 대한 무기 대미지가 25% 증가합니다. \n 3명의 적을 처치하면 다음에 공격을 적중시키는 \n 적에게 실명 상태이상 효과를 적용합니다.",
+    "flavourText": "장막은 진실을 가리고, \n 기만은 거짓을 전하노라. \n 장막은 방관을 유도하고, 기만은 행동을 부르노라."
   },
 
   {
@@ -93,7 +96,10 @@
     "dlc": true,
     "exotic": false,
     "named": true,
-    "flavourText": "이 신성한 도구의 힘으로 우린 무엇이든 해낼 수 있노라. - 성직자"
+    "droplocation": "LZ Only",
+    "talenttitle": "완벽한 단호함",
+    "talentdesc": "헤드샷으로 적을 처치한 이후, 적에게 다음 사격을 적중시키면 \n반드시 치명타 헤드샷으로 적중합니다. 특수효과가 활성화된 동안에는 \n 적을 처치해도 특수효과가 다시 활성화되지 않습니다.",
+    "flavourText": "이 신성한 도구의 힘으로 우린 무엇이든 해낼 수 있노라. \n - 성직자"
   },
   {
     "variant": "G28",
@@ -111,7 +117,10 @@
     "optics": false,
     "dlc": true,
     "exotic": true,
-    "named": true,
+    "named": false,
+    "droplocation": "",
+    "talenttitle": "",
+    "talentdesc": "",
     "flavourText": "신성한 빛이 함께하사, 신의 정의를 집행하는 데 보탬이 되기를. - 성직자"
   },
 
@@ -227,6 +236,9 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "LZ,DZ",
+    "talenttitle": "완벽한 레인저",
+    "talentdesc": "대상과의 거리 4m 마다 무기 대미지가 2%씩 증폭됩니다.",
     "flavourText": "설마 짜리몽땅한 막대로 말벌집을 건드릴 생각은 아니시겠죠? 설마?"
   },
 
@@ -285,7 +297,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "잘 들어. 네가 용감한 녀석인 건 알겠어. 근데 그렇다고 맨몸으로 싸움터에 뛰어들면 안 되지. - 캐시 멘도자, 암상인"
+    "droplocation": "LZ,DZ",
+    "talenttitle": "완벽한 벌거숭이",
+    "talentdesc": "방어도가 소진된 적에게 공격을 적중시키면 8초 동안 \n 헤드샷 대미지가 50% 증가합니다.",
+    "flavourText": "잘 들어. 네가 용감한 녀석인 건 알겠어. \n 근데 그렇다고 맨몸으로 싸움터에 뛰어들면 안 되지. \n - 캐시 멘도자, 암상인"
   },
 
   {
@@ -304,7 +319,10 @@
     "optics": false,
     "dlc": true,
     "exotic": true,
-    "named": true,
+    "named": false,
+    "droplocation": "",
+    "talenttitle": "",
+    "talentdesc": "",
     "flavourText": "내게 날아오는 비난이 몇 자나 되는지 무슨 수로 알겠는가. 하지만 끝나는 시점만큼은 알 수 있다."
   },
 
@@ -402,7 +420,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "공격은 빠르고 강력해야 해. 그런 다음 깔끔하게 씻어내고 반복하는 거지. - 하이에나 지정사수"
+    "droplocation": "DZ",
+    "talenttitle": "완벽한 선제공격",
+    "talentdesc": "조준경으로 확대한 상태일 때, 비전투 상황에서 혹은 빈 탄창을 재장전하고 \n 사격하는 두 발의 탄환은 어느 신체 부위에 적중하든 헤드샷 대미지를 줍니다. \n 8배율 이상의 스코프 필요.",
+    "flavourText": "공격은 빠르고 강력해야 해. 그런 다음 깔끔하게 씻어내고 반복하는 거지. \n - 하이에나 지정사수"
   },
 
   {
@@ -514,10 +535,13 @@
     "underbarrel": true,
     "magazine": true,
     "optics": true,
-    "dlc": false,
+    "dlc": true,
     "exotic": false,
     "named": true,
-    "flavourText": "크리스마스는 방울을 울리기 가장 좋은 때립니다. 밤을 밝히고 산타가 가장 아끼는 슬레이어의 도움을 받아 산타의 자루를 열어보세요. - 캐롤 성가대"
+    "droplocation": "크리스마스 \n 수집병자",
+    "talenttitle": "반짝이는 빛",
+    "talentdesc": "반짝이는 빛이 존재하는 밤만이 그들의 마음속에 축제의 힘을 불어넣어 줄 수 있습니다.",
+    "flavourText": "크리스마스는 방울을 울리기 가장 좋은 때랍니다. \n 밤을 밝히고 산타가 가장 아끼는 슬레이어의 도움을 받아 \n 산타의 자루를 열어보세요. \n - 캐롤 성가대"
   },
 
   {
@@ -537,6 +561,8 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "LZ,DZ",
+    "talentdesc": "+137% 헤드샷 대미지",
     "flavourText": "눈 내리던 때가 그리워. - S.H."
   },
 
@@ -594,7 +620,10 @@
     "optics": true,
     "dlc": false,
     "exotic": false,
-    "named": true
+    "named": true,
+    "droplocation": "타이들 베이슨",
+    "talenttitle": "",
+    "talentdesc": ""
   },
 
   {
@@ -614,7 +643,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "지정 타자가 되어달란 말씀입니까, 대령님? 어디 설득해보시죠. 대령님 평판을 생각하면 합류하는 순간부터 제 신상이 위험해질 수도 있으니 말입니다. - 브릭스 대위가 리지웨이에게 한 말"
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 혁신",
+    "talentdesc": "헤드샷을 적중시키면 15초 동안 스킬 회복이 40% 증가합니다.",
+    "flavourText": "지정 타자가 되어달란 말씀입니까, 대령님? 어디 설득해보시죠. \n 대령님 평판을 생각하면 합류하는 순간부터 \n 제 신상이 위험해질 수도 있으니 말입니다. \n - 브릭스 대위가 리지웨이에게 한 말"
   },
 
   {
@@ -650,9 +682,12 @@
     "underbarrel": true,
     "magazine": true,
     "optics": true,
-    "dlc": false,
+    "dlc": true,
     "exotic": false,
-    "named": true
+    "named": true,
+    "droplocation": "LZ,DZ",
+    "talenttitle": "완벽한 미래",
+    "talentdesc": "무기로 적을 처치하면 19초 동안 스킬 등급 +1 효과를 얻습니다. \n 최대 3번 중첩됩니다. 스킬 등급이 6인 상태에서 \n무기로 적을 처치하면 19초 동안 과충전 효과를 얻습니다. \n 과충전 재사용 대기시간 90초."
   },
 
   {

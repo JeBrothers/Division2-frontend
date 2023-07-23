@@ -89,7 +89,25 @@ function WeaponMenu(props: WeaponMenuProps) {
           </div>
 
           <div className="px-1 py-2 space-y-1 w-auto ">
-            <Link href="/weapon/wnamedexotic">
+            <Link href="/weapon/weaponNamed">
+              <div onClick={props.toggleMenu}>
+                <Menu.Item>
+                  {({ active }) => (
+                    <button
+                      className={`${
+                        active
+                          ? "bg-division-dark text-yellow-300"
+                          : "text-yellow-300"
+                      } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                    >
+                      네임드 무기
+                    </button>
+                  )}
+                </Menu.Item>
+              </div>
+            </Link>
+
+            <Link href="/weapon/weaponExotic">
               <div onClick={props.toggleMenu}>
                 <Menu.Item>
                   {({ active }) => (
@@ -100,7 +118,7 @@ function WeaponMenu(props: WeaponMenuProps) {
                           : "text-division-orange"
                       } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                     >
-                      네임드 / 특급 아이템
+                      특급 무기
                     </button>
                   )}
                 </Menu.Item>

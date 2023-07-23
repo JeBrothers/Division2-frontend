@@ -32,7 +32,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "난잡한 근접 교전에 유용한 3점사 무기입니다. 신속 사격과 기동성이 관건인 상황에서 이상적인 동반자입니다."
+    "droplocation": "명사수\n특전",
+    "talenttitle": "완벽한 흔들림 방지",
+    "talentdesc": "해당 무기로 교체하면 5초 동안 무기 조작력이 400% 증가합니다. \n적을 처치하면 버프 효과가 갱신됩니다. \n 다른 무기로 교체하면 5초 동안 해당 버프가 모든 무기에서 비활성화됩니다.",
+    "flavourText": "난잡한 근접 교전에 유용한 3점사 무기입니다. \n신속 사격과 기동성이 관건인 상황에서 이상적인 동반자입니다."
   },
   {
     "variant": "Desert Eagle",
@@ -67,7 +70,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "강력하면서도 정밀한 권총인 D50은 .44 Magnum 탄환을 사용하며, 광학 조준기를 부착할 수도 있습니다."
+    "droplocation": "생존전문가\n특전",
+    "talenttitle": "완벽한 새디스트",
+    "talentdesc": "출혈 상태이상 효과가 적용된 적에 대한 무기 대미지가 25% 증가합니다.\n 3명의 적을 처치하면 다음에 공격을 적중시키는 적에게 \n출혈 상태이상 효과를 적용합니다.",
+    "flavourText": "강력하면서도 정밀한 권총인 D50은 .44 Magnum 탄환을 사용하며, \n광학 조준기를 부착할 수도 있습니다."
   },
   {
     "variant": "Desert Eagle",
@@ -171,7 +177,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "성능과 소음 효과 어느 한 쪽도 타협하고 싶지 않은 사용자에게 어울리는 내장 소음기 탑재형 9mm 권총입니다.\u000A대용량 탄창과 총열에 탑재된 내장 소음기가 무게추 역할을 하여 반동을 최소화하며, 이를 통해 매우 높은 명중률을 달성할 수 있습니다."
+    "droplocation": "기술전문가\n특전",
+    "talenttitle": "완벽한 가시",
+    "talentdesc": "헤드샷을 적중시키면 15초 동안 스킬 대미지가 25% 증가합니다.",
+    "flavourText": "성능과 소음 효과 어느 한 쪽도 타협하고 싶지 않은 사용자에게 어울리는 \n내장 소음기 탑재형 9mm 권총입니다. \n대용량 탄창과 총열에 탑재된 내장 소음기가 무게추 역할을 하여 \n 반동을 최소화하며, 이를 통해 매우 높은 명중률을 달성할 수 있습니다."
   },
   {
     "variant": "M1911",
@@ -189,7 +198,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "사람을 묻어버릴 때 가장 조심해야 하는 게 뭔지 알아? 다시 일어날 여지를 주지 않는 거야. - 하비에르 카지카"
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 브레드바스켓",
+    "talentdesc": "바디샷을 적중시키면 10초 동안 다음 헤드샷의 대미지가 50% 증가합니다. \n최대 2번 중첩됩니다.",
+    "flavourText": "사람을 묻어버릴 때 가장 조심해야 하는 게 뭔지 알아?\n 다시 일어날 여지를 주지 않는 거야. \n - 하비에르 카지카"
   },
 
   {
@@ -259,7 +271,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "미군의 9mm 제식 권총입니다. 작고 인체공학적인 설계로 만들어졌으며, 강력한 저지력을 자랑합니다."
+    "droplocation": "기관포병\n특전",
+    "talenttitle": "완벽한 보존",
+    "talentdesc": "적을 사살하면 5초에 걸쳐 방어도가 12% 회복됩니다. \n헤드샷으로 처치하면 12%를 추가로 회복합니다.",
+    "flavourText": "미군의 9mm 제식 권총입니다. 작고 인체공학적인 설계로 만들어졌으며,\n 강력한 저지력을 자랑합니다."
   },
   {
     "variant": "PF45",
@@ -329,6 +344,9 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 회수",
+    "talentdesc": "대상 처치 시 75%의 확률로 탄약을 보충합니다.",
     "flavourText": "새겨진 글: 공격은 신속하고, 빠르게, 또 상대의 의표를 찌를 수 있어야 한다."
   },
 
@@ -433,7 +451,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "막강한 위력을 지닌 .357 Magnum 리볼버입니다. 실린더 하부에서 발사하는 독특한 하단 총열 설계 덕분에 리볼버 중에서도 보기 드문 균형감을 자랑합니다."
+    "droplocation": "폭파전문가\n 특전",
+    "talenttitle": "왁변한 낙천주의자",
+    "talentdesc": "탄창의 탄약이 10%씩 소모될 때마다 무기 대미지가 4%씩 증가합니다",
+    "flavourText": "막강한 위력을 지닌 .357 Magnum 리볼버입니다. \n실린더 하부에서 발사하는 독특한 하단 총열 설계 덕분에 \n리볼버 중에서도 보기 드문 균형감을 자랑합니다."
   },
   {
     "variant": "Rhino",
@@ -486,7 +507,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "한번 움직이기 시작한 사물은 그 목표를 찾을 때까지 멈추지 않습니다. 그 이후에는 모든 움직임이 멈춰서지요."
+    "droplocation": "DZ",
+    "talenttitle": "완벽한 확인사살",
+    "talentdesc": "적을 처치하고 10초 내에 무기를 교체하면 15초 동안 \n치명타 확률이 35%만큼, 치명타 대미지가 40%만큼 증가합니다.",
+    "flavourText": "한번 움직이기 시작한 사물은 그 목표를 찾을 때까지 멈추지 않습니다.\n 그 이후에는 모든 움직임이 멈춰서지요."
   },
 
   {
@@ -541,7 +565,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "주의 선지자로서 우린 그분의 복수를 집행한다. - 성직자"
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 단호함",
+    "talentdesc": "헤드샷으로 적을 처치한 이후, 적에게 다음 사격을 적중시키면 \n무기 대미지가 반드시 치명타 헤드샷으로 적중합니다. \n특수효과가 활성화된 동안에는 적을 처치해도 \n특수효과가 다시 활성화 되지 않습니다",
+    "flavourText": "주의 선지자로서 우린 그분의 복수를 집행한다. \n- 성직자"
   },
 
   {
@@ -648,6 +675,8 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "우리 업계에선 약간만 앞서도 좋은 게 많아. - 존 드미트리 코자크"
+    "droplocation": "DZ",
+    "talentdesc": "+1 스킬등급",
+    "flavourText": "우리 업계에선 약간만 앞서도 좋은 게 많아. \n- 존 드미트리 코자크"
   }
 ]

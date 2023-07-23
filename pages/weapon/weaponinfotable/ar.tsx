@@ -26,13 +26,17 @@ interface AR {
   skillicon?: string;
 }
 
-export default function ArNETable() {
+export default function ArTable() {
   const DisplayData: AR[] = AR;
 
   const data = DisplayData.map((info, index) => {
     const isSameVariant =
       index > 0 && info.variant === DisplayData[index - 1].variant;
-    const nameColor = info.named ? "text-yellow-400" : "text-gray-900";
+    const nameColor = info.exotic
+      ? "text-division-orange"
+      : info.named
+      ? "text-yellow-400"
+      : "text-gray-900";
 
     return (
       <tr className="bg-white border-b border-x font-bold">
@@ -79,7 +83,7 @@ export default function ArNETable() {
     <>
       <div className="flex relative  justify-center ">
         <div className="max-h-[750px] overflow-y-auto">
-          <table className="w-auto  text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 text-center">
+          <table className="w-max-md  text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 text-center">
             <thead className="sticky top-0 z-40 text-xs text-white uppercase bg-division-dark font-semibold">
               <tr>
                 <th scope="col" className="px-6  py-6">

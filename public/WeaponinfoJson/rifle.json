@@ -34,7 +34,7 @@
     "dlc": false,
     "exotic": true,
     "named": false,
-    "flavourText": "어떤 사람들은 나더러 공감 능력이 없다고 하더군. 아니야 틀렸어. 내게 없는건 자비거든 - 조디악, 하이에나 위원회 멤버"
+    "flavourText": "어떤 사람들은 나더러 공감 능력이 없다고 하더군. 아니야 틀렸어. 내게 없는건 자비거든  - 조디악, 하이에나 위원회 멤버"
   },
   {
     "variant": "AKM",
@@ -53,7 +53,7 @@
     "dlc": false,
     "exotic": true,
     "named": false,
-    "flavourText": "권력을 지키려면 피도 눈물도 없어야 해. 완전히 말이야 - 메이헴. 하이에나 위원"
+    "flavourText": "권력을 지키려면 피도 눈물도 없어야 해. 완전히 말이야 \n - 메이헴. 하이에나 위원"
   },
 
   {
@@ -141,7 +141,6 @@
     "reload": 3.0,
     "damage": 205442,
     "dps": 616326,
-
     "muzzle": false,
     "underbarrel": true,
     "magazine": true,
@@ -149,7 +148,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "난 이 소총과 함께 전쟁터를 헤쳐나왔어. 너도 이 녀석과 함께 헤쳐나올 수 있길 빈다.- 롤랜드 T. 베이커 병장"
+    "droplocation": "DZ",
+    "talenttitle": "완벽한 뜻밖의 행운",
+    "talentdesc": "탄창 휴대량이 30% 증가합니다. 엄폐한 상태에서 발사한 \n 탄환이 빗나가면 100%의 확률로 탄창에 반환됩니다.",
+    "flavourText": "난 이 소총과 함께 전쟁터를 헤쳐나왔어. \n 너도 이 녀석과 함께 헤쳐나올 수 있길 빈다.\n- 롤랜드 T. 베이커 병장"
   },
 
   {
@@ -172,7 +174,7 @@
   },
 
   {
-    "variant": "M1A",
+    "variant": "SOCOM \n M1A",
     "engName": "Stage Left",
     "name": "질서정연",
     "rpm": 350,
@@ -188,7 +190,10 @@
     "dlc": true,
     "exotic": false,
     "named": true,
-    "flavourText": "질서정연한 입장이 곧 멋진 입장인 법. - 13"
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 슬레지헤머",
+    "talentdesc": "수류탄으로 대미지를 주면 대상에게 징표를 남깁니다. \n징표에 걸린 대상은 받는 방어도 대상 대미지가 \n 40% 만큼 증가하고 이동속도는 -30% 만큼 감소합니다. \n징표는 10초  후에 사라집니다.",
+    "flavourText": "질서정연한 입장이 곧 멋진 입장인 법. \n- 13"
   },
 
   {
@@ -323,7 +328,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "기계는 학습합니다. 우린 그렇지 않죠. - 계획적 진부화에 대한 트랜스휴머니즘적 관점"
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 가시",
+    "talentdesc": "헤드샷을 적중시키면 15초 동안 스킬 대미지가 25% 증가합니다.",
+    "flavourText": "기계는 학습합니다. 우린 그렇지 않죠. \n- 계획적 진부화에 대한 트랜스휴머니즘적 관점"
   },
 
   {
@@ -438,11 +446,14 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "이봐, 목표에서 눈을 떼지 마. 가만히... 가만히... 지금이다! - NYCP 교관"
+    "droplocation": "DZ",
+    "talenttitle": "완벽한 영속성",
+    "talentdesc": "헤드샷을 적중시키면 다음에 부여하는 상태이상 효과의 대미지와 \n 지속 시간이 50% 증가합니다. 재사용 대기시간 16초.",
+    "flavourText": "이봐, 목표에서 눈을 떼지 마. 가만히... 가만히... 지금이다!  \n- NYCP 교관"
   },
 
   {
-    "variant": "SIG",
+    "variant": "SIG 716",
     "engName": "SIG 716",
     "name": "SIG 716",
     "rpm": 320,
@@ -461,7 +472,7 @@
   },
 
   {
-    "variant": "SIG",
+    "variant": "SIG 716",
     "engName": "SIG 716 Replica",
     "name": "SIG 716 복제품",
     "rpm": 320,
@@ -480,7 +491,7 @@
   },
 
   {
-    "variant": "SIG",
+    "variant": "SIG 716",
     "engName": "SIG 716 CQB",
     "name": "SIG 716 CQB",
     "rpm": 320,
@@ -499,7 +510,7 @@
   },
 
   {
-    "variant": "SIG",
+    "variant": "SIG 716",
     "engName": "The Ravenous",
     "name": "탐식자",
     "rpm": 240,
@@ -519,7 +530,7 @@
   },
 
   {
-    "variant": "SIG",
+    "variant": "SIG 716",
     "engName": "Artist's Tool",
     "name": "예술가의 도구",
     "rpm": 320,
@@ -535,7 +546,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "네놈들한테나 전쟁이겠지. 우리에겐 예술이야. - 하이에나"
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 소총수",
+    "talentdesc": "헤드샷을 적중시킬 때마다 5초 동안 \n무기 대미지가 11% 증가합니다. 최대 6번 중첩됩니다. \n 추가 헤드샷을 적중시키면 지속 시간이 갱신됩니다.",
+    "flavourText": "네놈들한테나 전쟁이겠지. 우리에겐 예술이야. \n- 하이에나"
   },
 
   {
@@ -611,7 +625,10 @@
     "dlc": true,
     "exotic": false,
     "named": true,
-    "flavourText": "노래 부르는 건 무기에게 맡겨. 보조 보컬을 준비해야둬야 하는 건 두말할 필요도 없지만. - 브링크 요원"
+    "droplocation": "DZ",
+    "talenttitle": "완벽한 동기화",
+    "talentdesc": "적을 명중시키면 5초 동안 스킬 대미지가 20% 상승합니다. \n 스킬을 사용하거나 적에게 스킬로 피해를 주면 5초 동안 \n 무기 대미지가 20% 상승합니다. \n 두 효과가 동시에 작동하면 버프가 두 배의 효과로 적용됩니다.",
+    "flavourText": "노래 부르는 건 무기에게 맡겨. \n 보조 보컬을 준비해야둬야 하는 건 두말할 필요도 없지만. \n- 브링크 요원"
   },
 
   {
@@ -648,7 +665,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "내 땅에서 당장 꺼져. 그래, 너 말이야. 얼른 꺼지라고.- DC 지역 주민"
+    "droplocation": "DZ",
+    "talenttitle": "완벽한 부메랑",
+    "talentdesc": "치명타 적중 시 75% 확률로 탄환이 탄창에 반환됩니다. \n또한, 탄환이 탄창에 반환될 경우 다음 사격의 대미지가 \n 40% 증가합니다.",
+    "flavourText": "내 땅에서 당장 꺼져. 그래, 너 말이야. 얼른 꺼지라고.\n- DC 지역 주민"
   },
 
   {

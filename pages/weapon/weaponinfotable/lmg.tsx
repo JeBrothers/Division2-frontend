@@ -77,56 +77,58 @@ export default function LmgTable() {
 
   return (
     <>
-      <div className="flex relative overflow-x-auto justify-center pb-8">
-        <table className="w-max-md w-2/3 text-sm  text-gray-500 dark:text-gray-400 border-t  border-gray-200 text-center ">
-          <thead className="text-xs text-white uppercase  bg-division-dark font-semibold ">
-            <tr>
-              <th scope="col" className="px-6  py-6">
-                총기종류
-              </th>
-              <th scope="col" className="px-6 py-6">
-                총기명
-              </th>
-              <th scope="col" className="px-6 py-6">
-                탄창용량
-              </th>
-              <th scope="col" className="px-6 py-6">
-                RPM
-              </th>
-              <th scope="col" className="px-6 py-6">
-                피해량
-              </th>
-              <th scope="col" className="px-6 py-6">
-                DPS
-              </th>
-              <th
-                scope="col"
-                className="px-6 py-6  bg-division-color text-division-dark whitespace-nowrap"
-              >
-                조준기
-              </th>
-              <th
-                scope="col"
-                className="px-6 py-6 bg-division-color text-division-dark whitespace-nowrap"
-              >
-                총구
-              </th>
-              <th
-                scope="col"
-                className="px-6 py-6 bg-division-color text-division-dark whitespace-nowrap"
-              >
-                탄창
-              </th>
-              <td
-                scope="col"
-                className="px-6 py-6 bg-division-color text-division-dark whitespace-nowrap"
-              >
-                총열<br></br>하단부
-              </td>
-            </tr>
-          </thead>
-          <tbody>{data}</tbody>
-        </table>
+      <div className="flex relative  justify-center ">
+        <div className="max-h-[750px] overflow-y-auto">
+          <table className="w-max-md  text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 text-center">
+            <thead className="sticky top-0 z-40 text-xs text-white uppercase bg-division-dark font-semibold">
+              <tr>
+                <th scope="col" className="px-6  py-6">
+                  총기종류
+                </th>
+                <th scope="col" className="px-6 py-6">
+                  총기명
+                </th>
+                <th scope="col" className="px-6 py-6">
+                  탄창용량
+                </th>
+                <th scope="col" className="px-6 py-6">
+                  RPM
+                </th>
+                <th scope="col" className="px-6 py-6">
+                  피해량
+                </th>
+                <th scope="col" className="px-6 py-6">
+                  DPS
+                </th>
+                <th
+                  scope="col"
+                  className="px-6 py-6  bg-division-color text-division-dark "
+                >
+                  조준기
+                </th>
+                <th
+                  scope="col"
+                  className="px-6 py-6 bg-division-color text-division-dark "
+                >
+                  총구
+                </th>
+                <th
+                  scope="col"
+                  className="px-6 py-6 bg-division-color text-division-dark "
+                >
+                  탄창
+                </th>
+                <td
+                  scope="col"
+                  className="px-6 py-6 bg-division-color text-division-dark "
+                >
+                  총열<br></br>하단부
+                </td>
+              </tr>
+            </thead>
+            <tbody>{data}</tbody>
+          </table>
+        </div>
       </div>
     </>
   );

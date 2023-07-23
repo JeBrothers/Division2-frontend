@@ -141,7 +141,11 @@
     "optics": true,
     "dlc": true,
     "exotic": false,
-    "named": true
+    "named": true,
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 천둥벼락",
+    "talentdesc": "충격 상태이상 효과에 걸린 대상에게 40%의 추가 대미지를 줍니다.",
+    "flavourText": "선택의 여지가 없을 땐, 충격과 공포를 보여주는 수밖에 없지. \n- BTSU 잭 보니"
   },
   {
     "variant": "CMMG",
@@ -178,7 +182,10 @@
     "dlc": true,
     "exotic": false,
     "named": true,
-    "flavourText": "이 시대엔 힘이 가장 중요해. 힘과 생존. 놈들은 끝장났지만 난 아니야. 너도 그렇게 될 일은 없을 거다. 나와 함께하기를 거부한다면 이야기가 달라지겠지만. - 아론 '뱅가드' 키너"
+    "droplocation": "LZ,DZ \n 확장팩\n 아론키너 처치\n 설계도 입수",
+    "talenttitle": "완벽한 앙심",
+    "talentdesc": "상태이상 효과가 적용된 적을 처치하면 20초 동안 \n 20m 내에 있는 자신을 포함한 모든 아군의 \n 치명타 확률과 치명타 대미지를 각각 18% 증가시킵니다.",
+    "flavourText": "이 시대엔 힘이 가장 중요해. 힘과 생존. 놈들은 끝장났지만 난 아니야.\n 너도 그렇게 될 일은 없을 거다.\n 나와 함께하기를 거부한다면  이야기가 달라지겠지만. \n - 아론 '뱅가드' 키너"
   },
   {
     "variant": "CMMG",
@@ -248,7 +255,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "갖고 싶으면 차갑게 식은 내 손에서 가져가야 할 거다.\u000A재밌겠네. 난 괜찮아. - 더체스"
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 중압감",
+    "talentdesc": "사격 시 0.5초마다 치명타 대미지가 10% 증가합니다. 최대 8번 중첩됩니다.",
+    "flavourText": "갖고 싶으면 차갑게 식은 내 손에서 가져가야 할 거다. 재밌겠네. 난 괜찮아. \n - 더체스"
   },
   {
     "variant": "AUG",
@@ -412,6 +422,9 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "DZ",
+    "talenttitle": "완벽한 킬러",
+    "talentdesc": "치명타로 적을 처치하면 10초 동안 치명타 대미지가 50% 증가합니다.",
     "flavourText": "시범을 보였어야 했는데... 우린 준비가 안 됐더라고."
   },
   {
@@ -448,7 +461,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "그냥 꺼낸 다음에, 휘갈겨버리고, 제대로 집어넣기만 하면 돼! 별로 복잡하지도 않잖아!"
+    "droplocation": "LZ,DZ",
+    "talenttitle": "완벽한 흔들림 방지",
+    "talentdesc": "해당 무기로 교체하면 5초 동안 무기 조작력이 400% 증가합니다. \n적을 처치하면 버프 효과가 갱신됩니다. \n다른 무기로 교체하면 5초 동안 해당 버프가 모든 무기에서 비활성화됩니다.",
+    "flavourText": "그냥 꺼낸 다음에, 휘갈겨버리고, 제대로 집어넣기만 하면 돼! \n별로 복잡하지도 않잖아!"
   },
   {
     "variant": "T821",
@@ -608,7 +624,9 @@
     "optics": false,
     "dlc": false,
     "exotic": false,
-    "named": true,
+    "droplocation": "",
+    "talenttitle": "",
+    "talentdesc": "",
     "flavourText": "'속보입니다. '슬레이어'가 올해 최고의 크리스마스 선물에 등극했습니다! 구매를 희망하는 분은 아벨 혹은 기타 소매점을 찾아주시기 바랍니다.'\u000A '정말 재밌다! 슬레이어는 기막힌 장난감이다.- NYC 장난감 리뷰\u000A'눈싸움에 총을 가져오면 안 된다고? 다 옛말이다. - 연말연시 선물 가이드'\u000A '종래의 전통적인 선물과 달리 눈 다칠 걱정은 안 해도 된다. - 실용적인 겨울 선물 지침'"
   },
 
@@ -662,7 +680,11 @@
     "optics": true,
     "dlc": false,
     "exotic": false,
-    "named": false
+    "named": true,
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 보존",
+    "talentdesc": "적을 사살하면 5초에 걸쳐 방어도가 12% 회복됩니다. \n헤드샷으로 처치하면 12%를 추가로 회복합니다.",
+    "flavourText": "새겨진 글: 에멜린 님은 충직한 자에게 보상을 내리신다. \n그분과 대의를 영원히 가슴에 새겨라."
   },
 
   {
@@ -719,7 +741,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "난 살겠다고 수류탄을 던지지 않아. 그냥 터지는 걸 보고 싶어서 던지는 거지. 그래, 이 새끼야. 폭발이 얼마나 멋있는데. - 대시"
+    "droplocation": "LZ,DZ",
+    "talenttitle": "완벽한 외부인",
+    "talentdesc": "적을 처치하면 10초 동안 명중률과 적정 사거리가 125% 증가합니다.",
+    "flavourText": "난 살겠다고 수류탄을 던지지 않아. 그냥 터지는 걸 보고 싶어서 던지는 거지. \n그래, 이 새끼야. 폭발이 얼마나 멋있는데. \n- 대시"
   },
   {
     "variant": "MPX",
@@ -738,6 +763,9 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "DZ",
+    "talenttitle": "완벽한 신중함",
+    "talentdesc": "탄창의 첫 절반을 사용하는 동안에는 \n 발사 속도가 20% 증가, n무기 대미지가 27% 감소합니다. \n나머지 절반을 사용하는 동안에는 \n 발사 속도가 20% 감소, 종합 무기 대미지가 33% 증가합니다.",
     "flavourText": "내 집 장만의 꿈을 위하여 절약해봅시다."
   },
   {

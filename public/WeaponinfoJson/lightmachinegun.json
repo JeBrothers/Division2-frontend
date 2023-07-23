@@ -32,7 +32,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "요란법석을 떠는 건 아마추어나 할 짓이야. 진짜 멋있는 사람은 그딴 연출 따윈 필요도 없다 이 말이지. '진짜'는 방에 들어오는 그 순간 사람들 피를 차갑게 얼려버려. 사자는 굳이 포효하지 않고도 다른 동물들이 알아서 도망치거든. - 라울 '사자' 페르난도"
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 압도적인 화력",
+    "talentdesc": "현재 제압되지 않은 적을 제압하면 12초 동안 무기 대미지가 12% 증가합니다. \n 최대 4번 중첩됩니다.",
+    "flavourText": "요란법석을 떠는 건 아마추어나 할 짓이야. \n 진짜 멋있는 사람은 그딴 연출 따윈 필요도 없다 이 말이지. \n '진짜'는 방에 들어오는 그 순간 사람들 피를 차갑게 얼려버려. \n 사자는 굳이 포효하지 않고도 다른 동물들이 알아서 도망치거든. \n- 라울 '사자' 페르난도"
   },
   {
     "variant": "KAC Stoner",
@@ -118,8 +121,11 @@
     "optics": true,
     "dlc": false,
     "exotic": false,
-    "named": false,
-    "flavourText": "새 제복, 새 탄창, 새 바지, 새 양말. 새출발은 언제 해도 가슴이 벅차오른다니까. - 켈리 중위"
+    "named": true,
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 떨리지 않는 손",
+    "talentdesc": "공격을 적중시키면 중첩 효과가 부여되어 명중률과 안정성이 1%씩 증가합니다.\n 75번 중첩되면 중첩 효과가 소모되고 탄창이 보충됩니다.",
+    "flavourText": "새 제복, 새 탄창, 새 바지, 새 양말. 새출발은 언제 해도 가슴이 벅차오른다니까. \n- 켈리 중위"
   },
   {
     "variant": "HK GR9",
@@ -154,7 +160,10 @@
     "dlc": true,
     "exotic": false,
     "named": true,
-    "flavourText": "몸부림칠 담력이 있어야 이길 수 있다. 몸부림조차 치지 않겠다면 이길 자격은 없다. - 프레드 햄프턴"
+    "droplocation": "LZ Only",
+    "talenttitle": "완벽한 심정지",
+    "talentdesc": "펄스 효과가 적용된 적에 대한 무기 대미지가 20% 증가합니다. \n2명의 적을 처치하면 다음에 공격을 적중시키는 적에게 펄스 효과를 적용합니다.",
+    "flavourText": "몸부림칠 담력이 있어야 이길 수 있다. \n몸부림조차 치지 않겠다면 이길 자격은 없다.\n - 프레드 햄프턴"
   },
   {
     "variant": "M249",
@@ -241,7 +250,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "폭탄 세일이다! 딱 하루 한정으로 깡그리 처분해주마. - 세인트 알렉스가 부하들에게 한 말"
+    "droplocation": "DZ",
+    "talenttitle": "완벽한 불안정",
+    "talentdesc": "안정성과 명중률이 25% 감소하는 대신 무기 대미지가 22% 증가합니다.",
+    "flavourText": "폭탄 세일이다! 딱 하루 한정으로 깡그리 처분해주마. \n - 세인트 알렉스가 부하들에게 한 말"
   },
   {
     "variant": "M249",
@@ -258,26 +270,12 @@
     "optics": true,
     "dlc": false,
     "exotic": false,
-    "named": true
+    "named": true,
+    "droplocation": "친구소개\n보상",
+    "talenttitle": "전광석화",
+    "talentdesc": "엄폐물 간 이동 시 15초 동안 무기 대미지가 +20%만큼 증가합니다."
   },
-  {
-    "variant": "M249",
-    "engName": "Black Friday",
-    "name": "블랙 프라이데이",
-    "rpm": 550,
-    "baseMagSize": 100,
-    "reload": 5.6,
-    "damage": 47012,
-    "dps": 430943,
-    "muzzle": false,
-    "underbarrel": false,
-    "magazine": false,
-    "optics": false,
-    "dlc": true,
-    "exotic": false,
-    "named": false,
-    "flavourText": "우리가 겪은 고통을 느껴봐라. - 격리 경험이 있는 아웃캐스트 구성원"
-  },
+
   {
     "variant": "M60",
     "engName": "Classic M60",
@@ -378,7 +376,11 @@
     "optics": true,
     "dlc": false,
     "exotic": false,
-    "named": false
+    "named": true,
+    "droplocation": "DZ",
+    "talenttitle": "완벽한 빠른 손",
+    "talentdesc": "치명타를 적중시키면 재장전 속도가 8% 증가합니다. 최대 40번 중첩됩니다.",
+    "flavourText": "근육 기억을 키우려는 거네. 분해. 재장전. 분해. 재장전. \n훈련이 끝나면 뭐 하냐고? 좋은 시간 보낼 때가 온 거지."
   },
   {
     "variant": "MG5",
@@ -447,7 +449,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "신과 인간을 통틀어 으뜸이니, 그 기수를 망자의 세계로 인도하노라."
+    "droplocation": "LZ Only",
+    "talenttitle": "완벽한 천둥벼락",
+    "talentdesc": "충격 상태이상 효과에 걸린 대상에게 40%의 추가대미지를 줍니다.",
+    "flavourText": "예산이 문제가 안 되고 짜릿하게 한 방 먹여주고 싶을 때 있지? \n빅 쇼를 가져가면 돼. \n- BTSU 잭 보니"
   },
 
   {
@@ -466,6 +471,9 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "기관포병\n현장연구",
+    "talenttitle": "완벽한 광란",
+    "talentdesc": "빈 탄창을 재장전하면 장탄수 8발마다 5초 동안 \n 발사속도와 무기 대미지가 3%씩 증가합니다.",
     "flavourText": "신과 인간을 통틀어 으뜸이니, 그 기수를 망자의 세계로 인도하노라."
   },
 
@@ -499,9 +507,13 @@
     "underbarrel": true,
     "magazine": true,
     "optics": true,
-    "dlc": false,
+    "dlc": true,
     "exotic": false,
-    "named": false
+    "named": true,
+    "droplocation": "LZ,DZ",
+    "talenttitle": "완벽한 새디스트",
+    "talentdesc": "출혈 상태이상 효과가 적용된 적에 대한 무기 대미지가 25% 증가합니다.\n 3명의 적을 처치하면 다음에 공격을 적중시키는 적에게\n 출혈 상태이상 효과를 적용합니다.",
+    "flavourText": "온 동네를 피바다로 만들어주지."
   },
   {
     "variant": "NEGEV",
@@ -604,6 +616,10 @@
     "optics": true,
     "dlc": false,
     "exotic": false,
-    "named": false
+    "named": true,
+    "droplocation": "LZ,DZ",
+    "talenttitle": "완벽한 최적화",
+    "talentdesc": "무기 조작력이 30% 증가합니다.",
+    "flavourText": "누군지 몰라도 '못 쓸 정도만 아니면 그냥 써라'라고\n 지껄인 인간은 취미 하나 없는 놈일 거다."
   }
 ]

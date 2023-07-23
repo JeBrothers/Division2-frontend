@@ -33,7 +33,10 @@
     "dlc": true,
     "exotic": false,
     "named": true,
-    "flavourText": "왼손잡이든 뭐든 확고한 신념이 있어야해.  13"
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 슬레지해머",
+    "talentdesc": "수류탄으로 대미지를 주면 대상에게 징표를 남깁니다.\n 징표에 걸린 대상은 받는 방어도 대상 대미지가 40% 만큼 증가하고 \n 이동속도는 -30%  만큼 감소합니다. \n징표는 10초  후에 사라집니다.",
+    "flavourText": "왼손잡이든 뭐든 확고한 신념이 있어야해. \n-13"
   },
   {
     "variant": "AA-12",
@@ -51,7 +54,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "기타 좋아하는 사람 많지. 나? 난 드럼이 좋아. 둥, 둥, 둥. 힘이 샘솟거든.- 하이에나 밴드 멤버"
+    "droplocation": "DZ",
+    "talenttitle": "완벽한 여유분",
+    "talentdesc": "장탄수가 50% 증가합니다.",
+    "flavourText": "기타 좋아하는 사람 많지. 나? 난 드럼이 좋아. \n둥, 둥, 둥. 힘이 샘솟거든. \n- 하이에나 밴드 멤버"
   },
   {
     "variant": "Double Barrel",
@@ -103,7 +109,10 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "총열이 두 개야. 하나는 너 가져! - 술 취한 얼간이"
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 의기충전",
+    "talentdesc": "재장전하면 10초 동안 무기 대미지가 5% 증가합니다. 최대 5번 중첩됩니다.",
+    "flavourText": "총열이 두 개야. 하나는 너 가져! \n- 술 취한 얼간이"
   },
   {
     "variant": "Double Barrel",
@@ -125,7 +134,7 @@
   {
     "variant": "Double Barrel",
     "engName": "Firestarter",
-    "name": "불씨",
+    "name": "불씨\n(보조무기)",
     "rpm": 200,
     "baseMagSize": 2,
     "reload": 2.2,
@@ -138,12 +147,15 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "탄환 장약에 미세한 분말이 함유되어 산탄총에 적중당한 대상의 가연성이 증가합니다."
+    "droplocation": "화염방사병\n현장연구",
+    "talenttitle": "뇌관 탄환",
+    "talentdesc": "적에게 대미지를 주면 5초 동안 화상 저항을 50% 감소시킵니다.",
+    "flavourText": "탄환 장약에 미세한 분말이 함유되어 산탄총에 적중당한 \n대상의 가연성이 증가합니다."
   },
   {
     "variant": "Double Barrel",
     "engName": "Backup Boomstick",
-    "name": "붐 스틱(보조무기)",
+    "name": "보조 붐 스틱(보조무기)",
     "rpm": 200,
     "baseMagSize": 2,
     "reload": 2.2,
@@ -156,7 +168,9 @@
     "dlc": false,
     "exotic": false,
     "named": true,
-    "flavourText": "언제나, 언제나... 대책은 필요해. - 술 취한 얼간이"
+    "droplocation": "LZ",
+    "talentdesc": "+17% 산탄총 대미지",
+    "flavourText": "언제나, 언제나... 대책은 필요해. \n- 술 취한 얼간이"
   },
   {
     "variant": "KSG",
@@ -191,6 +205,9 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "기술전문가\n현장연구",
+    "talenttitle": "완벽한 사거리",
+    "talentdesc": "적정 사거리가 100% 증가합니다.",
     "flavourText": "이 세상을 떠날 때, 오로지 백색 소음만이 들리리라."
   },
   {
@@ -294,6 +311,9 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "DZ,LZ",
+    "talenttitle": "완벽한 재즈 핸드",
+    "talentdesc": "재장전 속도가 30% 증가합니다.",
     "flavourText": "새겨진 글: 목숨을 소중히 생각하고, 이 무기로 지켜라."
   },
   {
@@ -380,6 +400,9 @@
     "dlc": false,
     "exotic": false,
     "named": true,
+    "droplocation": "LZ",
+    "talenttitle": "완벽한 연속 타격",
+    "talentdesc": "처치를 2번 연속으로 하면 탄창이 보층되고, \n10초 동안 무기 대미지가 40% 증가합니다.",
     "flavourText": "몰려드는 해일은 절대 멈추지 않으며, 불길과 생명을 삼켜 사그라뜨립니다."
   },
   {
@@ -533,9 +556,12 @@
     "underbarrel": true,
     "magazine": true,
     "optics": true,
-    "dlc": false,
+    "dlc": true,
     "exotic": false,
     "named": true,
+    "droplocation": "예약구매\n보상",
+    "talenttitle": "완벽한 연속 타격",
+    "talentdesc": "처치를 2번 연속으로 하면 탄창이 보층되고, \n10초 동안 무기 대미지가 40% 증가합니다.",
     "flavourText": "진입 후 정리해!"
   },
   {
@@ -568,10 +594,12 @@
     "underbarrel": true,
     "magazine": true,
     "optics": true,
-    "dlc": false,
+    "dlc": true,
     "exotic": false,
     "named": true,
-    "flavourText": "청부업이 원래 지저분한 일이야. 그리고 청소 건수 중에는 큰 밀대가 필요한 것도 있지. - 마르코 '밀대' 모치아노"
+    "droplocation": "LZ",
+    "talentdesc": "+10% 적 처치시 방어도 회복",
+    "flavourText": "청부업이 원래 지저분한 일이야. \n그리고 청소 건수 중에는 큰 밀대가 필요한 것도 있지. \n- 마르코 '밀대' 모치아노"
   },
   {
     "variant": "Six12",
