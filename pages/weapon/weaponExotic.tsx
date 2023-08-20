@@ -6,13 +6,13 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import { cls } from "../../libs/utils";
 import WeaponTypeIcon from "../components/WeaponTypeIcon";
 import RifleTable from "./weaponinfotable/weaponinfo-rifle";
-import ArTable from "./weaponinfotable/weaponinfo-ar";
 import MmrTable from "./weaponinfotable/weaponinfo-mmr";
 import LmgTable from "./weaponinfotable/weaponinfo-lmg";
 import SmgTable from "./weaponinfotable/weaponinfo-smg";
 import SgTable from "./weaponinfotable/weaponinfo-sg";
 import PistolTable from "./weaponinfotable/weaponinfo-pistol";
 import ArExoticTable from "./weaponExotic/weaponExotic-ar";
+import RifleExoticTable from "./weaponExotic/weaponExotic-rifle";
 
 interface WeaponExotic {
   assultrifle?: string;
@@ -187,7 +187,7 @@ const WeaponExotic: NextPage = () => {
             {/* 소총 */}
             <TabPanel>
               <div className="mt-20">
-                <RifleTable />
+                <RifleExoticTable />
               </div>
             </TabPanel>
 

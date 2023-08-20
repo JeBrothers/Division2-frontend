@@ -646,17 +646,17 @@
     "underbarrel": true,
     "magazine": true,
     "optics": true,
-    "exoticmuzzle": "탄소강 총구: +10% 명중률",
-    "exoticunderbarrel": "빅혼 뿔 손잡이: +10% 안정성",
-    "exoticmagazine": "인장 스프링 탄창: +10% 재장전 속도",
-    "exoticoptics": "사격 지정 조준경 : +30% 헤드샷 대미지",
+    "exoticmuzzle": "성 엘모의 엔진 총구: +20% 치명타 확률",
+    "exoticunderbarrel": "성 엘모의 엔진 손잡이: +20% 무기 조작력",
+    "exoticmagazine": "성 엘모의 엔진 탄창: +30 장탄수",
+    "exoticoptics": "성 엘모의 엔진 광학 조준기: +20% 치명타 대미지",
     "dlc": false,
     "exotic": true,
     "named": false,
     "droplocation": "TU 18 보상/\n  타겟 루트/\n  특급 상자 ",
     "flavourText": "가장 아름다우면서도 가장 위험한 현상은 자연에 있다. - 익명",
-    "talenttitle": "완벽한 점화",
-    "talentdesc": "화상 상태이상 효과가 적용된 적에 대한 \n 무기 대미지가 25% 증가합니다 \n 3명의 적을 처치하면 다음에 공격을 적중시키는 대상에게 \n 화상 상태이상 효과를 적용합니다."
+    "talenttitle": "악툼 에스트 (Actum Est)",
+    "talentdesc": "이 무기로 적을 사격하면 중첩 1개를 얻습니다. \n100번 중첩되면 다음 탄창이 충격탄으로 보충됩니다."
   },
 
   {
@@ -802,22 +802,30 @@
   {
     "variant": "P416",
     "engName": "Eagle Bearer",
-    "name": "독수리를 거느린 자",
+    "name": "독수리를 \n거느린 자",
     "rpm": 750,
     "baseMagSize": 30,
     "moddedMagSize": 60,
     "reload": 2.3,
     "damage": 51713,
     "dps": 646413,
-
     "muzzle": false,
     "underbarrel": false,
     "magazine": false,
     "optics": false,
     "dlc": false,
+    "exoticmuzzle": "뾰족한 부리: +15% 치명타 대미지",
+    "exoticunderbarrel": "갈퀴 손잡이: +10% 무기 조작력",
+    "exoticmagazine": "탄환의 둥지: +30 탄약",
+    "exoticoptics": "독수리의 눈 조준기: +10% 치명타 확률",
+    "droplocation": "레이드\n 칠흑의시간 \n 보스처치 \n및 \n클리어 보상   \n/\n DZ \n\n(낮은확률)   ",
+    "talenttitle": "독수리의 공격",
+    "talentdesc": "지속적으로 사격할수록 명중률이 증가하여 최대 +30%만큼 증가합니다.\n헤드샷으로 적을 처치하면 15초 동안 집념 버프 효과를 얻습니다.\n집념의 효과는 \n바디샷 적중시키면 1%만큼, 헤드샷을 적중시키면 5%만큼 증가합니다.",
+    "talenttitle2": "집념",
+    "talentdesc2": "버프 효과가 만료될 때까지 받은 대미지의 40-80%만큼을 보류합니다.\n버프 효과가 활성화된 동안 처치한 적의 수에 따라 대미지가 차감되며, \n 3명을 처치하면 받은 대미지의 100% 차감됩니다.",
     "exotic": true,
     "named": false,
-    "flavourText": "국가적인 재난에 맞서 불철주야 보호와 헌신에 힘쓴 오데사 소여에게 이 선물을 바칩니다. 훗날 앞길에 난관이 닥치더라도 극복할 수 있기를 기원합니다. - 극장 정착지 주민 일동"
+    "flavourText": "국가적인 재난에 맞서 불철주야 보호와 헌신에 힘쓴 \n 오데사 소여에게 이 선물을 바칩니다. \n훗날 앞길에 난관이 닥치더라도 극복할 수 있기를 기원합니다. \n - 극장 정착지 주민 일동"
   },
 
   {
@@ -873,14 +881,21 @@
     "reload": 2.0,
     "damage": 51713,
     "dps": 603318,
-
     "muzzle": false,
     "underbarrel": false,
     "magazine": false,
     "optics": false,
+    "exoticmagazine": "전압원: +11 장탄수",
+    "exoticmuzzle": "방전극: +30% 치명타 대미지",
+    "exoticoptics": "전도선 초점: +10% 치명타 확률",
+    "exoticunderbarrel": "절연성 안전 손잡이: +10% 무기 조작력",
+    "talenttitle": "축전",
+    "talentdesc": "적에게 사격을 가하면 최대 40번까지 중첩이 쌓입니다.\n중첩당 스킬 대미지가 1.5%만큼 증가합니다. \n5초 이후에는 1초마다 중첩이 1개씩 감소합니다. \n스킬 등급 하나당 무기 대미지가 7.5%만큼 증가합니다.",
+    "droplocation": "최정상 게임모드에서\n 챌린지 5개\n 완료하면 획득",
     "dlc": true,
     "exotic": true,
-    "named": false
+    "named": false,
+    "flavourText": "나는 말이야. 절단되거나 꼬인 전선하고 전기 화재가 제일 좋아.\n 다행히도 이 두 가지는 서로 맞물리는 성질이 있단 말이지. \n어디 불꽃을 일으켜 보자고. 싹 태워버려. \n- 전직 블랙 터스크 기술자"
   },
 
   {
@@ -1023,14 +1038,19 @@
     "reload": 2.4,
     "damage": 39960,
     "dps": 599400,
-
     "muzzle": false,
     "underbarrel": false,
     "magazine": false,
     "optics": false,
-
     "dlc": false,
     "exotic": true,
+    "exoticmagazine": "카멜레온 능동 위장 프로세서: +20 탄약",
+    "exoticmuzzle": "카멜레온 중화 장치: +20% 명중률",
+    "exoticoptics": "카멜레온 광학 조준기: +15% 치명타 확률",
+    "exoticunderbarrel": "카멜레온 손잡이: +10% 안정성",
+    "talenttitle": "적응 본능",
+    "talentdesc": "헤드샷을 30번 적중시키면 \n45초 동안 치명타 확률이 +20%만큼, 치명타 대미지가 +50%만큼 증가합니다.\n 바디샷을 75번 적중시키면\n 45초 동안 무기 대미지가 +90%만큼 증가합니다.\n레그샷을 30번 적중시키면 \n45초 동안 재장전 속도가 +150%만큼 증가합니다.",
+    "droplocation": "LZ",
     "named": false,
     "flavourText": "카멜레온은 DARPA 연구진이 개발한 빛 굴절 기술이 적용된 작품입니다."
   }

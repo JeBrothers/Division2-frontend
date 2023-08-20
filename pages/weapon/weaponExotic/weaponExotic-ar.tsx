@@ -15,6 +15,8 @@ interface ARE {
   flavourText?: string;
   talenttitle?: string;
   talentdesc?: string;
+  talenttitle2?: string;
+  talentdesc2?: string;
   droplocation?: string;
 }
 
@@ -41,7 +43,7 @@ export default function ArExoticTable() {
           </td>
         )}
         <td
-          className={`w-[150px] px-2  border-x border-gray-200 text-sm text-division-orange`}
+          className={`w-[120px] px-2  border-x border-gray-200 text-sm text-division-orange`}
         >
           {info.name}
         </td>
@@ -64,7 +66,12 @@ export default function ArExoticTable() {
           )}
 
           {info.talentdesc && <div>{info.talentdesc}</div>}
-          <div className="pl-28 py-8 text-left">
+
+          {info.talenttitle2 && (
+            <div className=" text-orange-400 pt-4">{info.talenttitle2}</div>
+          )}
+          {info.talentdesc2 && <div>{info.talentdesc2}</div>}
+          <div className="pl-28 py-8 text-left space-y-1">
             {info.exoticmuzzle && <div>{info.exoticmuzzle}</div>}
             {info.exoticmagazine && <div>{info.exoticmagazine}</div>}
             {info.exoticunderbarrel && <div>{info.exoticunderbarrel}</div>}
@@ -72,7 +79,7 @@ export default function ArExoticTable() {
           </div>
         </td>
 
-        <td className="w-[100px] px-2  border-x border-gray-200 text-xs">
+        <td className="w-[150px] px-2 py-2 border-x border-gray-200 text-xs">
           {info.droplocation}
         </td>
         <td className="w-[450px] px-2 py-2 border-x text-xs border-gray-200 leading-6">
