@@ -2,26 +2,30 @@ import React from "react";
 
 import AR from "../../../public/WeaponinfoJson/assaultrifle.json";
 
-interface ARN {
+interface ARE {
   variant?: string;
+  engName?: string;
   name?: string;
+  exoticmuzzle?: string;
+  exoticunderbarrel?: string;
+  exoticmagazine?: string;
+  exoticoptics?: string;
   dlc?: boolean;
-  named?: boolean;
+  exotic?: boolean;
   flavourText?: string;
   talenttitle?: string;
   talentdesc?: string;
   droplocation?: string;
 }
 
-export default function ArNamedTable() {
-  const DisplayData: ARN[] = AR;
+export default function ArExoticTable() {
+  const DisplayData: ARE[] = AR;
 
-  const NamedData = DisplayData.filter((info) => info.named);
+  const NamedData = DisplayData.filter((info) => info.exotic);
 
   const data = NamedData.map((info, index) => {
     const isSameVariant =
       index > 0 && info.variant === NamedData[index - 1].variant;
-    const nameColor = info.named ? "text-yellow-400" : "text-gray-900";
 
     return (
       <tr
@@ -30,14 +34,14 @@ export default function ArNamedTable() {
       >
         {!isSameVariant && (
           <td
-            className="w-[100px] px-4  whitespace-pre-line text-gray-900 border-x border-gray-200"
+            className="w-[100px] px-4  whitespace-pre-line text-gray-900 border-x border-gray-200 "
             rowSpan={NamedData.filter((x) => x.variant === info.variant).length}
           >
             {info.variant}
           </td>
         )}
         <td
-          className={`w-[150px] px-4  border-x border-gray-200 text-sm ${nameColor}`}
+          className={`w-[150px] px-2  border-x border-gray-200 text-sm text-division-orange`}
         >
           {info.name}
         </td>
@@ -60,6 +64,12 @@ export default function ArNamedTable() {
           )}
 
           {info.talentdesc && <div>{info.talentdesc}</div>}
+          <div className="pl-28 py-8 text-left">
+            {info.exoticmuzzle && <div>{info.exoticmuzzle}</div>}
+            {info.exoticmagazine && <div>{info.exoticmagazine}</div>}
+            {info.exoticunderbarrel && <div>{info.exoticunderbarrel}</div>}
+            {info.exoticoptics && <div>{info.exoticoptics}</div>}
+          </div>
         </td>
 
         <td className="w-[100px] px-2  border-x border-gray-200 text-xs">
@@ -81,7 +91,8 @@ export default function ArNamedTable() {
             <div className="text-red-700">DZ=다크존</div>
           </div>
           <table className="w-auto  text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 text-center">
-            <thead className="sticky top-0 z-10 text-xs text-white uppercase bg-division-dark font-semibold">
+            {/* <thead className="sticky top-0 z-10 text-xs text-white uppercase bg-division-dark font-semibold"> */}
+            <thead className=" text-xs text-white uppercase bg-division-dark font-semibold">
               {/* 테이블 헤더 */}
               <tr>
                 <th scope="col" className="px-6 py-6">

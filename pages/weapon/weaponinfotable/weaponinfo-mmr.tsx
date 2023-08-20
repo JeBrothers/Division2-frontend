@@ -1,8 +1,8 @@
 import React from "react";
 
-import Pistol from "../../../public/WeaponinfoJson/pistol.json";
+import Mmr from "../../../public/WeaponinfoJson/marksmanrifle.json";
 
-interface Pistol {
+interface Mmr {
   variant?: string;
   engName?: string;
   name?: string;
@@ -22,8 +22,8 @@ interface Pistol {
   flavourText?: string;
 }
 
-export default function PistolTable() {
-  const DisplayData: Pistol[] = Pistol;
+export default function MmrTable() {
+  const DisplayData: Mmr[] = Mmr;
 
   const data = DisplayData.map((info, index) => {
     const isSameVariant =
@@ -35,7 +35,7 @@ export default function PistolTable() {
       : "text-gray-900";
 
     return (
-      <tr className="bg-white border-b border-x mb-10 font-bold">
+      <tr className="bg-white border-b border-x mb-10 font-semibold">
         {!isSameVariant && (
           <td
             className="w-56 px-6 py-4 whitespace-pre-line text-gray-900 border-x border-gray-200"
@@ -47,7 +47,7 @@ export default function PistolTable() {
           </td>
         )}
         <td
-          className={`w-60 pl-4 py-4 border-x border-gray-200 text-left  ${nameColor}`}
+          className={`w-60 px-6 py-4 border-x border-gray-200 text-left  ${nameColor}`}
         >
           {info.name}
         </td>
@@ -81,6 +81,7 @@ export default function PistolTable() {
         <div className="max-h-[750px] overflow-y-auto">
           <table className="w-max-md  text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 text-center">
             <thead className="sticky top-0 z-40 text-xs text-white uppercase bg-division-dark font-semibold">
+              {/* <thead className="text-xs text-white uppercase bg-division-dark font-semibold"> */}
               <tr>
                 <th scope="col" className="px-6  py-6">
                   총기종류

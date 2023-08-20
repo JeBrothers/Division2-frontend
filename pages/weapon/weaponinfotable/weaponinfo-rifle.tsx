@@ -1,8 +1,8 @@
 import React from "react";
 
-import SMG from "../../../public/WeaponinfoJson/submachinegun.json";
+import Rifle from "../../../public/WeaponinfoJson/rifle.json";
 
-interface SMG {
+interface Rifle {
   variant?: string;
   engName?: string;
   name?: string;
@@ -22,8 +22,8 @@ interface SMG {
   flavourText?: string;
 }
 
-export default function SmgTable() {
-  const DisplayData: SMG[] = SMG;
+export default function RifleTable() {
+  const DisplayData: Rifle[] = Rifle;
 
   const data = DisplayData.map((info, index) => {
     const isSameVariant =
@@ -33,9 +33,8 @@ export default function SmgTable() {
       : info.named
       ? "text-yellow-400"
       : "text-gray-900";
-
     return (
-      <tr className="bg-white border-b border-x mb-10 font-bold">
+      <tr className="bg-white border-b border-x font-bold">
         {!isSameVariant && (
           <td
             className="w-56 px-6 py-4 whitespace-pre-line text-gray-900 border-x border-gray-200"
@@ -81,6 +80,7 @@ export default function SmgTable() {
         <div className="max-h-[750px] overflow-y-auto">
           <table className="w-max-md  text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 text-center">
             <thead className="sticky top-0 z-40 text-xs text-white uppercase bg-division-dark font-semibold">
+              {/* <thead className=" text-xs text-white uppercase bg-division-dark font-semibold"> */}
               <tr>
                 <th scope="col" className="px-6  py-6">
                   총기종류

@@ -5,13 +5,13 @@ import { useForm } from "react-hook-form";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import { cls } from "../../libs/utils";
 import WeaponTypeIcon from "../components/WeaponTypeIcon";
-import RifleTable from "./weaponinfotable/rifle";
-import ArTable from "./weaponinfotable/ar";
-import MmrTable from "./weaponinfotable/mmr";
-import LmgTable from "./weaponinfotable/lmg";
-import SmgTable from "./weaponinfotable/smg";
-import SgTable from "./weaponinfotable/sg";
-import PistolTable from "./weaponinfotable/pistol";
+import RifleTable from "./weaponinfotable/weaponinfo-rifle";
+import ArTable from "./weaponinfotable/weaponinfo-ar";
+import MmrTable from "./weaponinfotable/weaponinfo-mmr";
+import LmgTable from "./weaponinfotable/weaponinfo-lmg";
+import SmgTable from "./weaponinfotable/weaponinfo-smg";
+import SgTable from "./weaponinfotable/weaponinfo-sg";
+import PistolTable from "./weaponinfotable/weaponinfo-pistol";
 
 interface WeaponInfo {
   assultrifle?: string;

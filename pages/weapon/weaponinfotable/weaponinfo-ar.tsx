@@ -1,8 +1,8 @@
 import React from "react";
 
-import LMG from "../../../public/WeaponinfoJson/lightmachinegun.json";
+import AR from "../../../public/WeaponinfoJson/assaultrifle.json";
 
-interface LMG {
+interface AR {
   variant?: string;
   engName?: string;
   name?: string;
@@ -20,10 +20,14 @@ interface LMG {
   exotic?: boolean;
   named?: boolean;
   flavourText?: string;
+  talenttitle?: string;
+  talentdesc?: string;
+  droplocation?: string;
+  skillicon?: string;
 }
 
-export default function LmgTable() {
-  const DisplayData: LMG[] = LMG;
+export default function ArTable() {
+  const DisplayData: AR[] = AR;
 
   const data = DisplayData.map((info, index) => {
     const isSameVariant =
@@ -35,7 +39,7 @@ export default function LmgTable() {
       : "text-gray-900";
 
     return (
-      <tr className="bg-white border-b border-x mb-10 font-bold">
+      <tr className="bg-white border-b border-x font-bold">
         {!isSameVariant && (
           <td
             className="w-56 px-6 py-4 whitespace-pre-line text-gray-900 border-x border-gray-200"
@@ -81,6 +85,7 @@ export default function LmgTable() {
         <div className="max-h-[750px] overflow-y-auto">
           <table className="w-max-md  text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 text-center">
             <thead className="sticky top-0 z-40 text-xs text-white uppercase bg-division-dark font-semibold">
+              {/* <thead className=" text-xs text-white uppercase bg-division-dark font-semibold"> */}
               <tr>
                 <th scope="col" className="px-6  py-6">
                   총기종류

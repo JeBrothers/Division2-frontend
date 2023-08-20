@@ -81,6 +81,7 @@ export default function SgTable() {
         <div className="max-h-[750px] overflow-y-auto">
           <table className="w-max-md  text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 text-center">
             <thead className="sticky top-0 z-40 text-xs text-white uppercase bg-division-dark font-semibold">
+              {/* <thead className=" text-xs text-white uppercase bg-division-dark font-semibold"> */}
               <tr>
                 <th scope="col" className="px-6  py-6">
                   총기종류

@@ -188,14 +188,19 @@
     "reload": 1.9,
     "damage": 51243,
     "dps": 683240,
-
     "muzzle": false,
     "underbarrel": false,
     "magazine": false,
     "optics": false,
+    "exoticmuzzle": "탄소강 총구: +10% 명중률",
+    "exoticunderbarrel": "빅혼 뿔 손잡이: +10% 안정성",
+    "exoticmagazine": "인장 스프링 탄창: +10% 재장전 속도",
+    "exoticoptics": "사격 지정 조준경 : +30% 헤드샷 대미지",
     "dlc": true,
     "exotic": true,
-
+    "talenttitle": "거물 사냥꾼(Big Game Hunter)",
+    "talentdesc": "조준경으로 조준 시 반자동 사격 모드로 전환되고 \n 각 탄환이 450%의 무기 대미지를 줍니다. \n 헤드샷을 적중시키면 헤드샷 대미지가 +2%만큼 증가합니다. \n 최대 50번 중첩됩니다. 최대 중첩에 도달하면 모든 중첩이 사라질 때까지 4초마다 중첩이 10개씩 감소합니다. \n 헤드샷은 중첩 감소를 지연시킵니다.",
+    "droplocation": "난이도 전설\n  보스 처치시 \n 낮은 확률드랍\n / \n 서밋 \n 전설 난이도",
     "flavourText": "조준하고 숨을 들이쉬어. 평정심을 다스리는거다. 집중하고. 숨을 내쉬어. 그리고 당겨."
   },
 
@@ -540,6 +545,30 @@
   },
 
   {
+    "variant": "Honey Badger",
+    "engName": "Savage Wolverine",
+    "name": "흉포한 이리",
+    "rpm": 790,
+    "baseMagSize": 30,
+    "moddedMagSize": 50,
+    "reload": 2.4,
+    "damage": 47952,
+    "dps": 631368,
+
+    "muzzle": false,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "dlc": false,
+    "exotic": false,
+    "named": true,
+    "droplocation": "화염방사병\n현장연구",
+    "flavourText": "난폭한 동물을 궁지로 몰아넣는 건 성질 돋우기 딱 좋은 짓이야. \n 충고 하나 해줄까? 그러지 마. \n - 매닝 국립 동물원 사육사",
+    "talenttitle": "완벽한 근접전의 대가",
+    "talentdesc": "7m 내에 있는 대상을 처치하면, \n 10초 동안 무기대미지가 38% 증가합니다"
+  },
+
+  {
     "variant": "M4",
     "engName": "Police M4",
     "name": "경찰용 M4",
@@ -599,6 +628,33 @@
     "named": true,
     "droplocation": "LZ\n(only) ",
     "flavourText": "때로는 세상이 더 빨리 불타버렸으면 싶을 때도 있기 마련입니다.",
+    "talenttitle": "완벽한 점화",
+    "talentdesc": "화상 상태이상 효과가 적용된 적에 대한 \n 무기 대미지가 25% 증가합니다 \n 3명의 적을 처치하면 다음에 공격을 적중시키는 대상에게 \n 화상 상태이상 효과를 적용합니다."
+  },
+  {
+    "variant": "M4",
+    "engName": "St. Elmo's Engine",
+    "name": "성 엘모의 엔진",
+    "rpm": 850,
+    "baseMagSize": 40,
+    "moddedMagSize": 70,
+    "reload": 2.4,
+    "damage": 44191,
+    "dps": 626039,
+
+    "muzzle": true,
+    "underbarrel": true,
+    "magazine": true,
+    "optics": true,
+    "exoticmuzzle": "탄소강 총구: +10% 명중률",
+    "exoticunderbarrel": "빅혼 뿔 손잡이: +10% 안정성",
+    "exoticmagazine": "인장 스프링 탄창: +10% 재장전 속도",
+    "exoticoptics": "사격 지정 조준경 : +30% 헤드샷 대미지",
+    "dlc": false,
+    "exotic": true,
+    "named": false,
+    "droplocation": "TU 18 보상/\n  타겟 루트/\n  특급 상자 ",
+    "flavourText": "가장 아름다우면서도 가장 위험한 현상은 자연에 있다. - 익명",
     "talenttitle": "완벽한 점화",
     "talentdesc": "화상 상태이상 효과가 적용된 적에 대한 \n 무기 대미지가 25% 증가합니다 \n 3명의 적을 처치하면 다음에 공격을 적중시키는 대상에게 \n 화상 상태이상 효과를 적용합니다."
   },
