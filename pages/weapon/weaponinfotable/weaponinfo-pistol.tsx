@@ -1,8 +1,8 @@
 import React from "react";
 
-import Pistol from "../../../public/WeaponinfoJson/pistol.json";
+import pistol from "../../../public/WeaponinfoJson/pistol.json";
 
-interface Pistol {
+interface pistol {
   variant?: string;
   engName?: string;
   name?: string;
@@ -23,7 +23,7 @@ interface Pistol {
 }
 
 export default function PistolTable() {
-  const DisplayData: Pistol[] = Pistol;
+  const DisplayData: pistol[] = pistol;
 
   const data = DisplayData.map((info, index) => {
     const isSameVariant =

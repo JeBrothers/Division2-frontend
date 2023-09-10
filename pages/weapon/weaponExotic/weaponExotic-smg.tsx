@@ -1,15 +1,15 @@
 import React from "react";
 
-import AR from "../../../public/WeaponinfoJson/assaultrifle.json";
+import SMG from "../../../public/WeaponinfoJson/submachinegun.json";
 
-interface AR {
+interface SMGE {
   variant?: string;
   engName?: string;
   name?: string;
-  muzzle?: boolean;
-  underbarrel?: boolean;
-  magazine?: boolean;
-  optics?: boolean;
+  exoticmuzzle?: string;
+  exoticunderbarrel?: string;
+  exoticmagazine?: string;
+  exoticoptics?: string;
   dlc?: boolean;
   exotic?: boolean;
   flavourText?: string;
@@ -19,53 +19,65 @@ interface AR {
 }
 
 export default function SmgExoticTable() {
-  const DisplayData: AR[] = AR;
+  const DisplayData: SMGE[] = SMG;
 
-  const data = DisplayData.map((info, index) => {
+  const NamedData = DisplayData.filter((info) => info.exotic);
+
+  const data = NamedData.map((info, index) => {
     const isSameVariant =
-      index > 0 && info.variant === DisplayData[index - 1].variant;
-    const nameColor = info.exotic
-      ? "text-division-orange"
-      : info.named
-      ? "text-yellow-400"
-      : "text-gray-900";
+      index > 0 && info.variant === NamedData[index - 1].variant;
 
     return (
-      <tr className="bg-white border-b border-x font-bold">
+      <tr
+        className="bg-white border-b border-x mb-10 font-bold "
+        style={{ whiteSpace: "pre-line" }}
+      >
         {!isSameVariant && (
           <td
-            className="w-56 px-6 py-4 whitespace-pre-line text-gray-900 border-x border-gray-200"
-            rowSpan={
-              DisplayData.filter((x) => x.variant === info.variant).length
-            }
+            className="w-[100px] px-4  whitespace-pre-line text-gray-900 border-x border-gray-200 "
+            rowSpan={NamedData.filter((x) => x.variant === info.variant).length}
           >
             {info.variant}
           </td>
         )}
         <td
-          className={`w-60 pl-4 py-4 border-x border-gray-200 text-left  ${nameColor}`}
+          className={`w-[120px] px-2  border-x border-gray-200 text-sm text-division-orange`}
         >
           {info.name}
         </td>
-        <td className="w-30 px-6 py-4 border-x border-gray-200">
-          {info.baseMagSize}
+        {/* DLC 유무에 따른 이미지 표시 */}
+        <td className="w-auto border-x border-gray-200 px-1 ">
+          {info.dlc ? (
+            <img src="/asset/DLC/DLC.png" alt="Dlc" className="w-12 h-12 " />
+          ) : (
+            <img
+              src="/asset/DLC/NO DLC.png"
+              alt="noDlc"
+              className="w-12 h-12"
+            />
+          )}
         </td>
-        <td className="w-24 px-6 py-4 border-x border-gray-200">{info.rpm}</td>
-        <td className="w-36 px-6 py-4 border-x border-gray-200">
-          {info.damage}
+        {/* 특수효과 열 */}
+        <td className="w-[480px] px-4 space-y-1 py-2 border-x border-gray-200 text-xs">
+          {info.talenttitle && (
+            <div className=" text-orange-400">{info.talenttitle}</div>
+          )}
+
+          {info.talentdesc && <div>{info.talentdesc}</div>}
+
+          <div className="pl-28 py-8 text-left space-y-1">
+            {info.exoticmuzzle && <div>{info.exoticmuzzle}</div>}
+            {info.exoticmagazine && <div>{info.exoticmagazine}</div>}
+            {info.exoticunderbarrel && <div>{info.exoticunderbarrel}</div>}
+            {info.exoticoptics && <div>{info.exoticoptics}</div>}
+          </div>
         </td>
-        <td className="w-36 px-6 py-4 border-x border-gray-200">{info.dps}</td>
-        <td className="px-6 py-4 text-center border-x border-gray-200">
-          {info.optics ? "O" : "X"}
+
+        <td className="w-[150px] px-2 py-2 border-x border-gray-200 text-xs">
+          {info.droplocation}
         </td>
-        <td className="px-6 py-4 text-center border-x border-gray-200">
-          {info.muzzle ? "O" : "X"}
-        </td>
-        <td className="px-6 py-4 text-center border-x border-gray-200">
-          {info.magazine ? "O" : "X"}
-        </td>
-        <td className="px-6 py-4 text-center border-x border-gray-200">
-          {info.underbarrel ? "O" : "X"}
+        <td className="w-[450px] px-2 py-2 border-x text-xs border-gray-200 leading-6">
+          {info.flavourText}
         </td>
       </tr>
     );
@@ -73,54 +85,32 @@ export default function SmgExoticTable() {
 
   return (
     <>
-      <div className="flex relative  justify-center ">
+      <div className="flex relative overflow-x-auto justify-center  pb-2 ">
         <div className="max-h-[750px] overflow-y-auto">
-          <table className="w-max-md  text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 text-center">
-            <thead className="sticky top-0 z-40 text-xs text-white uppercase bg-division-dark font-semibold">
-              {/* <thead className=" text-xs text-white uppercase bg-division-dark font-semibold"> */}
+          <div className=" flex justify-end font-extrabold space-x-2"></div>
+          <table className="w-auto  text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 text-center">
+            {/* <thead className="sticky top-0 z-10 text-xs text-white uppercase bg-division-dark font-semibold"> */}
+            <thead className=" text-xs text-white uppercase bg-division-dark font-semibold">
+              {/* 테이블 헤더 */}
               <tr>
-                <th scope="col" className="px-6  py-6">
+                <th scope="col" className="px-6 py-6">
                   총기종류
                 </th>
-                <th scope="col" className="px-6 py-6">
+                <th scope="col" className="px-6">
                   총기명
                 </th>
-                <th scope="col" className="px-6 py-6">
-                  탄창용량
+                <th scope="col" className="px-4">
+                  DLC
                 </th>
-                <th scope="col" className="px-6 py-6">
-                  RPM
+                <th scope="col" className="px-6">
+                  특수효과
                 </th>
-                <th scope="col" className="px-6 py-6">
-                  피해량
+                <th scope="col" className="px-2">
+                  획득처
                 </th>
-                <th scope="col" className="px-6 py-6">
-                  DPS
+                <th scope="col" className="px-6">
+                  배경문구
                 </th>
-                <th
-                  scope="col"
-                  className="px-6 py-6  bg-division-color text-division-dark "
-                >
-                  조준기
-                </th>
-                <th
-                  scope="col"
-                  className="px-6 py-6 bg-division-color text-division-dark "
-                >
-                  총구
-                </th>
-                <th
-                  scope="col"
-                  className="px-6 py-6 bg-division-color text-division-dark "
-                >
-                  탄창
-                </th>
-                <td
-                  scope="col"
-                  className="px-6 py-6 bg-division-color text-division-dark "
-                >
-                  총열<br></br>하단부
-                </td>
               </tr>
             </thead>
             <tbody>{data}</tbody>

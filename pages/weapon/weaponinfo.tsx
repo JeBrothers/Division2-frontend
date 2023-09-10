@@ -11,6 +11,7 @@ import MmrTable from "./weaponinfotable/weaponinfo-mmr";
 import LmgTable from "./weaponinfotable/weaponinfo-lmg";
 import SmgTable from "./weaponinfotable/weaponinfo-smg";
 import SgTable from "./weaponinfotable/weaponinfo-sg";
+import pistolTable from "./weaponinfotable/weaponinfo-pistol";
 import PistolTable from "./weaponinfotable/weaponinfo-pistol";
 
 interface WeaponInfo {
@@ -60,7 +61,7 @@ const WeaponInfo: NextPage = () => {
     reset();
     setType("lightmachinegun");
   };
-  const onPistolClick = () => {
+  const onpistolClick = () => {
     reset();
     setType("pistol");
   };
@@ -167,7 +168,7 @@ const WeaponInfo: NextPage = () => {
                         ? "border-division-orange text-division-orange"
                         : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                     )}
-                    onClick={onPistolClick}
+                    onClick={onpistolClick}
                   >
                     <WeaponTypeIcon active={type} type="pistol" />
                     <span className="ml-2 text-base ">권총</span>

@@ -10,9 +10,15 @@ import MmrTable from "./weaponinfotable/weaponinfo-mmr";
 import LmgTable from "./weaponinfotable/weaponinfo-lmg";
 import SmgTable from "./weaponinfotable/weaponinfo-smg";
 import SgTable from "./weaponinfotable/weaponinfo-sg";
-import PistolTable from "./weaponinfotable/weaponinfo-pistol";
+import pistolTable from "./weaponinfotable/weaponinfo-pistol";
 import ArExoticTable from "./weaponExotic/weaponExotic-ar";
 import RifleExoticTable from "./weaponExotic/weaponExotic-rifle";
+import MmrExoticTable from "./weaponExotic/weaponExotic-mmr";
+import LmgExoticTable from "./weaponExotic/weaponExotic-lmg";
+import SmgExoticTable from "./weaponExotic/weaponExotic-smg";
+import SgExoticTable from "./weaponExotic/weaponExotic-sg";
+import pistolExoticTable from "./weaponExotic/weaponExotic-hg";
+import PistolExoticTable from "./weaponExotic/weaponExotic-hg";
 
 interface WeaponExotic {
   assultrifle?: string;
@@ -61,7 +67,7 @@ const WeaponExotic: NextPage = () => {
     reset();
     setType("lightmachinegun");
   };
-  const onPistolClick = () => {
+  const onpistolClick = () => {
     reset();
     setType("pistol");
   };
@@ -168,7 +174,7 @@ const WeaponExotic: NextPage = () => {
                         ? "border-division-orange text-division-orange"
                         : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                     )}
-                    onClick={onPistolClick}
+                    onClick={onpistolClick}
                   >
                     <WeaponTypeIcon active={type} type="pistol" />
                     <span className="ml-2 text-base ">권총</span>
@@ -194,35 +200,35 @@ const WeaponExotic: NextPage = () => {
             {/* 지정사수소총 */}
             <TabPanel>
               <div className="mt-20">
-                <MmrTable />
+                <MmrExoticTable />
               </div>
             </TabPanel>
 
             {/* 경기관총 */}
             <TabPanel>
               <div className="mt-20">
-                <LmgTable />
+                <LmgExoticTable />
               </div>
             </TabPanel>
 
             {/* 기관단총 */}
             <TabPanel>
               <div className="mt-20">
-                <SmgTable />
+                <SmgExoticTable />
               </div>
             </TabPanel>
 
             {/* 샷건 */}
             <TabPanel>
               <div className="mt-20">
-                <SgTable />
+                <SgExoticTable />
               </div>
             </TabPanel>
 
             {/* 권총 */}
             <TabPanel>
               <div className="mt-20">
-                <PistolTable />
+                <PistolExoticTable />
               </div>
             </TabPanel>
           </Tabs>

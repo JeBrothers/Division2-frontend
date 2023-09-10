@@ -88,10 +88,17 @@
     "underbarrel": false,
     "magazine": false,
     "optics": false,
+    "exoticmuzzle": "자유 맞춤 부품: 5% 치명타 확률",
+    "exoticunderbarrel": "방아쇠 장치: +15% 발사속도",
+    "exoticmagazine": "자유 손잡이: +15% 무기 조작력",
+    "exoticoptics": "자유 조준기: +5% 헤드샷 데미지",
+    "droplocation": "타겟 루트\n/\n특급 상자 ",
+    "talenttitle": "자유가 아니면 죽음을 (Liberty or Death)",
+    "talentdesc": "공격을 적중시키면 무기 대미지가 +2%만큼 증가합니다. 최대 30번 중첩됩니다. \n헤드샷을 적중시키면 모든 중첩을 소모하여 중첩당 3%만큼 방패를 회복합니다.",
     "dlc": false,
     "exotic": true,
     "named": false,
-    "flavourText": "나에게는 자유를, 타인에게는 죽음을 선사한 물건이다. 예우를 갖춰라. 그럼 무기도 널 존중할 것이다. - 리지웨이 장군, 자신의 보조 무기를 부하에게 주면서 한 말"
+    "flavourText": "나에게는 자유를, 타인에게는 죽음을 선사한 물건이다. \n예우를 갖춰라. \n그럼 무기도 널 존중할 것이다. \n- 리지웨이 장군, 자신의 보조 무기를 부하에게 주면서 한 말"
   },
   {
     "variant": "M1911",
@@ -195,7 +202,7 @@
     "underbarrel": false,
     "magazine": false,
     "optics": false,
-    "dlc": false,
+    "dlc": true,
     "exotic": false,
     "named": true,
     "droplocation": "LZ",
@@ -323,10 +330,17 @@
     "underbarrel": false,
     "magazine": false,
     "optics": false,
+    "exoticmuzzle": "벌의 목적의식: +10% 안정성",
+    "exoticunderbarrel": "벌의 힘: +5% 치명타 확률",
+    "exoticmagazine": "벌의 속도: +10% 재장전 속도",
+    "exoticoptics": "벌의 집중: +25% 적정 사거리",
+    "droplocation": "타겟 루트\n/\n특급 상자 ",
+    "talenttitle": "바쁜 꼬마 벌 (Busy Little Bee)",
+    "talentdesc": "서로 다른 적을 사격할 때 마다 1중첩을 얻습니다. 최대 10번 중첩됩니다. \n각 중첩은 무기 대미지를 20%만큼 증가합니다. \n중첩은 요원이 무기를 교체할 때 활성화되며 10초 동안 지속됩니다.",
     "dlc": true,
     "exotic": true,
     "named": false,
-    "flavourText": "모든 면에서 사실상 완벽하다고 할 수 있지. 빗맞히지만 않는다면 말이야. 13"
+    "flavourText": "모든 면에서 사실상 완벽하다고 할 수 있지. \n빗맞히지만 않는다면 말이야. \n - 13"
   },
   {
     "variant": "PF45",
@@ -562,7 +576,7 @@
     "underbarrel": false,
     "magazine": true,
     "optics": true,
-    "dlc": false,
+    "dlc": true,
     "exotic": false,
     "named": true,
     "droplocation": "LZ",
@@ -585,11 +599,15 @@
     "underbarrel": false,
     "magazine": false,
     "optics": false,
-
+    "exoticmuzzle": "각인 총구: +5.0% 치명타 대미지",
+    "exoticmagazine": "각인 드럼: +10.0% 재장전 속도",
+    "droplocation": "레이드 철마작전 \n 기부 프로젝트",
+    "talenttitle": "국왕 시해 (Regicide)",
+    "talentdesc": "헤드샷 처치시 5m규모의 폭발을 일으켜 적중당한 \n모든 적에게 400%의 무기 대미지를 주고 출혈상태이상 효과를 부여합니다.",
     "dlc": false,
     "exotic": true,
     "named": false,
-    "flavourText": "옥좌에 앉은 왕에게 돌팔매를 던져라 그러나 종국에는 들쥐가 우리 뼈를 갉아 먹으리라.- 하비에르 카지카"
+    "flavourText": "옥좌에 앉은 왕에게 돌팔매를 던져라 \n그러나 종국에는 들쥐가 우리 뼈를 갉아 먹으리라. \n- 하비에르 카지카"
   },
   {
     "variant": "X-45",
@@ -672,7 +690,7 @@
     "underbarrel": true,
     "magazine": true,
     "optics": true,
-    "dlc": false,
+    "dlc": true,
     "exotic": false,
     "named": true,
     "droplocation": "DZ",

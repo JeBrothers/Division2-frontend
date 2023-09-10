@@ -11,6 +11,7 @@ import MMRNamedTable from "./weaponNamed/weaponNamed-mmr";
 import LmgNamedTable from "./weaponNamed/weaponNamed-lmg";
 import SmgNamedTable from "./weaponNamed/weaponNamed-smg";
 import SgNamedTable from "./weaponNamed/weaponNamed-sg";
+import pistolNamedTable from "./weaponNamed/weaponNamed-pistol";
 import PistolNamedTable from "./weaponNamed/weaponNamed-pistol";
 
 interface WeaponNamedTab {
@@ -60,7 +61,7 @@ const WeaponNamedTab: NextPage = () => {
     reset();
     setType("lightmachinegun");
   };
-  const onPistolClick = () => {
+  const onpistolClick = () => {
     reset();
     setType("pistol");
   };
@@ -167,7 +168,7 @@ const WeaponNamedTab: NextPage = () => {
                         ? "border-division-orange text-division-orange"
                         : "border-transparent   hover:text-gray-600 hover:border-gray-300 "
                     )}
-                    onClick={onPistolClick}
+                    onClick={onpistolClick}
                   >
                     <WeaponTypeIcon active={type} type="pistol" />
                     <span className="ml-2 text-base ">권총</span>

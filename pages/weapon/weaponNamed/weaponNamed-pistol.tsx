@@ -1,8 +1,8 @@
 import React from "react";
 
-import Pistol from "../../../public/WeaponinfoJson/pistol.json";
+import pistol from "../../../public/WeaponinfoJson/pistol.json";
 
-interface PistolN {
+interface pistolN {
   variant?: string;
   name?: string;
   dlc?: boolean;
@@ -14,8 +14,8 @@ interface PistolN {
   skillicon?: string;
 }
 
-export default function LmgNamedTable() {
-  const DisplayData: PistolN[] = Pistol;
+export default function PistolNamedTable() {
+  const DisplayData: pistolN[] = pistol;
 
   const NamedData = DisplayData.filter((info) => info.named);
 

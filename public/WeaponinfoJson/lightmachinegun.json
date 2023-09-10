@@ -50,10 +50,17 @@
     "underbarrel": false,
     "magazine": false,
     "optics": false,
+    "exoticmuzzle": "오버클럭 총구: +10% 발사 속도",
+    "exoticunderbarrel": "드롭킥 손잡이: +10% 안정성",
+    "exoticmagazine": "인증 철회 프레임: +15% 무기 조작력",
+    "exoticoptics": "라이트닝 조준기: +10% 재장전 속도 ",
+    "droplocation": "타겟 루트\n/\n  특급 상자 ",
     "dlc": true,
     "exotic": true,
     "named": false,
-    "flavourText": "사인이 뭐냐고? ...사용자 오류."
+    "talenttitle": "교란탄 (Disruptor Rounds)",
+    "talentdesc": "적에게 사격 시 해당 적에게 징표를 남기고 \n요원에게 최대 50번 중첩되는 효과를 부여합니다. \n징표가 부여된 적을 사격하면 징표가 갱신되고 요원은 중첩을 얻습니다. \n방패가 아닌 스킬을 사용하면 요원에게 부여된 모든 중첩을 제거하고 \n징표에 걸린 대상에게 효과를 발동시킵니다.\n \n 1 - 10 중첩 \n 5초 동안 징표에 걸린 대상을 펄스로 탐지합니다.\n \n11 - 25 중첩 \n5초 동안 징표에 걸린 대상을 펄스로 탐지하고 방해 상태이상 효과를 부여합니다.\n\n26 - 49 중첩 \n 5초 동안 징표에 걸린 대상을 펄스로 탐지하고 \n방해 및 방향감각 상실 상태이상 효과를 부여합니다.\n\n50 중첩 \n5초 동안 징표에 걸린 대상과 대상 주변 10미터 내의 모든 적을 \n펄스로 탐지하고 방해 및 방향감각 상실 상태이상을 부여합니다. \n\n 이 효과는 징표에 걸린 적이 사망하면 즉시 발동합니다.",
+    "flavourText": "사인이 뭐냐고? \n...사용자 오류."
   },
   {
     "variant": "L86",
@@ -274,6 +281,30 @@
     "droplocation": "친구소개\n보상",
     "talenttitle": "전광석화",
     "talentdesc": "엄폐물 간 이동 시 15초 동안 무기 대미지가 +20%만큼 증가합니다."
+  },
+  {
+    "variant": "M249",
+    "engName": "Pestilence",
+    "name": "역병",
+    "rpm": 550,
+    "baseMagSize": 100,
+    "reload": 5.6,
+    "damage": 47012,
+    "dps": 430943,
+    "muzzle": false,
+    "underbarrel": false,
+    "magazine": false,
+    "optics": false,
+    "exoticmuzzle": "역병에 오염된 총구: +10% 명중률",
+    "exoticunderbarrel": "역병에 오염된 덕트 테이프: +10% 안정성",
+    "exoticmagazine": "역병에 오염된 탄창: +10% 발사 속도",
+    "droplocation": "타겟 루트\n/\n특급 상자",
+    "dlc": false,
+    "exotic": true,
+    "named": true,
+    "talenttitle": "아웃캐스트의 역병 (Plague of the Outcasts)",
+    "talentdesc": "공격을 적중시키면 10초에 걸쳐 100%의 무기 대미지를 주는 \n디버프 효과를 부여합니다. 최대 50번 중첩됩니다. \n적이 이 디버프 효과가 부여된 상태로 사망하면 주위 25m 내에 있는 적에게 \n모든 중첩이 이전됩니다.",
+    "flavourText": "우리가 겪은 고통을 느껴봐라. \n - 격리 경험이 있는 아웃캐스트 구성원"
   },
 
   {
@@ -528,10 +559,16 @@
     "underbarrel": false,
     "magazine": false,
     "optics": false,
+    "exoticmuzzle": "금도금 총구: +5% 치명타 확률",
+    "exoticunderbarrel": "순금 양각대: +10% 안정성",
+    "exoticmagazine": "저장의 탄창",
+    "droplocation": "타겟 루트\n/\n특급 상자\n/\n라이커 미션 보스 처치 ",
     "dlc": true,
     "exotic": true,
     "named": false,
-    "flavourText": "내 형제를 위해 한잔 부어줘. 녀석이 이걸 썼으면 총알이 떨어지는 일은 없었을텐데. - 탄환의 여왕"
+    "talenttitle": "탄환 지옥 (Bullet Hell)",
+    "talentdesc": "이 무기는 재장전이 필요 없습니다. \n 100번 적중시킬 때마다 자신 및 아군의 탄약 보유량을 일정량 보충시킵니다.",
+    "flavourText": "내 형제를 위해 한잔 부어줘. \n 녀석이 이걸 썼으면 총알이 떨어지는 일은 없었을텐데. \n- 탄환의 여왕"
   },
   {
     "variant": "RPK",

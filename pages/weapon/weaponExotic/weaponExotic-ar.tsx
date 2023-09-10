@@ -66,11 +66,12 @@ export default function ArExoticTable() {
           )}
 
           {info.talentdesc && <div>{info.talentdesc}</div>}
-
           {info.talenttitle2 && (
-            <div className=" text-orange-400 pt-4">{info.talenttitle2}</div>
+            <div className=" text-orange-400 pt-3">{info.talenttitle2}</div>
           )}
+
           {info.talentdesc2 && <div>{info.talentdesc2}</div>}
+
           <div className="pl-28 py-8 text-left space-y-1">
             {info.exoticmuzzle && <div>{info.exoticmuzzle}</div>}
             {info.exoticmagazine && <div>{info.exoticmagazine}</div>}
@@ -93,10 +94,7 @@ export default function ArExoticTable() {
     <>
       <div className="flex relative overflow-x-auto justify-center  pb-2 ">
         <div className="max-h-[750px] overflow-y-auto">
-          <div className=" flex justify-end font-extrabold space-x-2">
-            <div className="text-green-500">LZ=일반존</div>{" "}
-            <div className="text-red-700">DZ=다크존</div>
-          </div>
+          <div className=" flex justify-end font-extrabold space-x-2"></div>
           <table className="w-auto  text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 text-center">
             {/* <thead className="sticky top-0 z-10 text-xs text-white uppercase bg-division-dark font-semibold"> */}
             <thead className=" text-xs text-white uppercase bg-division-dark font-semibold">

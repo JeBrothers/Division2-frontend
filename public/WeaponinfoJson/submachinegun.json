@@ -200,10 +200,17 @@
     "underbarrel": false,
     "magazine": false,
     "optics": false,
+    "exoticmuzzle": "죽음의 턱: +5% 치명타 대미지",
+    "exoticunderbarrel": "죽음의 입맞춤: +500% 근접 대미지",
+    "exoticmagazine": "죽음의 머리: +10% 재장전 속도",
+    "exoticoptics": "죽음의 시선: +10% 치명타 확률",
+    "droplocation": "타겟 루트\n/\n특급 상자",
+    "talenttitle": "안도의 호흡 (Breathe Free)",
+    "talentdesc": "이동 시 1초마다 4개의 중첩을, 전력 질주 시 8개의 중첩을 얻습니다.\n 최대 32번 중첩됩니다.    탄환을 발사할 때마다 중첩 하나를 소모하여 \n대미지가 75%만큼 증폭됩니다.    \n적을 처치하면 10초 동안 이동 속도가 +20%만큼 증폭됩니다.",
     "dlc": true,
     "exotic": true,
     "named": false,
-    "flavourText": "자유는 빼앗길 수 없다? 헛소리. 충분히 뺏기고도 남는 게 자유야. 압제를 막아낼 유일한 힘은 총구에서 나와. - 열성적인 수정 헌법 제2조 지지자"
+    "flavourText": "자유는 빼앗길 수 없다? 헛소리. 충분히 뺏기고도 남는 게 자유야. \n압제를 막아낼 유일한 힘은 총구에서 나와. \n- 열성적인 수정 헌법 제2조 지지자"
   },
   {
     "variant": "PP-19",
@@ -700,10 +707,17 @@
     "underbarrel": false,
     "magazine": false,
     "optics": false,
+    "exoticmuzzle": "촉새 총구: +5% 치명타 대미지",
+    "exoticunderbarrel": "촉새 용기: +10% 무기 조작력",
+    "exoticmagazine": "촉새 탄창: +10 탄약",
+    "exoticoptics": "개조된 광학 조준기: +15% 치명타 확률",
+    "droplocation": "타겟 루트\n/\n특급 상자",
+    "talenttitle": "끝없는 수다 (Incessant Chatter)",
+    "talentdesc": "재장전 시 15m 내에 있는 적 한 명당 발사 속도가 20%만큼 증가합니다.\n 재장전한 탄창을 소진할 때까지 지속됩니다. \n최대중첩: 5번    적을 처치하면 탄창이 50%만큼 보충됩니다.",
     "dlc": false,
     "exotic": true,
     "named": false,
-    "flavourText": "다들 나보고 닥치는 법이 없다고 하더라, 다 스파이스 때문인데 어쩌겠어. - 다임, 하이에나 위원 "
+    "flavourText": "다들 나보고 닥치는 법이 없다고 하더라, \n다 스파이스 때문인데 어쩌겠어. \n- 다임, 하이에나 위원 "
   },
 
   {
@@ -782,9 +796,16 @@
     "underbarrel": false,
     "magazine": false,
     "optics": false,
+    "exoticmuzzle": "톱니 총구: +5% 치명타 대미지",
+    "exoticunderbarrel": "가시 프레임: +10% 안정성",
+    "exoticmagazine": "가시 손잡이 탄창: +20 장탄수",
+    "exoticoptics": "쾌속 조준기: +5% 치명타 확률",
+    "droplocation": "타겟 루트\n/\n특급 상자",
+    "talenttitle": "등가교환 (Payment in Kind)",
+    "talentdesc": "적에게 대미지를 주면 치명타 대미지가 +1%만큼 증가하는 중첩 효과를 얻습니다. 중첩 효과는 10초 동안 지속되며, 최대 200번 중첩됩니다.\n  재장전 시 자신에게 10초 동안 출혈 상태이상 효과를 부여해 \n중첩당 0.5%의 방어도 대미지를 받습니다.",
     "dlc": true,
     "exotic": true,
     "named": false,
-    "flavourText": "고통을 겪어본 자만이 타인에게 고통을 선고할 수 있다! - 아웃캐스트 신조"
+    "flavourText": "고통을 겪어본 자만이 타인에게 고통을 선고할 수 있다! \n- 아웃캐스트 신조"
   }
 ]

@@ -99,7 +99,7 @@
     "droplocation": "LZ Only",
     "talenttitle": "완벽한 단호함",
     "talentdesc": "헤드샷으로 적을 처치한 이후, 적에게 다음 사격을 적중시키면 \n반드시 치명타 헤드샷으로 적중합니다. 특수효과가 활성화된 동안에는 \n 적을 처치해도 특수효과가 다시 활성화되지 않습니다.",
-    "flavourText": "이 신성한 도구의 힘으로 우린 무엇이든 해낼 수 있노라. \n - 성직자"
+    "flavourText": "이 신성한 도구의 힘으로 우린 무엇이든 해낼 수 있노라. \n- 성직자"
   },
   {
     "variant": "G28",
@@ -115,13 +115,17 @@
     "underbarrel": false,
     "magazine": false,
     "optics": false,
+    "exoticmuzzle": "신성 총구: +20% 적정 사거리",
+    "exoticunderbarrel": "신성 총열 하단부: +20% 안정성",
+    "exoticmagazine": "신성 탄창: +10% 헤드샷 대미지",
+    "exoticoptics": "신성 광학 조준기: +20% ",
     "dlc": true,
     "exotic": true,
     "named": false,
-    "droplocation": "",
-    "talenttitle": "",
-    "talentdesc": "",
-    "flavourText": "신성한 빛이 함께하사, 신의 정의를 집행하는 데 보탬이 되기를. - 성직자"
+    "droplocation": "타겟 루트\n/\n특급 상자",
+    "talenttitle": "덫 (The Trap)",
+    "talentdesc": "조준경 내 적들을 태그합니다(최대 10명). \n 징표에 걸린 대상을 헤드샷으로 처치하면 \n다른 모든 대상은 10초 동안 이동 속도가 50%만큼 감소하고\n(PvP의 경우 20%만큼 감소) \n화상 상태이상 효과가 부여됩니다. \n 30초의 재사용 대기시간이 적용됩니다.  \n또 다른 적을 헤드샷으로 처치하면 재사용 대기시간이 10초만큼 감소합니다. \n대상을 2초 동안 조준선 위에 두면 대상에게 징표가 부여됩니다.",
+    "flavourText": "신성한 빛이 함께하사, 신의 정의를 집행하는 데 보탬이 되기를. \n- 성직자"
   },
 
   {
@@ -317,13 +321,17 @@
     "underbarrel": false,
     "magazine": false,
     "optics": false,
+    "exoticmuzzle": "마침표 총열: +10% 치명타 확률",
+    "exoticunderbarrel": "무쌍 프레임: +10% 안정성",
+    "exoticmagazine": "장력 조율 스프링: +15% 무기 조작력",
+    "exoticoptics": "심판의 시선: +40% 헤드샷 대미지 ",
     "dlc": true,
     "exotic": true,
     "named": false,
-    "droplocation": "",
-    "talenttitle": "",
-    "talentdesc": "",
-    "flavourText": "내게 날아오는 비난이 몇 자나 되는지 무슨 수로 알겠는가. 하지만 끝나는 시점만큼은 알 수 있다."
+    "droplocation": "타겟 루트\n/\n특급 상자",
+    "talenttitle": "마침표 (Full Stop)",
+    "talentdesc": "적에게 사격을 가하면 중첩이 쌓이며, 최대 20번 중첩됩니다.\n 헤드샷은 2개의 중첩을 부여합니다 \n중첩 하나당 무기 대미지는 2%만큼, 헤드샷 대미지는 5%만큼 증가합니다. \n재장전시 모든 중첩을 제거하고, 10초 동안 제거된 중첩 하나당 \n최대 방어도의 5%에 해당하는 임시 방어도를 얻습니다.\n공포의 칙령을 사용해 헤드샷으로 적을 처치하면 탄창의 모든 탄환이 보충됩니다. 단, 해당효과는 재장전으로 간주되지 않습니다.",
+    "flavourText": "내게 날아오는 비난이 몇 자나 되는지 무슨 수로 알겠는가. \n하지만 끝나는 시점만큼은 알 수 있다."
   },
 
   {
@@ -397,10 +405,17 @@
     "underbarrel": false,
     "magazine": false,
     "optics": false,
+    "exoticmuzzle": "소염기: +5% 치명타 확률",
+    "exoticunderbarrel": "길리 프레임: +10% 안정성",
+    "exoticmagazine": "기름칠한 스프링: +10% 재장전 속도",
+    "exoticoptics": "눈부심 방지 코팅 조준기: +40% 헤드샷 데미지 ",
+    "droplocation": "타겟 루트\n/\n특급 상자",
     "dlc": true,
     "exotic": true,
     "named": false,
-    "flavourText": "단순히 녹아든다고 해서 위장이 끝나는 건 아니야. '공격 의태'라고 들어본 적 있나? 숨어서 완벽한 사살 기회를 노리는 건 개나 소나 다해. 근데 유혹할 수 있으면 기다릴 필요가 없지. - 시드 '맨이터' 매디슨"
+    "talenttitle": "등잔 밑 (In Plain Sight)",
+    "talentdesc": "조준경으로 조준 시 \n플레이어를 겨냥하고 있지 않은 적에 대한 추가 정보를 표시합니다. \n플레이어를 겨냥하고 있지 않은 적에 대한 \n헤드샷 및 약점 대미지가 50%만큼 증가합니다. \n헤드샷으로 적을 처치하면 미끼 스킬의 재사용 대기시간이 초기화됩니다. \n현재 미끼가 활성화되어 있으면 재사용 대기시간이 발동할 때 적용됩니다.",
+    "flavourText": "단순히 녹아든다고 해서 위장이 끝나는 건 아니야. \n'공격 의태'라고 들어본 적 있나? \n숨어서 완벽한 사살 기회를 노리는 건 개나 소나 다해. \n근데 유혹할 수 있으면 기다릴 필요가 없지. \n- 시드 '맨이터' 매디슨"
   },
 
   {
@@ -691,7 +706,7 @@
   },
 
   {
-    "variant": "Custom AWM AICS 2.0 chasis AX50 stock Magpul AFG-12",
+    "variant": "AT308",
     "engName": "Nemesis",
     "name": "네메시스",
     "rpm": 50,
@@ -704,9 +719,16 @@
     "underbarrel": false,
     "magazine": false,
     "optics": false,
+    "exoticmuzzle": "네메시스 총열: +5% 치명타 대미지",
+    "exoticunderbarrel": "네메시스 양각대: +5% 무기 조작력",
+    "exoticmagazine": "네메시스 볼트: +10% 재장전 속도",
+    "exoticoptics": "네메시스 디지털 조준경: +45% 헤드샷 대미지 ",
+    "droplocation": "타겟 루트\n/\n특급 상자",
     "dlc": false,
     "exotic": true,
     "named": false,
-    "flavourText": "난 감시자를 감시한다. - 패드라 '퍽' 라오, 블랙 터스크 저격수"
+    "talenttitle": "전자기 가속기 (Electromagnetic Accelerator)",
+    "talentdesc": "방아쇠를 놓기 전까지 당긴 시간에 비례하여 무기 대미지를 0-100%만큼 줍니다.",
+    "flavourText": "난 감시자를 감시한다. \n- 패드라 '퍽' 라오, 블랙 터스크 저격수"
   }
 ]
